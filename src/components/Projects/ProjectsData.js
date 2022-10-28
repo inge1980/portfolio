@@ -42,7 +42,7 @@ const Projects = [
           'Resultatet av "Mastering React"-kurset jeg tok sommeren 2022.',
         demo_link: "https://inge1980.github.io/movies/",
         code_link: "https://github.com/inge1980/movies/",
-        readmore: "/portfolio",
+        //readmore: "/portfolio",
       },
     ],
   },
@@ -119,7 +119,7 @@ const Projects = [
           'Tilbake i 2012 rundt Valentines prøvde jeg meg i en konkurranse for å lage et primitivt javascript-spill på under 1 kilobyte. Jeg vant ikke, men det var gøy å lære litt om hvordan canvas fungerte. I spillet er poeng til venstre, og antall liv til høyre, og "Cupid" skulle prøve å treffe så mange hjerter som mulig før de fryser til is.',
         demo_link: "https://js1k.com/2012-love/demo/1269/",
         code_link: "https://js1k.com/2012-love/details/1269/",
-        readmore: "/js1k",
+        //readmore: "/js1k",
       },
       {
         id: 10,
