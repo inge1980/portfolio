@@ -1,5 +1,6 @@
 import React from "react";
 import "./Intro.css";
+import image from "../../img/author.jpg";
 
 const Intro = () => {
   return (
@@ -10,9 +11,9 @@ const Intro = () => {
             <div className="row g-0">
               <div className="col-md-4">
                 <img
-                  src="https://dummyimage.com/100x200&text=A"
+                  src={image}
                   className="img-fluid rounded-start"
-                  alt="..."
+                  alt="Profilbilde"
                 />
               </div>
               <div className="col-md-8">
@@ -22,14 +23,16 @@ const Intro = () => {
                     Hei, jeg er en fullstack-utvikler som ser etter fullstack /
                     frontend jobbmuligheter.
                   </p>
-                  <p className="card-text text-end">
-                    <a
-                      href="https://dummyimage.com/100x200&text=A"
-                      class="btn btn-success"
-                    >
-                      Les mer
-                    </a>
-                  </p>
+                  {false && (
+                    <p className="card-text text-end">
+                      <a
+                        href="https://dummyimage.com/100x200&text=A"
+                        class="btn btn-success"
+                      >
+                        Les mer
+                      </a>
+                    </p>
+                  )}
                 </div>
               </div>
             </div>
