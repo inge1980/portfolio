@@ -20,6 +20,10 @@ const Intro = () => {
                 <div className="card-body">
                   <h5 className="card-title">Hvem er jeg?</h5>
                   <p className="card-text">
+                    ( Page is under construction, er det ikke det vi sier på
+                    fagspråket ;) )
+                    <br />
+                    <br />
                     Hei, jeg er en fullstack-utvikler som ser etter fullstack /
                     frontend jobbmuligheter.
                   </p>
