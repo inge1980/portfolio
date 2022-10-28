@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.95159cdd.css",
-    "main.js": "/portfolio/static/js/main.57545513.js",
+    "main.css": "/portfolio/static/css/main.abe66be0.css",
+    "main.js": "/portfolio/static/js/main.fa81b43d.js",
     "static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.png": "/portfolio/static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.237a9b3ce724a058207b.png",
     "static/media/bootstrap-aspect-ratio.png": "/portfolio/static/media/bootstrap-aspect-ratio.09528a21844b43d69e47.png",
     "static/media/wordpress.png": "/portfolio/static/media/wordpress.6bc8733083d899c1d3d7.png",
     "static/media/asana.png": "/portfolio/static/media/asana.d968859751aa48159bf9.png",
     "static/media/gimp.png": "/portfolio/static/media/gimp.b6ce51c1a441fefa6b88.png",
     "static/media/gdpr.png": "/portfolio/static/media/gdpr.34abbcd6d25db24dac79.png",
+    "static/media/author.jpg": "/portfolio/static/media/author.7aed0f2b6260e299383a.jpg",
     "static/media/vscode.png": "/portfolio/static/media/vscode.39748ac3717d5f937a8b.png",
     "static/media/php.png": "/portfolio/static/media/php.b6a2e04fa25c2ecf587c.png",
     "static/media/wcag.png": "/portfolio/static/media/wcag.ceb9757231abe4175ddf.png",
@@ -43,11 +44,11 @@
     "static/media/react.png": "/portfolio/static/media/react.7e9e8696236ea972d4f5.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "index.html": "/portfolio/index.html",
-    "main.95159cdd.css.map": "/portfolio/static/css/main.95159cdd.css.map",
-    "main.57545513.js.map": "/portfolio/static/js/main.57545513.js.map"
+    "main.abe66be0.css.map": "/portfolio/static/css/main.abe66be0.css.map",
+    "main.fa81b43d.js.map": "/portfolio/static/js/main.fa81b43d.js.map"
   },
   "entrypoints": [
-    "static/css/main.95159cdd.css",
-    "static/js/main.57545513.js"
+    "static/css/main.abe66be0.css",
+    "static/js/main.fa81b43d.js"
   ]
 }
