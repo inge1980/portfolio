@@ -1,0 +1,87 @@
+div.offcanvas-md {
+  transition: transform 0.7s ease-in-out;
+}
+button.navbar-toggler {
+  margin-right: 0px;
+}
+.navbar.navbar-expand-md {
+  padding-right: 0px!important;
+}
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  position: relative;
+  width: 100%;
+  padding: 0 4rem;
+  z-index: 1;
+}
+.logo {
+  font-size: 28px;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 75%;
+}
+
+ul a, ul span {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 1.5rem;
+  cursor: pointer;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.nav-links-mobile {
+  position: absolute;
+  display: block;
+  list-style: none;
+  left: 0;
+  top: 60px;
+  transition: all 0.5s ease-out;
+  width: 100%;
+  background-color: #fff;
+}
+
+ul.nav-links-mobile a, ul.nav-links-mobile span {
+  text-align: center;
+  padding: 32px;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+  
+@media screen and (max-width: 1200px) {
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    right: 2rem;
+    background-color: transparent;
+  }
+  .nav_container {
+    padding: 0 2rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .logo {
+    font-size: 20px;
+  }
+  .mobile-menu-icon {
+    font-size: 20px;
+  }
+}

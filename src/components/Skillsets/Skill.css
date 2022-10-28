@@ -1,0 +1,8 @@
+.skillsContainer img {
+  width: 108px;
+}
+@media (max-width: 576px) {
+  .skillsContainer img {
+    width: 70px;
+  }
+}
