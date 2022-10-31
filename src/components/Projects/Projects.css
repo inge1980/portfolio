@@ -1,5 +1,5 @@
-body {
-    background: #f5f5f5;
+div.projectCard {
+    padding-bottom: 5px;
 }
 div.projectLinks {
     bottom: 15px;
@@ -9,8 +9,8 @@ div.projectLinks {
     left: 0px;
     padding: 0 15px 0 15px;
 }
-p.card-text {
-    padding-bottom: 38px;
+.projectCard p.card-text {
+    padding-bottom: 5px;
 }
 .linkLeft{
     float: left;
@@ -26,11 +26,6 @@ div.card-footer {
     background-color: inherit;
     border-top: none;
 }
-/*
-@media (max-width: 991px) and (min-width: 576px) {
-    div.card-footer a.btn.btn-success {
-        padding: 0px 4px;
-        font-size: 0.875rem;
-        border-radius: 0.25rem;
-    }
-}*/
+#projects_2 {
+    padding-top: 20px;
+}

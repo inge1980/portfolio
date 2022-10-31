@@ -1,10 +1,8 @@
 import r1 from "../../img/react-movies.png";
 import r2 from "../../img/react-stackoverflow.png";
-import r3 from "../../img/react-portfolio.png";
 import a1 from "../../img/php-bootstrap-modal-ckeditor-inline-edit-news-field.png";
 import a2 from "../../img/bootstrap-double-menu.png";
 import a3 from "../../img/bootstrap-aspect-ratio.png";
-import a4 from "../../img/jquery-ui-sliding-tickets.png";
 import a5 from "../../img/javascript-preload-images.png";
 import a6 from "../../img/bootstrap-thumbnail-gallery.png";
 import a7 from "../../img/bootstrap-news-carousel.png";
@@ -18,12 +16,13 @@ const Projects = [
     data: [
       {
         id: 1,
-        image: r3,
-        title: "Portfolio lagd i React",
+        image: r1,
+        title: "Inge Movie DataBase (imdb)",
         description:
-          "Denne siden, en portfolio over ting jeg har lagd, og hvilke teknologier jeg er kjent med.",
-        demo_link: "https://inge1980.github.io/portfolio/",
-        code_link: "https://github.com/inge1980/portfolio/",
+          'Resultatet av "Mastering React"-kurset jeg tok sommeren 2022. Kun frontend demo, ingen faktisk lagring av endringer.',
+        demo_link: "https://inge1980.github.io/movies/",
+        code_link: "https://github.com/inge1980/movies/",
+        readmore: "/portfolio/projects/imdb/",
       },
       {
         id: 2,
@@ -34,15 +33,13 @@ const Projects = [
         demo_link: "https://inge1980.github.io/stackoverflow-tags/",
         code_link: "https://github.com/inge1980/stackoverflow-tags/",
       },
+
       {
         id: 3,
-        image: r1,
-        title: "Inge Movie DataBase (imdb)",
+        title: "Portfolio lagd i React",
         description:
-          'Resultatet av "Mastering React"-kurset jeg tok sommeren 2022.',
-        demo_link: "https://inge1980.github.io/movies/",
-        code_link: "https://github.com/inge1980/movies/",
-        //readmore: "/portfolio",
+          "Denne siden. Portfolio over ting jeg har lagd, og hvilke teknologier jeg er kjent med.",
+        code_link: "https://github.com/inge1980/portfolio/",
       },
     ],
   },
@@ -55,7 +52,7 @@ const Projects = [
         image: a1,
         title: "Legg til artikkel i nyhetsfelt",
         description:
-          "Her gjorde jeg det mulig å raskt legge til ny artikkel i nyhetsfelt via modalvindu uten å laste hele siden på nytt, i stedet for å ta omveien innom et administrasjonspanelet. Redigere direkte via CKEditor, og en knapp for å laste opp filer, og en grei forhåndsvisning av artikkelen. Alt på samme plass bare et klikk unna.",
+          "Her gjorde jeg det mulig å raskt legge til ny artikkel i nyhetsfelt via modalvindu uten å laste hele siden på nytt, i stedet for å ta omveien innom et administrasjonspanelet. Redigere direkte via CKEditor, og en knapp for å laste opp filer, og en grei forhåndsvisning av artikkelen. Alt på samme plass bare et klikk unna, ned fra tidligere fem klikk.",
         demo_link: "https://inge.moavademo.no/index.php?pageID=13",
       },
       {
@@ -63,7 +60,7 @@ const Projects = [
         image: a2,
         title: "Bootstrap meny og sidemeny med trestruktur",
         description:
-          "Her kan man bruke to menyer samtidig. Perfekt for nettsider med kompleks struktur som vil se bra ut på mobil.",
+          "Her kan man bruke to menyer samtidig. Perfekt for nettsider med kompleks struktur som vil se bra ut på mobil, eller bare hvis man trenger to separate menyer.",
         demo_link: "https://jsfiddle.net/turbopipp/6qw4075d/show/",
         code_link: "https://jsfiddle.net/turbopipp/6qw4075d/",
       },
@@ -77,20 +74,11 @@ const Projects = [
         code_link: "https://jsfiddle.net/turbopipp/r1vfekku/",
       },
       {
-        id: 4,
-        image: a4,
-        title: "jQuery-UI test av slider og litt matte",
-        description:
-          "Slideren til jQuery-UI er nytting å bruke f.eks. i innstillinger når man skal få brukeren til å velge innenfor et bestemt område",
-        demo_link: "https://jsfiddle.net/turbopipp/vLg1nvss/show/",
-        code_link: "https://jsfiddle.net/turbopipp/vLg1nvss/",
-      },
-      {
         id: 5,
         image: a5,
         title: "Javascript-lasting av bilder i bakgrunnen",
         description:
-          "I tilfeller der man ønsker å laste bilder ferdig før man begynner å vise dem, er dette javascriptet greit å bruke.",
+          "Dette javascriptet er greit å bruke i tilfeller der man ønsker å laste bilder ferdig før man begynner å vise dem. Man kan f.eks. laste forstørret bilde av et produkt i bakgrunnen før brukeren klikker på forstørrelsesglasset. På den måten kan vi vise siden raskt, og bruke de sekundene før brukeren klikker sitt neste klikk til å laste bilde(r) i bakgrunnen.",
         demo_link: "https://jsfiddle.net/turbopipp/fdegf1Lh/show/",
         code_link: "https://jsfiddle.net/turbopipp/fdegf1Lh/",
       },
@@ -99,7 +87,7 @@ const Projects = [
         image: a6,
         title: "Bootstrap mappegalleri",
         description:
-          "Hvis man har masse bilder strukturert i mapper, så kan dette være en grei måte å vise dem frem. Ser like bra ut på mobil som på kinolerret.",
+          "Hvis man har masse bilder strukturert i mapper og undermapper, så kan dette være en grei måte å vise frem strukturen. Ser like bra ut på mobil som på kinolerret.",
         demo_link: "https://jsfiddle.net/turbopipp/0hsqLner/show",
         code_link: "https://jsfiddle.net/turbopipp/0hsqLner/",
       },
@@ -116,17 +104,17 @@ const Projects = [
         image: a9,
         title: "Konkurranse i 2012: Javascript-spill på under 1024 byte",
         description:
-          'Tilbake i 2012 rundt Valentines prøvde jeg meg i en konkurranse for å lage et primitivt javascript-spill på under 1 kilobyte. Jeg vant ikke, men det var gøy å lære litt om hvordan canvas fungerte. I spillet er poeng til venstre, og antall liv til høyre, og "Cupid" skulle prøve å treffe så mange hjerter som mulig før de fryser til is.',
+          'Tilbake i 2012 før Valentines prøvde jeg meg i en konkurranse for å lage et primitivt javascript-spill på under 1 kilobyte. Jeg vant ikke, men det var gøy å lære litt om hvordan canvas fungerte. I spillet er poeng til venstre, og antall liv til høyre, og "Cupid" skulle prøve å treffe så mange hjerter som mulig før de fryser til is. Beregnet kun for pc, og pilen følger musepekeren.',
         demo_link: "https://js1k.com/2012-love/demo/1269/",
         code_link: "https://js1k.com/2012-love/details/1269/",
-        //readmore: "/js1k",
+        //readmore: "/portfolio/projects/js1k",
       },
       {
         id: 10,
         image: a10,
         title: "Søkbart arkiv over sms-vitser",
         description:
-          "I perioden før MMS ble populært, drev jeg denne nettsiden fra 2001-2003. På den tiden var det SMS-vitser og “Dynamiske SMS” som gjaldt. Det var over 10 000 unike besøkende innom hver måned, og på den tiden et av Norges største gratis søkbare sms-arkiv med over 1100 kategoriserte vitser, flørter og dynamiske SMS.",
+          "I perioden før MMS ble populært, lagde jeg og drev denne nettsiden fra 2001-2003. På den tiden var det SMS-vitser og “Dynamiske SMS” som gjaldt. Det var over 10 000 unike besøkende innom hver måned, og på den tiden et av Norges største gratis søkbare sms-arkiv med over 1100 kategoriserte vitser, flørter og dynamiske SMS. Besøkende sendte inn forslag, og alt jeg trengte å gjøre i adminpanelet var å evt. redigere og godkjenne før publisering. Nettsiden er ikke mer, men en auto-kopi fra 2003 finnes i “Internet Archive WayBackMachine”.",
         demo_link:
           "https://web.archive.org/web/20030608184834/http://www.need4sms.com/",
       },

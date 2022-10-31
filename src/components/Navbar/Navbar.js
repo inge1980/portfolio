@@ -1,65 +1,67 @@
-import React, { useState } from "react";
-import { Nav, Navbar, Container, Offcanvas } from "react-bootstrap";
+import React, { Component } from "react";
+import { Nav, Navbar, Container } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 import "./Navbar.css";
 
-const BootstrapNavbar = () => {
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+class BootstrapNavbar extends Component {
+  state = {
+    expanded: false,
+  };
+  setExpanded = (expanded) => this.setState({ expanded: expanded });
+  handleClose = () => this.setState({ expanded: false });
 
-  return (
-    <>
-      {["md"].map((expand) => (
-        <Navbar
-          sticky="top"
-          key={expand}
-          bg="light"
-          expand={expand}
-          className="mb-3"
-        >
-          <Container fluid>
-            <Navbar.Brand href="#">
+  render() {
+    var expand = "md";
+    return (
+      <Navbar
+        sticky="top"
+        key={expand}
+        bg="light"
+        expand={expand}
+        className="mb-3"
+        onToggle={this.setExpanded}
+        expanded={this.state.expanded}
+      >
+        <Container fluid>
+          <LinkContainer to="/portfolio/">
+            <Navbar.Brand href="#" onClick={this.handleClose}>
               {process.env.REACT_APP_AUTHOR_NAME}
             </Navbar.Brand>
-            <Navbar.Toggle
-              aria-controls={`offcanvasNavbar-expand-${expand}`}
-              onClick={handleShow}
-            />
-            <Navbar.Offcanvas
-              id={`offcanvasNavbar-expand-${expand}`}
-              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-              placement="end"
-              responsive="md"
-              show={show}
-              onHide={handleClose}
-            >
-              <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Meny
-                </Offcanvas.Title>
-              </Offcanvas.Header>
-              <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#projects_1" onClick={handleClose}>
-                    React prosjekt
-                  </Nav.Link>
-                  <Nav.Link href="#projects_2" onClick={handleClose}>
-                    Andre prosjekt
-                  </Nav.Link>
-                  <Nav.Link href="#skills" onClick={handleClose}>
-                    Ferdigheter
-                  </Nav.Link>
-                  <Nav.Link href="#contact" onClick={handleClose}>
-                    Kontakt
-                  </Nav.Link>
-                </Nav>
-              </Offcanvas.Body>
-            </Navbar.Offcanvas>
-          </Container>
-        </Navbar>
-      ))}
-    </>
-  );
-};
+          </LinkContainer>
+          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+          <Navbar.Collapse id={`offcanvasNavbar-expand-${expand}`}>
+            <Nav className="justify-content-end flex-grow-1 pe-3">
+              <LinkContainer to="/portfolio">
+                <Nav.Link href="#" onClick={this.handleClose}>
+                  Hjem
+                </Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/portfolio/projects/">
+                <Nav.Link href="#projects_1" onClick={this.handleClose}>
+                  React prosjekt
+                </Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/portfolio/skills/">
+                <Nav.Link href="#skills" onClick={this.handleClose}>
+                  Ferdigheter
+                </Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/portfolio/me/">
+                <Nav.Link href="#skills" onClick={this.handleClose}>
+                  Om meg
+                </Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/portfolio/contact/">
+                <Nav.Link href="#contact" onClick={this.handleClose}>
+                  Kontakt
+                </Nav.Link>
+              </LinkContainer>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    );
+  }
+}
 
 export default BootstrapNavbar;

@@ -5,7 +5,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="container footerContainer">
-      <div class="row mb-3 text-center">
+      <div className="row pt-5 mb-3 text-center">
         <footer>
           <span className="footer_logo">INGE</span>
 

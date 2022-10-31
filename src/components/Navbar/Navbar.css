@@ -1,3 +1,11 @@
+/*.collapsing {
+  height: 0;
+  overflow: hidden;
+  transition: height 2.1s ease!important;
+}*/
+.nav-item a {
+  cursor: pointer;
+}
 div.offcanvas-md {
   transition: transform 0.7s ease-in-out;
 }
