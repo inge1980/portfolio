@@ -10,6 +10,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.css";
 import { Route, Routes } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <div className="container">
         <div className="row mb-3 text-center">
           <BootstrapNavbar />
+          <ScrollToTop />
           <Routes>
             <Route path="/portfolio/" element={<Intro />}></Route>
             <Route path="/portfolio/me/" element={<Me />}></Route>
