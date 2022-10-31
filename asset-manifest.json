@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.abe66be0.css",
-    "main.js": "/portfolio/static/js/main.3aa638ad.js",
+    "main.css": "/portfolio/static/css/main.fc5531e9.css",
+    "main.js": "/portfolio/static/js/main.069f1388.js",
     "static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.png": "/portfolio/static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.237a9b3ce724a058207b.png",
     "static/media/bootstrap-aspect-ratio.png": "/portfolio/static/media/bootstrap-aspect-ratio.09528a21844b43d69e47.png",
     "static/media/wordpress.png": "/portfolio/static/media/wordpress.6bc8733083d899c1d3d7.png",
@@ -16,7 +16,6 @@
     "static/media/googledevtools.png": "/portfolio/static/media/googledevtools.4cb5680d9975b008efa3.png",
     "static/media/subversion.png": "/portfolio/static/media/subversion.bc60f4d0824d8ad8133c.png",
     "static/media/phpmyadmin.png": "/portfolio/static/media/phpmyadmin.b0a509d12e31726bf5a0.png",
-    "static/media/react-portfolio.png": "/portfolio/static/media/react-portfolio.c517f7447a3c7dfc253b.png",
     "static/media/javascript-1016-byte-game.png": "/portfolio/static/media/javascript-1016-byte-game.44503df50c979e81a793.png",
     "static/media/3dsmax.png": "/portfolio/static/media/3dsmax.80725268a016c930c9bc.png",
     "static/media/adobexd.png": "/portfolio/static/media/adobexd.ac07065d6ee6cf09903d.png",
@@ -44,11 +43,11 @@
     "static/media/react.png": "/portfolio/static/media/react.7e9e8696236ea972d4f5.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "index.html": "/portfolio/index.html",
-    "main.abe66be0.css.map": "/portfolio/static/css/main.abe66be0.css.map",
-    "main.3aa638ad.js.map": "/portfolio/static/js/main.3aa638ad.js.map"
+    "main.fc5531e9.css.map": "/portfolio/static/css/main.fc5531e9.css.map",
+    "main.069f1388.js.map": "/portfolio/static/js/main.069f1388.js.map"
   },
   "entrypoints": [
-    "static/css/main.abe66be0.css",
-    "static/js/main.3aa638ad.js"
+    "static/css/main.fc5531e9.css",
+    "static/js/main.069f1388.js"
   ]
 }
