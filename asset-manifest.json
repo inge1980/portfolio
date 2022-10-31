@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fc5531e9.css",
-    "main.js": "/portfolio/static/js/main.069f1388.js",
+    "main.js": "/portfolio/static/js/main.aafbf3f6.js",
     "static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.png": "/portfolio/static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.237a9b3ce724a058207b.png",
     "static/media/bootstrap-aspect-ratio.png": "/portfolio/static/media/bootstrap-aspect-ratio.09528a21844b43d69e47.png",
     "static/media/wordpress.png": "/portfolio/static/media/wordpress.6bc8733083d899c1d3d7.png",
@@ -44,10 +44,10 @@
     "static/media/mysql.png": "/portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "index.html": "/portfolio/index.html",
     "main.fc5531e9.css.map": "/portfolio/static/css/main.fc5531e9.css.map",
-    "main.069f1388.js.map": "/portfolio/static/js/main.069f1388.js.map"
+    "main.aafbf3f6.js.map": "/portfolio/static/js/main.aafbf3f6.js.map"
   },
   "entrypoints": [
     "static/css/main.fc5531e9.css",
-    "static/js/main.069f1388.js"
+    "static/js/main.aafbf3f6.js"
   ]
 }
