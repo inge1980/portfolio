@@ -1,4 +1,28 @@
+.row .cardSmall {
+    display: none;
+}
+@media (max-width: 576px) {
+    .row .cardSmall {
+        display: flex;
+    }
+    .row .cardBig {
+        display: none;
+    }
+}
 .img-fluid {
     max-height: 400px;
     float: left;
+    border-top-left-radius: 0.375rem!important;
+}
+.introCard p.card-text {
+    padding-bottom: 5px;
+}
+
+a.btn-success {
+    display: block;
+    padding: 1px 6px 6px 1px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
 }
