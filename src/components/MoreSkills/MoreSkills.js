@@ -9,8 +9,8 @@ const MoreSkills = () => {
       <h4 className="heading text-start">Jeg er ogs&aring; godt kjent med</h4>
       <div className="row">
         <div className="col-12">
-          <div class="card">
-            <div class="card-body">
+          <div className="card">
+            <div className="card-body">
               <div className="skills_container">
                 {Sdata.map((item, index) => {
                   return (
