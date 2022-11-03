@@ -6,6 +6,7 @@ import a3 from "../../img/bootstrap-aspect-ratio.png";
 import a5 from "../../img/javascript-preload-images.png";
 import a6 from "../../img/bootstrap-thumbnail-gallery.png";
 import a7 from "../../img/bootstrap-news-carousel.png";
+import a8 from "../../img/osedalen.png";
 import a9 from "../../img/javascript-1016-byte-game.png";
 import a10 from "../../img/perl-cgi-collection-of-jokes-need4sms.png";
 import React from "react";
@@ -142,6 +143,14 @@ const Projects = [
         description:
           'Denne nyhetskarusellen er brukt på mange av nettsidene til Norges skoler. Her kan administrator velge størrelsesforhold på en visningsrute og velge om å "holde bildet innenfor ruten" eller "la bildet fylle ruten". Dette gjør at det fungerer like greit på både kinoskjermer og mobil uansett størrelsesforhold på bildet.',
         demo_link: "https://inge.moavademo.no/index.php?pageID=8",
+      },
+      {
+        id: 8,
+        image: a8,
+        title: "Nyhetsfeed fra 2013 - Osedalen.org",
+        description:
+          "En wordpress-side hvor jeg aggregerte nyheter fra forskjellige kilder. Alt jeg trengte å gjøre var å godkjenne artikler som ble generert automatisk. Startet i 2013, og overlatt til seg selv av og til, og siste oppdatert i 2018.",
+        demo_link: "https://www.osedalen.org/",
       },
       {
         id: 9,
