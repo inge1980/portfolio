@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a5ede99a.css",
+    "main.css": "/portfolio/static/css/main.db9f582f.css",
     "main.js": "/portfolio/static/js/main.e7bcdd18.js",
     "static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.png": "/portfolio/static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.237a9b3ce724a058207b.png",
     "static/media/bootstrap-aspect-ratio.png": "/portfolio/static/media/bootstrap-aspect-ratio.09528a21844b43d69e47.png",
@@ -44,11 +44,11 @@
     "static/media/react.png": "/portfolio/static/media/react.7e9e8696236ea972d4f5.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "index.html": "/portfolio/index.html",
-    "main.a5ede99a.css.map": "/portfolio/static/css/main.a5ede99a.css.map",
+    "main.db9f582f.css.map": "/portfolio/static/css/main.db9f582f.css.map",
     "main.e7bcdd18.js.map": "/portfolio/static/js/main.e7bcdd18.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5ede99a.css",
+    "static/css/main.db9f582f.css",
     "static/js/main.e7bcdd18.js"
   ]
 }
