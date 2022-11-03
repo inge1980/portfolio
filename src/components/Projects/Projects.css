@@ -1,3 +1,17 @@
+@media screen and (min-width: 992px) {
+    div.projectCard.width-33 {
+        width: 33.33%;
+    }
+    div.projectCard.width-100 {
+        width: 100%;
+    }
+}
+div.moava_container a {
+    display: inline;
+}
+div.moava_container .list-group.text-start, div.moava_container .backLink {
+    padding-top: 10px;
+}
 div.projectCard {
     padding-bottom: 5px;
 }

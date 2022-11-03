@@ -14,10 +14,13 @@ const Projects = () => {
             <h1 className="text-start">{projects.category}</h1>
             <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-3">
               {projects.data.map((item) => {
+                const length = projects.data.length;
+                let width = length % 3 === 0 ? "width-33" : "width-25";
+                width = projects.id === 2 ? "width-100" : width;
                 return (
                   <div
                     key={item.id}
-                    className="projectCard col"
+                    className={`projectCard col ${width}`}
                     id={`project_${projects.id}_${item.id}`}
                   >
                     <div className="card h-100">

@@ -8,18 +8,27 @@ import a6 from "../../img/bootstrap-thumbnail-gallery.png";
 import a7 from "../../img/bootstrap-news-carousel.png";
 import a9 from "../../img/javascript-1016-byte-game.png";
 import a10 from "../../img/perl-cgi-collection-of-jokes-need4sms.png";
+import React from "react";
 
 const Projects = [
   {
     id: 1,
-    category: "React prosjekt",
+    category: "React 2022",
     data: [
       {
         id: 1,
         image: r1,
         title: "Inge Movie DataBase (imdb)",
-        description:
-          'Resultatet av "Mastering React"-kurset jeg tok sommeren 2022. Kun frontend demo, ingen faktisk lagring av endringer.',
+        description: (
+          <React.Fragment>
+            Resultatet av et "Mastering React"-kurset jeg tok sommeren 2022.
+            <br />
+            <br />
+            Her er all frontend fra kurset samlet og demonstrert i en demo. Du
+            kan teste å lage ny, slette eller redigere, men ingenting er lagret
+            ved oppdatering av siden.
+          </React.Fragment>
+        ),
         demo_link: "https://inge1980.github.io/movies/",
         code_link: "https://github.com/inge1980/movies/",
         readmore: "/portfolio/projects/imdb/",
@@ -28,8 +37,13 @@ const Projects = [
         id: 2,
         image: r2,
         title: "Hente stackoverflow-informasjon via API",
-        description:
-          "Kakediagram over nøkkelord brukt av en spesifikk Stackoverflow-bruker, i dette tilfellet meg. :)",
+        description: (
+          <React.Fragment>
+            Jeg har gjennom årene vært aktiv på Stackoverflow. Her har jeg laget
+            et kakediagram over nøkkelord brukt av min bruker, hentet direkte
+            via API. Kan enkelt gjenbrukes av andre ved å endre brukerid.
+          </React.Fragment>
+        ),
         demo_link: "https://inge1980.github.io/stackoverflow-tags/",
         code_link: "https://github.com/inge1980/stackoverflow-tags/",
       },
@@ -37,15 +51,45 @@ const Projects = [
       {
         id: 3,
         title: "Portfolio lagd i React",
-        description:
-          "Denne siden. Portfolio over ting jeg har lagd, og hvilke teknologier jeg er kjent med.",
+        description: (
+          <React.Fragment>
+            Dette er siden du besøker nå. En portfolio over ting jeg har lagd,
+            og hvilke teknologier jeg har blitt kjent med gjennom sammenlagt 21
+            år med programmering.
+            <br />
+            <br />
+            Du se nærmere på koden ved å følge linken nedenfor.
+          </React.Fragment>
+        ),
         code_link: "https://github.com/inge1980/portfolio/",
       },
     ],
   },
   {
     id: 2,
-    category: "Andre prosjekt",
+    category: "Moava AS 2013-2022",
+    data: [
+      {
+        id: 1,
+        title: "PHP, MySQL, Javascript, HTML/CSS for å lage eget CMS",
+        description: (
+          <React.Fragment>
+            Gjennom 9 år har jeg vært med på å utvikle eget CMS hos Moava som nå
+            er i bruk hos omtrent halvparten av skolene i Norge. Jeg kan ikke gi
+            noen kodeeksempler, da dette er eiendom av Moava AS, men jeg kan
+            vise frem noen nettsider hvor dette CMS-et er i bruk. Her er et
+            utvalg av skoler i området nær meg.
+            <br />
+            <br />
+          </React.Fragment>
+        ),
+        readmore: "/portfolio/projects/moava/",
+      },
+    ],
+  },
+  {
+    id: 3,
+    category: "Andre hobbyprosjekter 2001-2022",
     data: [
       {
         id: 1,
