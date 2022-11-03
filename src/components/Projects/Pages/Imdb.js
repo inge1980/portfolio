@@ -6,8 +6,8 @@ const Imdb = () => {
   return (
     <React.Fragment>
       <p className="text-start">
-        "Mastering React"-kurset tok jeg sommeren 2022, og der lærte jeg det
-        meste innen React.
+        "Mastering React"-kurset tok jeg sommeren 2022, hvor jeg gikk fra
+        nybegynner til ekspert.
       </p>
       <p className="text-start">
         Klikk her for å{" "}
@@ -22,10 +22,10 @@ const Imdb = () => {
         .
       </p>
       <p className="text-start">
-        Det tok omtrent 18 timer fordelt på tre dager å komme gjennom alle
-        videoene og oppgavene, men så absolutt verdt det. Jeg lærte så mye om
-        hvordan jeg ville gjort tidligere prosjekt anderledes hadde jeg bare
-        visst om alt som kan gjøres med React litt tidligere.
+        Kurset tok omtrent 18 timer fordelt på tre dager å komme gjennom alle
+        videoene og oppgavene, men så absolutt verdt det. Jeg lærte også mye om
+        hvordan jeg kunne ha gjort tidligere prosjekter anderledes hvis jeg bare
+        hadde visst om React.
       </p>
       <LinkContainer to="/portfolio/projects/">
         <Nav.Link className="link-primary" href="#projects">

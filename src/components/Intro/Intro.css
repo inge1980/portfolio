@@ -17,12 +17,6 @@
 .introCard p.card-text {
     padding-bottom: 5px;
 }
-
-a.btn-success {
-    display: block;
-    padding: 1px 6px 6px 1px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-    text-decoration: none;
+.cardBig .card-text a, .cardSmall .card-text a {
+    display: inline;
 }

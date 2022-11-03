@@ -38,17 +38,12 @@ class BootstrapNavbar extends Component {
               </LinkContainer>
               <LinkContainer to="/portfolio/projects/">
                 <Nav.Link href="#projects_1" onClick={this.handleClose}>
-                  React prosjekt
+                  Prosjekter
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/portfolio/skills/">
                 <Nav.Link href="#skills" onClick={this.handleClose}>
                   Ferdigheter
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/portfolio/me/">
-                <Nav.Link href="#skills" onClick={this.handleClose}>
-                  Om meg
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/portfolio/contact/">
