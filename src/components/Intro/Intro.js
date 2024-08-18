@@ -7,8 +7,6 @@ import { LinkContainer } from "react-router-bootstrap";
 const Intro = () => {
   const text = {
     title: "Hvem er jeg?",
-    linkText:
-      "12 år med hobbyerfaring fra diverse programmeringsprosjekter OG 9 års profesjonell arbeidserfaring",
     desc1: (
       <React.Fragment>
         Jeg er en fullstack-utvikler som ser etter fullstack / frontend
@@ -17,6 +15,8 @@ const Intro = () => {
         <br />I løpet av et langt liv har jeg samlet opp{" "}
       </React.Fragment>
     ),
+    linkText:
+      "11 års profesjonell arbeidserfaring, pluss 12 år med hobbyerfaring fra diverse programmeringsprosjekter før karrieren startet. Så jeg har holdt på med dette i 23 år.",
     desc2: (
       <React.Fragment>
         {" "}

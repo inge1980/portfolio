@@ -6,10 +6,13 @@
         width: 100%;
     }
 }
-div.moava_container a {
+html abbr[title] {
+    text-decoration: underline solid;
+}
+div.subpage_container a {
     display: inline;
 }
-div.moava_container .list-group.text-start, div.moava_container .backLink {
+div.subpage_container .list-group.text-start, div.subpage_container .backLink {
     padding-top: 10px;
 }
 div.projectCard {
@@ -40,6 +43,6 @@ div.card-footer {
     background-color: inherit;
     border-top: none;
 }
-#projects_2, #projects_3 {
+#projects_1, #projects_2, #projects_3 {
     padding-top: 20px;
 }

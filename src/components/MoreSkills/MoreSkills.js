@@ -4,7 +4,7 @@ import Sdata from "./MoreSkillsData";
 
 const MoreSkills = () => {
   return (
-    <div className="container">
+    <div className="container moreskills_wrapper">
       <span id="moreskills"></span>
       <h4 className="heading text-start">Jeg er ogs&aring; godt kjent med</h4>
       <div className="row">

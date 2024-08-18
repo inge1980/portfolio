@@ -5,6 +5,8 @@ import Projects from "./components/Projects/Projects";
 //import Js1k from "./components/Projects/Pages/Js1k";
 import Imdb from "./components/Projects/Pages/Imdb";
 import Moava from "./components/Projects/Pages/Moava";
+import Episteme from "./components/Projects/Pages/Episteme";
+import Newsfield from "./components/Projects/Pages/Newsfield";
 import AllSkills from "./components/AllSkills/AllSkills";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -27,6 +29,14 @@ const App = () => {
             <Route
               path="/portfolio/projects/moava/"
               element={<Moava />}
+            ></Route>
+            <Route
+              path="/portfolio/projects/episteme/"
+              element={<Episteme />}
+            ></Route>
+            <Route
+              path="/portfolio/projects/nyhetsfelt/"
+              element={<Newsfield />}
             ></Route>
             <Route path="/portfolio/skills/" element={<AllSkills />}></Route>
             <Route path="/portfolio/contact/" element={<Contact />}></Route>

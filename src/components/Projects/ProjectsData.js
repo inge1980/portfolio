@@ -13,6 +13,50 @@ import React from "react";
 
 const Projects = [
   {
+    id: 4,
+    category: "ERP systemer og nettbutikk 2022-2024",
+    data: [
+      {
+        id: 1,
+        title: "Episteme: IIS, PHP, MSSQL, SSMS, Javascript, HTML/CSS",
+        description: (
+          <React.Fragment>
+            Gjennom 2 år med Episteme har jeg vært med på å videreutviklet et&nbsp; 
+            <abbr title="Enterprise Resource Planning&#13;Programvare som støtter opp om et flertall av en bedrifts virksomhetsområder,&#13;som ordre, produksjon, lager, salg, innkjøp og økonomi.">ERP</abbr> system, 
+            samt redesigne frontend av systemet fra bunnen. Jeg redesignet også nettbutikken som tar i bruk nevnte ERP. 
+            Jeg kan dessverre ikke gi noen kodeeksempler, da noe av dette er eid av Systemhuset Episteme AS, og noe er eid av diverse kunder, 
+            men jeg kan vise til noen nettsider som har kommet som resultat av tiden min hos Episteme.
+            <br />
+            <br />
+          </React.Fragment>
+        ),
+        readmore: "/portfolio/projects/episteme/",
+      },
+    ],
+  },
+  {
+    id: 2,
+    category: "CMS for offentlig og private skoler 2013-2022",
+    data: [
+      {
+        id: 1,
+        title: "Moava: WAMP, PHP, MySQL, phpMyAdmin, Javascript, HTML/CSS",
+        description: (
+          <React.Fragment>
+            I løpet av 9 år var jeg med på å videreutvikle eget CMS hos Moava som nå
+            er i bruk hos omtrent halvparten av skolene i Norge. Jeg redesignet også frontend for et mer moderne utseende og for å støtte mobilvisning. Jeg kan dessverre ikke gi
+            noen kodeeksempler, da <abbr title="Software as a service&#13;Skybasert løsning som gir brukere tilgang til programvareapplikasjoner uten behov for å installere eller vedlikeholde programvaren.">SaaS</abbr> produktet er eiendom av Moava AS, men jeg kan
+            vise frem noen nettsider hvor dette CMS-et er i bruk. Her er et
+            utvalg av skoler i området nær meg.
+            <br />
+            <br />
+          </React.Fragment>
+        ),
+        readmore: "/portfolio/projects/moava/",
+      },
+    ],
+  },
+  {
     id: 1,
     category: "React 2022",
     data: [
@@ -67,38 +111,16 @@ const Projects = [
     ],
   },
   {
-    id: 2,
-    category: "Moava AS 2013-2022",
-    data: [
-      {
-        id: 1,
-        title: "PHP, MySQL, Javascript, HTML/CSS for å lage eget CMS",
-        description: (
-          <React.Fragment>
-            Gjennom 9 år har jeg vært med på å utvikle eget CMS hos Moava som nå
-            er i bruk hos omtrent halvparten av skolene i Norge. Jeg kan ikke gi
-            noen kodeeksempler, da dette er eiendom av Moava AS, men jeg kan
-            vise frem noen nettsider hvor dette CMS-et er i bruk. Her er et
-            utvalg av skoler i området nær meg.
-            <br />
-            <br />
-          </React.Fragment>
-        ),
-        readmore: "/portfolio/projects/moava/",
-      },
-    ],
-  },
-  {
     id: 3,
-    category: "Andre hobbyprosjekter 2001-2022",
+    category: "Andre hobbyprosjekter 2001-2024",
     data: [
       {
         id: 1,
         image: a1,
         title: "Legg til artikkel i nyhetsfelt",
         description:
-          "Her gjorde jeg det mulig å raskt legge til ny artikkel i nyhetsfelt via modalvindu uten å laste hele siden på nytt, i stedet for å ta omveien innom et administrasjonspanelet. Redigere direkte via CKEditor, og en knapp for å laste opp filer, og en grei forhåndsvisning av artikkelen. Alt på samme plass bare et klikk unna, ned fra tidligere fem klikk.",
-        demo_link: "https://inge.moavademo.no/index.php?pageID=13",
+          "Her gjorde jeg det mulig å raskt legge til ny artikkel i nyhetsfelt via modalvindu uten å laste hele siden på nytt. I stedet for å ta omveien innom et administrasjonspanelet, kunne man da redigere direkte via CKEditor, inkludert en knapp for å laste opp filer og en grei forhåndsvisning av artikkelen. Alt på samme plass bare et klikk unna, ned fra tidligere fem klikk.",
+        demo_link: "/portfolio/projects/nyhetsfelt/",
       },
       {
         id: 2,
@@ -106,8 +128,8 @@ const Projects = [
         title: "Bootstrap meny og sidemeny med trestruktur",
         description:
           "Her kan man bruke to menyer samtidig. Perfekt for nettsider med kompleks struktur som vil se bra ut på mobil, eller bare hvis man trenger to separate menyer.",
-        demo_link: "https://jsfiddle.net/turbopipp/6qw4075d/show/",
-        code_link: "https://jsfiddle.net/turbopipp/6qw4075d/",
+        //demo_link: "https://jsfiddle.net/turbopipp/6qw4075d/show/",
+        demoandcode_link: "https://jsfiddle.net/turbopipp/6qw4075d/",
       },
       {
         id: 3,
@@ -115,8 +137,8 @@ const Projects = [
         title: "CSS-lek med størrelsesforhold og skjermbredde",
         description:
           "Her er oppskriften på hvordan man kan beholde størrelsesforhold på videoer selv om bredden på skjermen blir mindre enn bredden på videoen.",
-        demo_link: "https://jsfiddle.net/turbopipp/r1vfekku/show/",
-        code_link: "https://jsfiddle.net/turbopipp/r1vfekku/",
+        //demo_link: "https://jsfiddle.net/turbopipp/r1vfekku/show/",
+        demoandcode_link: "https://jsfiddle.net/turbopipp/r1vfekku/",
       },
       {
         id: 5,
@@ -124,8 +146,8 @@ const Projects = [
         title: "Javascript-lasting av bilder i bakgrunnen",
         description:
           "Dette javascriptet er greit å bruke i tilfeller der man ønsker å laste bilder ferdig før man begynner å vise dem. Man kan f.eks. laste forstørret bilde av et produkt i bakgrunnen før brukeren klikker på forstørrelsesglasset. På den måten kan vi vise siden raskt, og bruke de sekundene før brukeren klikker sitt neste klikk til å laste bilde(r) i bakgrunnen.",
-        demo_link: "https://jsfiddle.net/turbopipp/fdegf1Lh/show/",
-        code_link: "https://jsfiddle.net/turbopipp/fdegf1Lh/",
+        //demo_link: "https://jsfiddle.net/turbopipp/fdegf1Lh/show/",
+        demoandcode_link: "https://jsfiddle.net/turbopipp/fdegf1Lh/",
       },
       {
         id: 6,
@@ -133,8 +155,8 @@ const Projects = [
         title: "Bootstrap mappegalleri",
         description:
           "Hvis man har masse bilder strukturert i mapper og undermapper, så kan dette være en grei måte å vise frem strukturen. Ser like bra ut på mobil som på kinolerret.",
-        demo_link: "https://jsfiddle.net/turbopipp/0hsqLner/show",
-        code_link: "https://jsfiddle.net/turbopipp/0hsqLner/",
+        //demo_link: "https://jsfiddle.net/turbopipp/0hsqLner/show",
+        demoandcode_link: "https://jsfiddle.net/turbopipp/0hsqLner/",
       },
       {
         id: 7,
@@ -142,7 +164,7 @@ const Projects = [
         title: "Bootstrap nyhetskarusell",
         description:
           'Denne nyhetskarusellen er brukt på mange av nettsidene til Norges skoler. Her kan administrator velge størrelsesforhold på en visningsrute og velge om å "holde bildet innenfor ruten" eller "la bildet fylle ruten". Dette gjør at det fungerer like greit på både kinoskjermer og mobil uansett størrelsesforhold på bildet.',
-        demo_link: "https://inge.moavademo.no/index.php?pageID=8",
+        demo_link: "https://alt.moava.org/index.php?pageID=23",
       },
       {
         id: 8,

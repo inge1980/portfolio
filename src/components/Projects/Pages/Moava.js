@@ -14,7 +14,7 @@ const Moava = () => {
           <div className="col-12">
             <div className="card">
               <div className="card-body">
-                <div className="moava_container w-100">
+                <div className="subpage_container w-100">
                   <div className="row">
                     <div className="col-md-6">
                       <p className="text-start">

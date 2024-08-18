@@ -5,6 +5,8 @@ import nodejs from "../../img/nodejs.png";
 import restapi from "../../img/rest-api.png";
 import react from "../../img/react.png";
 import wamp from "../../img/wampserver.png";
+import ssms from "../../img/ssms.png";
+import iis from "../../img/iis.png";
 import mysql from "../../img/mysql.png";
 import myadmin from "../../img/phpmyadmin.png";
 import perl from "../../img/perl.png";
@@ -41,6 +43,14 @@ const SkillList = [
   {
     skillName: "WampServer",
     logo: wamp,
+  },
+  {
+    skillName: "MS SQL SMS",
+    logo: ssms,
+  },
+  {
+    skillName: "MS IIS Manager",
+    logo: iis,
   },
   {
     skillName: "MySQL",

@@ -16,7 +16,7 @@ const Projects = () => {
               {projects.data.map((item) => {
                 const length = projects.data.length;
                 let width = length % 3 === 0 ? "width-33" : "width-25";
-                width = projects.id === 2 ? "width-100" : width;
+                width = (projects.id === 2 || projects.id === 4) ? "width-100" : width;
                 return (
                   <div
                     key={item.id}
@@ -58,6 +58,16 @@ const Projects = () => {
                             target="_blank"
                           >
                             Kode
+                          </a>
+                        )}
+                        {item.demoandcode_link && (
+                          <a
+                            className="btn btn-success linkLeft"
+                            href={item.demoandcode_link}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
+                            Demo / Kode
                           </a>
                         )}
                         {item.readmore && (

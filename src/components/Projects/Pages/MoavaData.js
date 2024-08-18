@@ -50,21 +50,6 @@ const Moava = [
     link: "https://ringshaugskole.no/",
   },
   {
-    id: 11,
-    text: "Risør",
-    link: "https://risor.skole.no/",
-  },
-  {
-    id: 12,
-    text: "Tvedestrand",
-    link: "https://dypvaag.skole.tvedestrand.no/",
-  },
-  {
-    id: 13,
-    text: "Tvedestrand",
-    link: "https://holt.skole.tvedestrand.no/",
-  },
-  {
     id: 14,
     text: "Tvedestrand",
     link: "https://lyngmyr.skole.tvedestrand.no/",
@@ -72,7 +57,7 @@ const Moava = [
   {
     id: 15,
     text: "Tvedestrand",
-    link: "https://tvedestrand.skole.tvedestrand.no/",
+    link: "https://tvedestrand.barneskole.no/",
   },
   {
     id: 16,
