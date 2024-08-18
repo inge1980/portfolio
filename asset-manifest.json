@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.db9f582f.css",
-    "main.js": "/portfolio/static/js/main.3fa29bac.js",
+    "main.css": "/portfolio/static/css/main.7f279240.css",
+    "main.js": "/portfolio/static/js/main.6cf58261.js",
+    "static/media/newsfield.mp4": "/portfolio/static/media/newsfield.d1429c863049d7961bdc.mp4",
+    "static/media/shoplet_episteme.png": "/portfolio/static/media/shoplet_episteme.d83f3d8e819bb6ae2bef.png",
     "static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.png": "/portfolio/static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.237a9b3ce724a058207b.png",
     "static/media/bootstrap-aspect-ratio.png": "/portfolio/static/media/bootstrap-aspect-ratio.09528a21844b43d69e47.png",
     "static/media/wordpress.png": "/portfolio/static/media/wordpress.6bc8733083d899c1d3d7.png",
     "static/media/asana.png": "/portfolio/static/media/asana.d968859751aa48159bf9.png",
     "static/media/gimp.png": "/portfolio/static/media/gimp.b6ce51c1a441fefa6b88.png",
+    "static/media/iis.png": "/portfolio/static/media/iis.4f1d66534f21b8b46df1.png",
     "static/media/gdpr.png": "/portfolio/static/media/gdpr.34abbcd6d25db24dac79.png",
     "static/media/author.jpg": "/portfolio/static/media/author.7aed0f2b6260e299383a.jpg",
     "static/media/vscode.png": "/portfolio/static/media/vscode.39748ac3717d5f937a8b.png",
@@ -24,6 +27,7 @@
     "static/media/wampserver.png": "/portfolio/static/media/wampserver.d0561d7b407c713210c7.png",
     "static/media/bootstrap-double-menu.png": "/portfolio/static/media/bootstrap-double-menu.10516ac93c04052cbcc5.png",
     "static/media/react-stackoverflow.png": "/portfolio/static/media/react-stackoverflow.00ca7d8e4146f091ce06.png",
+    "static/media/ssms.png": "/portfolio/static/media/ssms.d9ce54e877316b37f59c.png",
     "static/media/photoshop.png": "/portfolio/static/media/photoshop.11ac0267fecfbd90e5f1.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.1fc3d2e1a654ac337c14.png",
     "static/media/recaptcha.png": "/portfolio/static/media/recaptcha.1a8898156cd01cbd7af9.png",
@@ -44,11 +48,11 @@
     "static/media/react.png": "/portfolio/static/media/react.7e9e8696236ea972d4f5.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "index.html": "/portfolio/index.html",
-    "main.db9f582f.css.map": "/portfolio/static/css/main.db9f582f.css.map",
-    "main.3fa29bac.js.map": "/portfolio/static/js/main.3fa29bac.js.map"
+    "main.7f279240.css.map": "/portfolio/static/css/main.7f279240.css.map",
+    "main.6cf58261.js.map": "/portfolio/static/js/main.6cf58261.js.map"
   },
   "entrypoints": [
-    "static/css/main.db9f582f.css",
-    "static/js/main.3fa29bac.js"
+    "static/css/main.7f279240.css",
+    "static/js/main.6cf58261.js"
   ]
 }
