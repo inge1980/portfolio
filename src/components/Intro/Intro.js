@@ -16,12 +16,12 @@ const Intro = () => {
       </React.Fragment>
     ),
     linkText:
-      "11 års profesjonell arbeidserfaring, pluss 12 år med hobbyerfaring fra diverse programmeringsprosjekter før karrieren startet. Så jeg har holdt på med dette i 23 år.",
+      "11 års profesjonell arbeidserfaring, pluss 12 år med hobbyerfaring fra diverse programmeringsprosjekter før karrieren startet.",
     desc2: (
       <React.Fragment>
         {" "}
-        med PHP, MySQL, Subversion, HTML, CSS, Javascript, og diverse bibliotek
-        som f.eks. Bootstrap og jQuery.
+        Så jeg har holdt på med PHP, MySQL, Subversion, HTML, CSS, Javascript, og diverse bibliotek
+        som f.eks. Bootstrap og jQuery i 23 år.
         <br />
         <br />
         Jeg liker å holde meg oppdatert på den nyeste teknologien, og de siste
