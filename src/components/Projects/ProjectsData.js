@@ -120,7 +120,7 @@ const Projects = [
         title: "Legg til artikkel i nyhetsfelt",
         description:
           "Her gjorde jeg det mulig å raskt legge til ny artikkel i nyhetsfelt via modalvindu uten å laste hele siden på nytt. I stedet for å ta omveien innom et administrasjonspanelet, kunne man da redigere direkte via CKEditor, inkludert en knapp for å laste opp filer og en grei forhåndsvisning av artikkelen. Alt på samme plass bare et klikk unna, ned fra tidligere fem klikk.",
-        demo_link: "/portfolio/projects/nyhetsfelt/",
+        readmore: "/portfolio/projects/nyhetsfelt/",
       },
       {
         id: 2,

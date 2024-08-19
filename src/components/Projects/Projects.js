@@ -76,7 +76,7 @@ const Projects = () => {
                           <LinkContainer to={item.readmore}>
                             <Nav.Link
                               href={item.readmore}
-                              className="link-dark"
+                              className="btn btn-success linkLeft"
                               rel="noreferrer"
                               target="_blank"
                             >
