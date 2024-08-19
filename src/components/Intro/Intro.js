@@ -21,7 +21,7 @@ const Intro = () => {
       <React.Fragment>
         {" "}
         Så jeg har holdt på med PHP, MySQL, Subversion, HTML, CSS, Javascript, og diverse bibliotek
-        som f.eks. Bootstrap og jQuery i 23 år..
+        som f.eks. Bootstrap og jQuery i 23 år.
         <br />
         <br />
         Jeg liker å holde meg oppdatert på den nyeste teknologien, og de siste
