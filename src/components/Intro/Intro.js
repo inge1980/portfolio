@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Nav } from "react-bootstrap";
 import "./Intro.css";
-import image from "../../img/author.jpg";
+import image from "../../img/author.png";
 import { LinkContainer } from "react-router-bootstrap";
 
 const Intro = () => {

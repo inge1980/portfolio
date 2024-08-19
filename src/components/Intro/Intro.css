@@ -1,6 +1,45 @@
 .row .cardSmall {
     display: none;
 }
+.img-fluid {
+    max-height: 400px;
+    float: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.introCard p.card-text {
+    padding-bottom: 5px;
+}
+.cardBig .card-text a, .cardSmall .card-text a {
+    display: inline;
+}
+@media (max-width: 1200px) {
+    .img-fluid {
+        top: 230px;
+    }
+}
+@media (max-width: 991px) {
+    .img-fluid {
+        top: 215px;
+    }
+}
+@media (max-width: 767px) {
+    .img-fluid {
+        top: 153px;
+    }
+}
+@media (max-width: 576px) and (min-width: 350px) {
+    .card-img-top {
+        border-top-left-radius: 0px!important;
+        border-top-right-radius: 0px!important;
+        position: relative;
+        top: 10px;
+        left: 50%;
+        width: 50%!important;
+        transform: translateX(-50%);
+    }
+}
 @media (max-width: 576px) {
     .row .cardSmall {
         display: flex;
@@ -8,15 +47,4 @@
     .row .cardBig {
         display: none;
     }
-}
-.img-fluid {
-    max-height: 400px;
-    float: left;
-    border-top-left-radius: 0.375rem!important;
-}
-.introCard p.card-text {
-    padding-bottom: 5px;
-}
-.cardBig .card-text a, .cardSmall .card-text a {
-    display: inline;
 }
