@@ -21,9 +21,9 @@ const Projects = [
         title: "Episteme: IIS, PHP, MSSQL, SSMS, Javascript, HTML/CSS",
         description: (
           <React.Fragment>
-            Gjennom 2 år med Episteme har jeg vært med på å videreutviklet et&nbsp; 
+            Gjennom 2 år med Episteme har jeg vært med på å videreutvikle et&nbsp; 
             <abbr title="Enterprise Resource Planning&#13;Programvare som støtter opp om et flertall av en bedrifts virksomhetsområder,&#13;som ordre, produksjon, lager, salg, innkjøp og økonomi.">ERP</abbr> system, 
-            samt redesigne frontend av systemet fra bunnen. Jeg redesignet også nettbutikken som tar i bruk nevnte ERP. 
+            samt redesign av admin frontend fra bunnen. Jeg redesignet også nettbutikken som tar i bruk nevnte ERP. 
             Jeg kan dessverre ikke gi noen kodeeksempler, da noe av dette er eid av Systemhuset Episteme AS, og noe er eid av diverse kunder, 
             men jeg kan vise til noen nettsider som har kommet som resultat av tiden min hos Episteme.
             <br />
@@ -99,7 +99,7 @@ const Projects = [
         description: (
           <React.Fragment>
             Dette er siden du besøker nå. En portfolio over ting jeg har lagd,
-            og hvilke teknologier jeg har blitt kjent med gjennom sammenlagt 21
+            og hvilke teknologier jeg har blitt kjent med gjennom sammenlagt 23
             år med programmering.
             <br />
             <br />
