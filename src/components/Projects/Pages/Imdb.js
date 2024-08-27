@@ -6,19 +6,28 @@ const Imdb = () => {
   return (
     <React.Fragment>
       <p className="text-start">
-        "Mastering React"-kurset tok jeg sommeren 2022. Kurset tok omtrent 18 timer fordelt på tre dager, inkludert alle
-        videoene og oppgavene, og det var så absolutt å anbefale. Jeg lærte mye om Typescript, og det fikk meg blant annet til å reflektere over
-        hvordan jeg kunne ha løst prosjekter anderledes hvis jeg bare hadde hatt kunnskap om React tidligere.
+        Jeg tok Typescript og "Mastering React"-kurs sommeren 2022. Kursene tok omtrent 24 timer fordelt på fire dager, inkludert alle
+        videoene og oppgavene, og det er så absolutt å anbefale. Det fikk meg blant annet til å reflektere over
+        hvordan jeg kunne ha løst prosjekter anderledes hvis jeg bare hadde hatt inngående kunnskap om Typescript og React tidligere.
       </p>
       <p className="text-start">
-        Klikk her for å{" "}
+        Klikk her for å se kursdetaljene om{" "}
         <a
           className="link-primary"
-          href="https://codewithmosh.com/p/mastering-react#block-6779254"
+          href="https://codewithmosh.com/p/the-ultimate-typescript"
           target="_blank"
           rel="noreferrer"
         >
-          se detaljene om kurset
+          Typescript
+        </a>
+        {" "}eller{" "}
+        <a
+          className="link-primary"
+          href="https://codewithmosh.com/p/mastering-react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          React
         </a>
         .
       </p>
