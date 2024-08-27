@@ -6,8 +6,9 @@ const Imdb = () => {
   return (
     <React.Fragment>
       <p className="text-start">
-        "Mastering React"-kurset tok jeg sommeren 2022, hvor jeg gikk fra
-        nybegynner til ekspert.
+        "Mastering React"-kurset tok jeg sommeren 2022. Kurset tok omtrent 18 timer fordelt på tre dager, inkludert alle
+        videoene og oppgavene, og det var så absolutt å anbefale. Jeg lærte mye om Typescript, og det fikk meg blant annet til å reflektere over
+        hvordan jeg kunne ha løst prosjekter anderledes hvis jeg bare hadde hatt kunnskap om React tidligere.
       </p>
       <p className="text-start">
         Klikk her for å{" "}
@@ -20,12 +21,6 @@ const Imdb = () => {
           se detaljene om kurset
         </a>
         .
-      </p>
-      <p className="text-start">
-        Kurset tok omtrent 18 timer fordelt på tre dager å komme gjennom alle
-        videoene og oppgavene, men så absolutt verdt det. Jeg lærte også mye om
-        hvordan jeg kunne ha gjort tidligere prosjekter anderledes hvis jeg bare
-        hadde visst om React.
       </p>
       <LinkContainer to="/portfolio/projects/">
         <Nav.Link className="link-primary" href="#projects">

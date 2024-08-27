@@ -59,6 +59,11 @@ const Intro = () => {
                 </Nav.Link>
               </LinkContainer>
               {text.desc2}
+              <LinkContainer to="/portfolio/contact/">
+                <Nav.Link href="#" className="link-primary">
+                Kontakt meg
+                </Nav.Link>
+              </LinkContainer>
             </Card.Text>
           </Card.Body>
         </Card>
@@ -80,6 +85,13 @@ const Intro = () => {
                     </Nav.Link>
                   </LinkContainer>
                   {text.desc2}
+                </p>
+                <p className="card-text text-center">
+                  <LinkContainer to="/portfolio/contact/">
+                  <Nav.Link href="#" className="link-primary">
+                    Kontakt meg
+                  </Nav.Link>
+                </LinkContainer>
                 </p>
               </div>
             </div>

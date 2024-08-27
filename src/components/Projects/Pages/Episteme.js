@@ -18,7 +18,7 @@ const Episteme = () => {
                   <div className="row">
                     <div className="col-md-8">
                       <p className="text-start">
-                        Hos Systemhuset Episteme AS var jeg med på å videreutviklet et&nbsp; 
+                        Hos Systemhuset Episteme AS var jeg med på å videreutvikle et&nbsp; 
                         <abbr title="Enterprise Resource Planning&#13;Programvare som støtter opp om et flertall av en bedrifts virksomhetsområder,&#13;som ordre, produksjon, lager, salg, innkjøp og økonomi.">ERP</abbr> system, 
                         samt redesigne systemet fra bunnen. Jeg redesignet også nettbutikken som tar i bruk nevnte ERP. All kode er dessverre firmaets eller kunders eiendom, så derfor har jeg istedet valgt å 
                         samle linker til noen nettsider som tar i bruk systemet.
