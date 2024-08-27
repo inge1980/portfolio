@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.077f15e5.css",
-    "main.js": "/portfolio/static/js/main.14e31ad8.js",
+    "main.js": "/portfolio/static/js/main.c0b84cc2.js",
     "static/media/newsfield.mp4": "/portfolio/static/media/newsfield.d1429c863049d7961bdc.mp4",
     "static/media/shoplet_episteme.png": "/portfolio/static/media/shoplet_episteme.d83f3d8e819bb6ae2bef.png",
     "static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.png": "/portfolio/static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.237a9b3ce724a058207b.png",
@@ -49,10 +49,10 @@
     "static/media/mysql.png": "/portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "index.html": "/portfolio/index.html",
     "main.077f15e5.css.map": "/portfolio/static/css/main.077f15e5.css.map",
-    "main.14e31ad8.js.map": "/portfolio/static/js/main.14e31ad8.js.map"
+    "main.c0b84cc2.js.map": "/portfolio/static/js/main.c0b84cc2.js.map"
   },
   "entrypoints": [
     "static/css/main.077f15e5.css",
-    "static/js/main.14e31ad8.js"
+    "static/js/main.c0b84cc2.js"
   ]
 }
