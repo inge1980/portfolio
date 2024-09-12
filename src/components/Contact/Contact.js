@@ -20,12 +20,15 @@ const Contact = () => {
       )
       .then(
         ({ status }) => {
+          console.log('EmailJS success:', status); // Debugging
           alert(
             "Tusen takk, beskjeden er sendt. Jeg vil kontakte deg snart som mulig."
           );
           e.target.reset();
         },
         (err) => {
+          const errorMessage = err.message || 'En ukjent feil oppstod'; // Default message if no specific message exists
+          console.log('EmailJS error:', errorMessage); // Debugging
           alert(
             "Beklager, det kan virke som om du ikke er helt menneskelig. Glemte du kanskje \u00E5 klikke i boksen? :-)"
           );
@@ -102,6 +105,10 @@ const Contact = () => {
               <ReCAPTCHA
                 sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
                 ref={captchaRef}
+                onChange={(token) => {
+                  // Bruker har fullført reCAPTCHA, token sendes til EmailJS
+                  console.log("reCAPTCHA token:", token);
+                }}
               />
               <button className="btn btn-success float-left mt-2" type="submit">
                 Send beskjed
