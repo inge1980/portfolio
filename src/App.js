@@ -17,6 +17,7 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 const App = () => {
   return (
     <React.Fragment>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
       <div className="container">
         <div className="row mb-3 text-center">
           <BootstrapNavbar />

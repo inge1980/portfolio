@@ -1,5 +1,6 @@
 import r1 from "../../img/react-movies.png";
 import r2 from "../../img/react-stackoverflow.png";
+import r4 from "../../img/react-nextjs-hooks.png";
 import a1 from "../../img/php-bootstrap-modal-ckeditor-inline-edit-news-field.png";
 import a2 from "../../img/bootstrap-double-menu.png";
 import a3 from "../../img/bootstrap-aspect-ratio.png";
@@ -13,8 +14,73 @@ import React from "react";
 
 const Projects = [
   {
+    id: 1,
+    category: "React 2022-2025",
+    data: [
+      {
+        id: 3,
+        title: "Portfolio lagd i React",
+        description: (
+          <React.Fragment>
+            Dette er siden du besøker nå. En portfolio over ting jeg har lagd,
+            og hvilke teknologier jeg har blitt kjent med gjennom sammenlagt 23
+            år med programmering.
+            <br />
+            <br />
+            Du se nærmere på koden ved å følge linken nedenfor.
+          </React.Fragment>
+        ),
+        code_link: "https://github.com/inge1980/portfolio/",
+      },
+      {
+        id: 2,
+        image: r2,
+        title: "Hente stackoverflow-informasjon via API",
+        description: (
+          <React.Fragment>
+            Jeg har gjennom årene vært aktiv på Stackoverflow. Her har jeg laget
+            et kakediagram over nøkkelord brukt av min bruker, hentet direkte
+            via API. Kan enkelt gjenbrukes av andre ved å endre brukerid.
+          </React.Fragment>
+        ),
+        demo_link: "https://inge1980.github.io/stackoverflow-tags/",
+        code_link: "https://github.com/inge1980/stackoverflow-tags/",
+      },
+      {
+        id: 4,
+        image: r4,
+        title: "Next.js hos vercel, og lek med hooks",
+        description: (
+          <React.Fragment>
+            Litt eksperimentering med Next.js, reponsive TailwindCSS navbar/meny, useLAyoutEffect, useState og custom hooks.
+          </React.Fragment>
+        ),
+        demo_link: "https://showcase-ivory.vercel.app/",
+        code_link: "https://github.com/inge1980/showcase/",
+      },
+      {
+        id: 1,
+        image: r1,
+        title: "Inge Movie DataBase (imdb)",
+        description: (
+          <React.Fragment>
+            Resultatet av et "Mastering React"-kurset jeg tok sommeren 2022.
+            <br />
+            <br />
+            Her er frontend-kunnskap fra kurset samlet og demonstrert i en og samme demo. Du
+            kan teste å lage ny, slette eller redigere, men ingenting er lagret
+            ved oppdatering av siden.
+          </React.Fragment>
+        ),
+        demo_link: "https://inge1980.github.io/movies/",
+        code_link: "https://github.com/inge1980/movies/",
+        readmore: "/portfolio/projects/imdb/",
+      },
+    ],
+  },
+  {
     id: 4,
-    category: "ERP systemer og nettbutikk 2022-2024",
+    category: "ERP-systemer og nettbutikk 2022-2024",
     data: [
       {
         id: 1,
@@ -36,7 +102,7 @@ const Projects = [
   },
   {
     id: 2,
-    category: "CMS for offentlig og private skoler 2013-2022",
+    category: "SaaS / CMS for offentlig og private skoler 2013-2022",
     data: [
       {
         id: 1,
@@ -57,62 +123,8 @@ const Projects = [
     ],
   },
   {
-    id: 1,
-    category: "React 2022",
-    data: [
-      {
-        id: 1,
-        image: r1,
-        title: "Inge Movie DataBase (imdb)",
-        description: (
-          <React.Fragment>
-            Resultatet av et "Mastering React"-kurset jeg tok sommeren 2022.
-            <br />
-            <br />
-            Her er all frontend fra kurset samlet og demonstrert i en demo. Du
-            kan teste å lage ny, slette eller redigere, men ingenting er lagret
-            ved oppdatering av siden.
-          </React.Fragment>
-        ),
-        demo_link: "https://inge1980.github.io/movies/",
-        code_link: "https://github.com/inge1980/movies/",
-        readmore: "/portfolio/projects/imdb/",
-      },
-      {
-        id: 2,
-        image: r2,
-        title: "Hente stackoverflow-informasjon via API",
-        description: (
-          <React.Fragment>
-            Jeg har gjennom årene vært aktiv på Stackoverflow. Her har jeg laget
-            et kakediagram over nøkkelord brukt av min bruker, hentet direkte
-            via API. Kan enkelt gjenbrukes av andre ved å endre brukerid.
-          </React.Fragment>
-        ),
-        demo_link: "https://inge1980.github.io/stackoverflow-tags/",
-        code_link: "https://github.com/inge1980/stackoverflow-tags/",
-      },
-
-      {
-        id: 3,
-        title: "Portfolio lagd i React",
-        description: (
-          <React.Fragment>
-            Dette er siden du besøker nå. En portfolio over ting jeg har lagd,
-            og hvilke teknologier jeg har blitt kjent med gjennom sammenlagt 23
-            år med programmering.
-            <br />
-            <br />
-            Du se nærmere på koden ved å følge linken nedenfor.
-          </React.Fragment>
-        ),
-        code_link: "https://github.com/inge1980/portfolio/",
-      },
-    ],
-  },
-  {
     id: 3,
-    category: "Andre hobbyprosjekter 2001-2024",
+    category: "Andre hobbyprosjekter 2001-2025",
     data: [
       {
         id: 1,
