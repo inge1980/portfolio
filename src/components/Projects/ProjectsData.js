@@ -24,7 +24,7 @@ const Projects = [
         image: r5,
         description: (
           <React.Fragment>
-            Drag'n'drop handleliste.
+            Her har jeg brukt RNGH 2 med Reanimated 3 for å få til en flytende drag'n'drop handleliste.
           </React.Fragment>
         ),
         readmore: "/portfolio/projects/shoppinglist/",
