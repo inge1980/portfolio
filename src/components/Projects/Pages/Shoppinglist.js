@@ -1,31 +1,34 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import videoNewsfield from "../../../vid/newsfield.mp4";
+import videoShoppinglist from "../../../vid/react-native-shoppinglist.mp4";
 
 
-const Newsfield = () => {
+const Shoppinglist = () => {
   return (
     <React.Fragment>
       <div className="container">
         <span id="nyhetsfelt"></span>
-        <h1 className="text-start">Nyhetsfelt</h1>
+        <h1 className="text-start">Handleliste-app i React Native</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
               <div className="card-body">
                 <div className="subpage_container w-100">
                   <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-9">
                       <p className="text-start">
-                      Her gjorde jeg det mulig å raskt legge til ny artikkel i nyhetsfelt via modalvindu uten å laste hele siden på nytt. 
-                      I stedet for å ta omveien innom et administrasjonspanelet, kunne man da redigere direkte via CKEditor, inkludert en knapp for å laste opp filer
-                      og en grei forhåndsvisning av artikkelen. Alt på samme plass bare et klikk unna, ned fra tidligere fem klikk.
+                      Her har jeg brukt react-native-gesture-handler versjon 2 og react-native-reanimated versjon 3 for å få til en flytende "dra og slipp"-opplevelse. 
+                      Trykk og hold nede ikonet til høyre for å dra en vare opp eller ned, alt skjer i UI-tråden, slik at vi unngår potensiell lagg via JS-tråden.
+                      <br/>
+                      <br/>
+                      Handlelisten lagres lokalt via SQLite, og synkroniseres ved hjelp av Redux til Supabase Postgres database når man er online. 
+                      Legg til nye varer via knapp, eller slett varer via swipe til venstre. Kildekoden er foreløpig privat på github, men utsnitt kan vises på oppfordring.
                       </p>
                     </div>
-                    <div className="col-md-9">
+                    <div className="col-md-3">
                       <video className="embed-responsive-item ratio ratio-1x1" controls autoplay muted>
-                        <source src={videoNewsfield} type="video/mp4" />
+                        <source src={videoShoppinglist} type="video/mp4" />
                         Beklager, nettleseren din støtter ikke video.
                       </video>
 
@@ -50,4 +53,4 @@ const Newsfield = () => {
   );
 };
 
-export default Newsfield;
+export default Shoppinglist;

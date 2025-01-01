@@ -1,6 +1,7 @@
 import r1 from "../../img/react-movies.png";
 import r2 from "../../img/react-stackoverflow.png";
 import r4 from "../../img/react-nextjs-hooks.png";
+import r5 from "../../img/react-native-shoppinglist.png";
 import a1 from "../../img/php-bootstrap-modal-ckeditor-inline-edit-news-field.png";
 import a2 from "../../img/bootstrap-double-menu.png";
 import a3 from "../../img/bootstrap-aspect-ratio.png";
@@ -17,6 +18,17 @@ const Projects = [
     id: 1,
     category: "React 2022-2025",
     data: [
+      {
+        id: 5,
+        title: "Handleliste-app i React Native",
+        image: r5,
+        description: (
+          <React.Fragment>
+            Drag'n'drop handleliste.
+          </React.Fragment>
+        ),
+        readmore: "/portfolio/projects/shoppinglist/",
+      },
       {
         id: 3,
         title: "Portfolio lagd i React",

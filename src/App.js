@@ -7,6 +7,7 @@ import Imdb from "./components/Projects/Pages/Imdb";
 import Moava from "./components/Projects/Pages/Moava";
 import Episteme from "./components/Projects/Pages/Episteme";
 import Newsfield from "./components/Projects/Pages/Newsfield";
+import Shoppinglist from "./components/Projects/Pages/Shoppinglist";
 import AllSkills from "./components/AllSkills/AllSkills";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -38,6 +39,10 @@ const App = () => {
             <Route
               path="/portfolio/projects/nyhetsfelt/"
               element={<Newsfield />}
+            ></Route>
+            <Route
+              path="/portfolio/projects/shoppinglist/"
+              element={<Shoppinglist />}
             ></Route>
             <Route path="/portfolio/skills/" element={<AllSkills />}></Route>
             <Route path="/portfolio/contact/" element={<Contact />}></Route>
