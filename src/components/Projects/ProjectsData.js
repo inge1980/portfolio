@@ -11,6 +11,8 @@ import a7 from "../../img/bootstrap-news-carousel.png";
 import a8 from "../../img/osedalen.png";
 import a9 from "../../img/javascript-1016-byte-game.png";
 import a10 from "../../img/perl-cgi-collection-of-jokes-need4sms.png";
+import m1 from "../../img/php-bootstrap-form-builder.png";
+
 import React from "react";
 
 const Projects = [
@@ -131,6 +133,14 @@ const Projects = [
           </React.Fragment>
         ),
         readmore: "/portfolio/projects/moava/",
+      },
+      {
+        id: 2,
+        image: m1,
+        title: "Skjemabygger",
+        description:
+          "Noe av det siste jeg gjorde hos Moava var å lage en GDPR-vennlig drag'n'drop skjemabygger i deres administrasjonssystem.",
+        readmore: "/portfolio/projects/skjemabygger/",
       },
     ],
   },
