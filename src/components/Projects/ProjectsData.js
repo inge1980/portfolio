@@ -12,6 +12,11 @@ import a8 from "../../img/osedalen.png";
 import a9 from "../../img/javascript-1016-byte-game.png";
 import a10 from "../../img/perl-cgi-collection-of-jokes-need4sms.png";
 import m1 from "../../img/php-bootstrap-form-builder.png";
+import e1 from "../../img/php-bootstrap-shoplet.png"; 
+import e2 from "../../img/php-bootstrap-order_admin_system.png"; 
+import e3 from "../../img/php-bootstrap-PIM_admin_system.png"; 
+import e4 from "../../img/php-bootstrap-kantine_adminsystem_1.png"; 
+import e5 from "../../img/php-bootstrap-kantine_adminsystem_2.png"; 
 
 import React from "react";
 
@@ -103,14 +108,65 @@ const Projects = [
           <React.Fragment>
             Gjennom 2 år med Episteme har jeg vært med på å videreutvikle et&nbsp; 
             <abbr title="Enterprise Resource Planning&#13;Programvare som støtter opp om et flertall av en bedrifts virksomhetsområder,&#13;som ordre, produksjon, lager, salg, innkjøp og økonomi.">ERP</abbr> system, 
-            samt redesign av admin frontend fra bunnen. Jeg redesignet også nettbutikken som tar i bruk nevnte ERP. 
+            samt å utvikle diverse administrasjonssystemer fra bunnen. Jeg redesignet også nettbutikken som tar i bruk nevnte ERP. 
             Jeg kan dessverre ikke gi noen kodeeksempler, da noe av dette er eid av Systemhuset Episteme AS, og noe er eid av diverse kunder, 
-            men jeg kan vise til noen nettsider som har kommet som resultat av tiden min hos Episteme.
+            men jeg kan vise til noen mer eller mindre sensurerte bilder som er produkt av tiden min hos Episteme.
             <br />
             <br />
           </React.Fragment>
         ),
         readmore: "/portfolio/projects/episteme/",
+      },
+      {
+        id: 2,
+        image: e1,
+        title: "Nettbutikk",
+        description:
+          "Nettbutikk og REST API for et cateringselskap.",
+        readmore: "/portfolio/projects/shoplet/",
+      },
+      {
+        id: 3,
+        image: e2,
+        title: "Ordreadministrasjon",
+        description: (
+          <React.Fragment>
+            Skilte ut eget ordresystem til et ordrekontor, fra et eksisterende&nbsp;
+            <abbr title="Enterprise Resource Planning&#13;Programvare som støtter opp om et flertall av en bedrifts virksomhetsområder,&#13;som ordre, produksjon, lager, salg, innkjøp og økonomi.">ERP</abbr>-system.
+            <br />
+            <br />
+          </React.Fragment>
+        ),
+        readmore: "/portfolio/projects/ordreadmin/",
+      },
+      {
+        id: 4,
+        image: e3,
+        title: "PIM",
+        description: (
+          <React.Fragment>
+            Videreutviklet et&nbsp;
+            <abbr title="Enterprise Resource Planning&#13;Programvare som støtter opp om et flertall av en bedrifts virksomhetsområder,&#13;som ordre, produksjon, lager, salg, innkjøp og økonomi.">ERP</abbr>-system til et&nbsp;
+            <abbr title="Product Information Management&#13;Sentral håndtering av produktinformasjon for nettbutikker, ERP-systemer, trykte kataloger og mer.">PIM</abbr>-system.
+            <br />
+            <br />
+          </React.Fragment>
+        ),
+        readmore: "/portfolio/projects/PIM/",
+      },
+      {
+        id: 5,
+        image: e4,
+        title: "Kantine",
+        description: (
+          <React.Fragment>
+            Kantinesystem med mulighet for flere avdelinger hvor ledere kan legge til brukere og bestille for hele avdelingen,
+            og enkeltbrukere kunne bestille mat for seg selv.
+            <br />
+            <br />
+          </React.Fragment>
+        ),
+        readmore: "/portfolio/projects/kantine/",
       },
     ],
   },
@@ -142,20 +198,28 @@ const Projects = [
           "Noe av det siste jeg gjorde hos Moava var å lage en GDPR-vennlig drag'n'drop skjemabygger i deres administrasjonssystem.",
         readmore: "/portfolio/projects/skjemabygger/",
       },
+      {
+        id: 3,
+        image: a1,
+        title: "Legg til artikkel i nyhetsfelt",
+        description:
+          "Her effektiviserte jeg redigering av nyhetsfelt modulen i et administrasjonssystem. Alt på samme plass bare et klikk unna, ned fra tidligere fem klikk.",
+        readmore: "/portfolio/projects/nyhetsfelt/",
+      },
+      {
+        id: 4,
+        image: a7,
+        title: "Bootstrap nyhetskarusell",
+        description:
+          'Her lagde jeg en nyhetskarusell som er brukt på mange av nettsidene til Norges skoler. Den fungerer like greit på både kinoskjermer og mobil uansett størrelsesforhold på bildet.',
+        demo_link: "https://alt.moava.org/index.php?pageID=23",
+      },
     ],
   },
   {
     id: 3,
     category: "Andre hobbyprosjekter 2001-2025",
     data: [
-      {
-        id: 1,
-        image: a1,
-        title: "Legg til artikkel i nyhetsfelt",
-        description:
-          "Her gjorde jeg det mulig å raskt legge til ny artikkel i nyhetsfelt via modalvindu uten å laste hele siden på nytt. I stedet for å ta omveien innom et administrasjonspanelet, kunne man da redigere direkte via CKEditor, inkludert en knapp for å laste opp filer og en grei forhåndsvisning av artikkelen. Alt på samme plass bare et klikk unna, ned fra tidligere fem klikk.",
-        readmore: "/portfolio/projects/nyhetsfelt/",
-      },
       {
         id: 2,
         image: a2,
@@ -191,14 +255,6 @@ const Projects = [
           "Hvis man har masse bilder strukturert i mapper og undermapper, så kan dette være en grei måte å vise frem strukturen. Ser like bra ut på mobil som på kinolerret.",
         //demo_link: "https://jsfiddle.net/turbopipp/0hsqLner/show",
         demoandcode_link: "https://jsfiddle.net/turbopipp/0hsqLner/",
-      },
-      {
-        id: 7,
-        image: a7,
-        title: "Bootstrap nyhetskarusell",
-        description:
-          'Denne nyhetskarusellen er brukt på mange av nettsidene til Norges skoler. Her kan administrator velge størrelsesforhold på en visningsrute og velge om å "holde bildet innenfor ruten" eller "la bildet fylle ruten". Dette gjør at det fungerer like greit på både kinoskjermer og mobil uansett størrelsesforhold på bildet.',
-        demo_link: "https://alt.moava.org/index.php?pageID=23",
       },
       {
         id: 8,

@@ -16,7 +16,7 @@ const Projects = () => {
               {projects.data.map((item, index) => {
                 const length = projects.data.length;
                 let width = length % 3 === 0 ? "width-33" : "width-25";
-                width = ( (projects.id === 2 && index === 0) || projects.id === 4) ? "width-100" : width;
+                width = ( (projects.id === 2 || projects.id === 4)  && index === 0) ? "width-100" : width;
                 let target = "_blank";
                 target = (projects.id === 3 && item.id === 1) ? "_self" : target;
                 return (

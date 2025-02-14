@@ -8,6 +8,10 @@ import Moava from "./components/Projects/Pages/Moava";
 import Episteme from "./components/Projects/Pages/Episteme";
 import Newsfield from "./components/Projects/Pages/Newsfield";
 import FormBuilder from "./components/Projects/Pages/FormBuilder";
+import Shoplet from "./components/Projects/Pages/Shoplet";
+import OrdreAdmin from "./components/Projects/Pages/OrdreAdmin";
+import PIM from "./components/Projects/Pages/PIM";
+import Kantine from "./components/Projects/Pages/Kantine";
 import Shoppinglist from "./components/Projects/Pages/Shoppinglist";
 import AllSkills from "./components/AllSkills/AllSkills";
 import Contact from "./components/Contact/Contact";
@@ -44,6 +48,22 @@ const App = () => {
             <Route
               path="/portfolio/projects/skjemabygger/"
               element={<FormBuilder />}
+            ></Route>
+            <Route
+              path="/portfolio/projects/shoplet/"
+              element={<Shoplet />}
+            ></Route>
+            <Route
+              path="/portfolio/projects/ordreadmin/"
+              element={<OrdreAdmin />}
+            ></Route>
+            <Route
+              path="/portfolio/projects/PIM/"
+              element={<PIM />}
+            ></Route>
+            <Route
+              path="/portfolio/projects/kantine/"
+              element={<Kantine />}
             ></Route>
             <Route
               path="/portfolio/projects/shoppinglist/"
