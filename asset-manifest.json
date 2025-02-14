@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5b9954d7.css",
-    "main.js": "/portfolio/static/js/main.e04016af.js",
+    "main.js": "/portfolio/static/js/main.7612a8f7.js",
     "static/media/form_builder.mp4": "/portfolio/static/media/form_builder.35ff4db84230b715a843.mp4",
     "static/media/newsfield.mp4": "/portfolio/static/media/newsfield.d1429c863049d7961bdc.mp4",
+    "static/media/php-bootstrap-shoplet.png": "/portfolio/static/media/php-bootstrap-shoplet.dba03421b2ba1cd3faf9.png",
     "static/media/shoplet_episteme.png": "/portfolio/static/media/shoplet_episteme.d83f3d8e819bb6ae2bef.png",
+    "static/media/php-bootstrap-order_admin_system.png": "/portfolio/static/media/php-bootstrap-order_admin_system.8395cda391eec77bf590.png",
     "static/media/react-native-shoppinglist.mp4": "/portfolio/static/media/react-native-shoppinglist.5da65448bf05ffa70274.mp4",
     "static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.png": "/portfolio/static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.237a9b3ce724a058207b.png",
     "static/media/bootstrap-aspect-ratio.png": "/portfolio/static/media/bootstrap-aspect-ratio.09528a21844b43d69e47.png",
@@ -19,13 +21,16 @@
     "static/media/php.png": "/portfolio/static/media/php.b6a2e04fa25c2ecf587c.png",
     "static/media/wcag.png": "/portfolio/static/media/wcag.ceb9757231abe4175ddf.png",
     "static/media/perl-cgi-collection-of-jokes-need4sms.png": "/portfolio/static/media/perl-cgi-collection-of-jokes-need4sms.526ee6616ef06217cc26.png",
+    "static/media/php-bootstrap-kantine_adminsystem_1.png": "/portfolio/static/media/php-bootstrap-kantine_adminsystem_1.a5cc41336f0c70cfcf63.png",
     "static/media/googledevtools.png": "/portfolio/static/media/googledevtools.4cb5680d9975b008efa3.png",
     "static/media/subversion.png": "/portfolio/static/media/subversion.bc60f4d0824d8ad8133c.png",
     "static/media/phpmyadmin.png": "/portfolio/static/media/phpmyadmin.b0a509d12e31726bf5a0.png",
+    "static/media/php-bootstrap-kantine_adminsystem_2.png": "/portfolio/static/media/php-bootstrap-kantine_adminsystem_2.943412bb2f3997bad6ea.png",
     "static/media/javascript-1016-byte-game.png": "/portfolio/static/media/javascript-1016-byte-game.44503df50c979e81a793.png",
     "static/media/skoler_moava.png": "/portfolio/static/media/skoler_moava.e5116d91533d2e3f31dd.png",
     "static/media/3dsmax.png": "/portfolio/static/media/3dsmax.80725268a016c930c9bc.png",
     "static/media/adobexd.png": "/portfolio/static/media/adobexd.ac07065d6ee6cf09903d.png",
+    "static/media/php-bootstrap-PIM_admin_system.png": "/portfolio/static/media/php-bootstrap-PIM_admin_system.dc4b19e78c85fd67ebd4.png",
     "static/media/perl.png": "/portfolio/static/media/perl.fac3b634197276737b31.png",
     "static/media/wampserver.png": "/portfolio/static/media/wampserver.d0561d7b407c713210c7.png",
     "static/media/bootstrap-double-menu.png": "/portfolio/static/media/bootstrap-double-menu.10516ac93c04052cbcc5.png",
@@ -110,10 +115,10 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/portfolio/static/media/roboto-greek-ext-400-normal.16eb83b4a3b1ea994243.woff",
     "index.html": "/portfolio/index.html",
     "main.5b9954d7.css.map": "/portfolio/static/css/main.5b9954d7.css.map",
-    "main.e04016af.js.map": "/portfolio/static/js/main.e04016af.js.map"
+    "main.7612a8f7.js.map": "/portfolio/static/js/main.7612a8f7.js.map"
   },
   "entrypoints": [
     "static/css/main.5b9954d7.css",
-    "static/js/main.e04016af.js"
+    "static/js/main.7612a8f7.js"
   ]
 }
