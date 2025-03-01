@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5b9954d7.css",
-    "main.js": "/portfolio/static/js/main.7612a8f7.js",
+    "main.css": "/portfolio/static/css/main.216fa26a.css",
+    "main.js": "/portfolio/static/js/main.da1bbb3e.js",
     "static/media/form_builder.mp4": "/portfolio/static/media/form_builder.35ff4db84230b715a843.mp4",
     "static/media/newsfield.mp4": "/portfolio/static/media/newsfield.d1429c863049d7961bdc.mp4",
     "static/media/php-bootstrap-shoplet.png": "/portfolio/static/media/php-bootstrap-shoplet.dba03421b2ba1cd3faf9.png",
@@ -19,10 +19,12 @@
     "static/media/author.png": "/portfolio/static/media/author.b3c637d020cfb8e341e5.png",
     "static/media/php-bootstrap-form-builder.png": "/portfolio/static/media/php-bootstrap-form-builder.e759d295729f455be7d9.png",
     "static/media/php.png": "/portfolio/static/media/php.b6a2e04fa25c2ecf587c.png",
+    "static/media/react-native-portfolio.png": "/portfolio/static/media/react-native-portfolio.bed5c350ff807b855041.png",
     "static/media/wcag.png": "/portfolio/static/media/wcag.ceb9757231abe4175ddf.png",
     "static/media/perl-cgi-collection-of-jokes-need4sms.png": "/portfolio/static/media/perl-cgi-collection-of-jokes-need4sms.526ee6616ef06217cc26.png",
     "static/media/php-bootstrap-kantine_adminsystem_1.png": "/portfolio/static/media/php-bootstrap-kantine_adminsystem_1.a5cc41336f0c70cfcf63.png",
     "static/media/googledevtools.png": "/portfolio/static/media/googledevtools.4cb5680d9975b008efa3.png",
+    "static/media/osedalen.png": "/portfolio/static/media/osedalen.d95640e9cb73803b68c7.png",
     "static/media/subversion.png": "/portfolio/static/media/subversion.bc60f4d0824d8ad8133c.png",
     "static/media/phpmyadmin.png": "/portfolio/static/media/phpmyadmin.b0a509d12e31726bf5a0.png",
     "static/media/php-bootstrap-kantine_adminsystem_2.png": "/portfolio/static/media/php-bootstrap-kantine_adminsystem_2.943412bb2f3997bad6ea.png",
@@ -38,6 +40,7 @@
     "static/media/ssms.png": "/portfolio/static/media/ssms.d9ce54e877316b37f59c.png",
     "static/media/photoshop.png": "/portfolio/static/media/photoshop.11ac0267fecfbd90e5f1.png",
     "static/media/react-native-shoppinglist.png": "/portfolio/static/media/react-native-shoppinglist.6f9a2e6711d94f245894.png",
+    "static/media/bootstrap-thumbnail-gallery.png": "/portfolio/static/media/bootstrap-thumbnail-gallery.0d98d4e553281286e283.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.1fc3d2e1a654ac337c14.png",
     "static/media/recaptcha.png": "/portfolio/static/media/recaptcha.1a8898156cd01cbd7af9.png",
     "static/media/backbone.png": "/portfolio/static/media/backbone.67ab47065cc6b4841e38.png",
@@ -45,7 +48,6 @@
     "static/media/ts.png": "/portfolio/static/media/ts.7bf1163047def332ddd9.png",
     "static/media/react-nextjs-hooks.png": "/portfolio/static/media/react-nextjs-hooks.658864cb1788d9497d56.png",
     "static/media/bootstrap-news-carousel.png": "/portfolio/static/media/bootstrap-news-carousel.d644e8b7070d6f29e4e2.png",
-    "static/media/bootstrap-thumbnail-gallery.png": "/portfolio/static/media/bootstrap-thumbnail-gallery.7fb20bc3c887f3a3e9f8.png",
     "static/media/underscore.png": "/portfolio/static/media/underscore.03593be96974889eb849.png",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.0825d7d8d5f656a8eb0a.png",
     "static/media/chartjs.png": "/portfolio/static/media/chartjs.b53cda545dd273764572.png",
@@ -60,6 +62,7 @@
     "static/media/roboto-latin-700-normal.woff": "/portfolio/static/media/roboto-latin-700-normal.9f6a16a7770c87b2042b.woff",
     "static/media/roboto-latin-500-normal.woff": "/portfolio/static/media/roboto-latin-500-normal.68d40d6d01c6f85d24ba.woff",
     "static/media/roboto-latin-400-normal.woff": "/portfolio/static/media/roboto-latin-400-normal.047a7839f69b209db815.woff",
+    "static/media/react-nextjs-hotel-booking.png": "/portfolio/static/media/react-nextjs-hotel-booking.313e3f02a106ee9c39b7.png",
     "static/media/roboto-cyrillic-ext-400-normal.woff2": "/portfolio/static/media/roboto-cyrillic-ext-400-normal.5cec61a21cc20180fbe1.woff2",
     "static/media/jquerymobile.png": "/portfolio/static/media/jquerymobile.f14be560ae20cac157a0.png",
     "static/media/roboto-cyrillic-ext-300-normal.woff2": "/portfolio/static/media/roboto-cyrillic-ext-300-normal.80947a31d23c70204b47.woff2",
@@ -114,11 +117,11 @@
     "static/media/roboto-greek-ext-300-normal.woff": "/portfolio/static/media/roboto-greek-ext-300-normal.b590dbe5c639944366d1.woff",
     "static/media/roboto-greek-ext-400-normal.woff": "/portfolio/static/media/roboto-greek-ext-400-normal.16eb83b4a3b1ea994243.woff",
     "index.html": "/portfolio/index.html",
-    "main.5b9954d7.css.map": "/portfolio/static/css/main.5b9954d7.css.map",
-    "main.7612a8f7.js.map": "/portfolio/static/js/main.7612a8f7.js.map"
+    "main.216fa26a.css.map": "/portfolio/static/css/main.216fa26a.css.map",
+    "main.da1bbb3e.js.map": "/portfolio/static/js/main.da1bbb3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b9954d7.css",
-    "static/js/main.7612a8f7.js"
+    "static/css/main.216fa26a.css",
+    "static/js/main.da1bbb3e.js"
   ]
 }
