@@ -2,8 +2,8 @@ const Episteme = [
   {
     id: 1,
     text: "Nettbutikk designet av Episteme, som tar i bruk ERP systemet.",
-    linktext: "https://romerikecatering.no/",
-    link: "https://romerikecatering.no/no-no/tapas",
+    linktext: "https://shoplet.flytcatering.no/",
+    link: "https://shoplet.flytcatering.no/",
   },
   {
     id: 2,
