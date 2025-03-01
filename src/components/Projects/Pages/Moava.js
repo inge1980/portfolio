@@ -18,13 +18,10 @@ const Moava = () => {
                   <div className="row">
                     <div className="col-md-6">
                       <p className="text-start">
-                        Hos min tidligere arbeidsgiver var jeg med på å lage et
-                        omfattende administrativt system, også kalt CMS. Da all
-                        koden er eiendom av Moava AS, har jeg istedet valgt å
-                        samle linker til endel skoler i område. Disse skolene
-                        bruker Moavas CMS til å publisere nyheter og
-                        informasjon, men også andre nyttige ting som kan
-                        forenkle en lærers digitale hverdag.
+                        Hos min tidligere arbeidsgiver var jeg med på å videreutvikle et
+                        omfattende administrativt system, også kalt <abbr title="Content Management System&#13;System som lar deg opprette og redigere innhold på nettsider, intranett og nettbutikker.">CMS</abbr>. 
+                        Jeg har samlet endel lenker til skoler i mitt nærområde som bruker Moavas CMS til å publisere nyheter og
+                        informasjon, men jeg kan dessverre ikke lenke til administrasjonsdelen som har nyttige verktøy som forenkler en lærers digitale hverdag, da <abbr title="Software as a service&#13;Skybasert løsning som gir brukere tilgang til programvareapplikasjoner uten behov for å installere eller vedlikeholde programvaren.">SaaS</abbr> produktet er eiendom av Moava AS.
                       </p>
                     </div>
                     <div className="col-md-6">

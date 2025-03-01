@@ -2,6 +2,8 @@ import r1 from "../../img/react-movies.png";
 import r2 from "../../img/react-stackoverflow.png";
 import r4 from "../../img/react-nextjs-hooks.png";
 import r5 from "../../img/react-native-shoppinglist.png";
+import r6 from "../../img/react-native-portfolio.png";
+import r7 from "../../img/react-nextjs-hotel-booking.png";
 import a1 from "../../img/php-bootstrap-modal-ckeditor-inline-edit-news-field.png";
 import a2 from "../../img/bootstrap-double-menu.png";
 import a3 from "../../img/bootstrap-aspect-ratio.png";
@@ -23,30 +25,29 @@ import React from "react";
 const Projects = [
   {
     id: 1,
-    category: "React 2022-2025",
+    category: "React og React Native 2022-2025",
     data: [
       {
         id: 5,
-        title: "Handleliste-app i React Native",
+        title: "Mobil app i React Native",
         image: r5,
         description: (
           <React.Fragment>
-            Her har jeg brukt RNGH 2 med Reanimated 3 for å få til en flytende drag'n'drop handleliste.
+            Her har jeg brukt <abbr title="React Native Gesture Handler (versjon 2.x)&#13;Bibliotek for å forenkle måten man får tilgang til plattformens egne berørings- og bevegelsessystem.">RNGH 2</abbr> med <abbr title="React Native Reanimated (versjon 3.x)&#13;Animasjonsbibliotek for å lage animasjoner via UI-tråden.&#13;(i motsetning til JS-tråden som kan forårsake forsinkelser eller hakking)">Reanimated 3</abbr> for 
+            å få til en jevn drag'n'drop animasjon uten potensiell hakking.
           </React.Fragment>
         ),
         readmore: "/portfolio/projects/shoppinglist/",
       },
       {
         id: 3,
-        title: "Portfolio lagd i React",
+        image: r6,
+        title: "Portfolio",
         description: (
           <React.Fragment>
-            Dette er siden du besøker nå. En portfolio over ting jeg har lagd,
+            Denne siden du besøker nå. En portfolio over ting jeg har lagd,
             og hvilke teknologier jeg har blitt kjent med gjennom sammenlagt 23
-            år med programmering.
-            <br />
-            <br />
-            Du se nærmere på koden ved å følge linken nedenfor.
+            år med programmering. Du kan se nærmere på koden ved å følge linken nedenfor.
           </React.Fragment>
         ),
         code_link: "https://github.com/inge1980/portfolio/",
@@ -54,16 +55,27 @@ const Projects = [
       {
         id: 2,
         image: r2,
-        title: "Hente stackoverflow-informasjon via API",
+        title: "Stackoverflow-API til kakediagram",
         description: (
           <React.Fragment>
-            Jeg har gjennom årene vært aktiv på Stackoverflow. Her har jeg laget
-            et kakediagram over nøkkelord brukt av min bruker, hentet direkte
-            via API. Kan enkelt gjenbrukes av andre ved å endre brukerid.
+            Jeg har gjennom årene vært aktiv på Stackoverflow. Kakediagram over de mest brukte nøkkelordene til min bruker, hentet direkte
+            via API, som enkelt kan gjenbrukes av andre ved å endre brukerid.
           </React.Fragment>
         ),
         demo_link: "https://inge1980.github.io/stackoverflow-tags/",
         code_link: "https://github.com/inge1980/stackoverflow-tags/",
+      },
+      {
+        id: 6,
+        image: r7,
+        title: "Hotell booking",
+        description: (
+          <React.Fragment>
+            Booking-modul bygd på Next.js og Material UI med fokus på validering av feltene.
+          </React.Fragment>
+        ),
+        demo_link: "https://showcase-ivory.vercel.app/",
+        code_link: "https://github.com/inge1980/showcase/",
       },
       {
         id: 4,
@@ -71,7 +83,7 @@ const Projects = [
         title: "Next.js hos vercel, og lek med hooks",
         description: (
           <React.Fragment>
-            Litt eksperimentering med Next.js, reponsive TailwindCSS navbar/meny, useLAyoutEffect, useState og custom hooks.
+            Min første titt på Next.js og reponsive TailwindCSS navbar/meny. Og litt demonstrasjon av useLAyoutEffect, useState og custom hooks.
           </React.Fragment>
         ),
         demo_link: "https://showcase-ivory.vercel.app/",
@@ -83,12 +95,7 @@ const Projects = [
         title: "Inge Movie DataBase (imdb)",
         description: (
           <React.Fragment>
-            Resultatet av et "Mastering React"-kurset jeg tok sommeren 2022.
-            <br />
-            <br />
-            Her er frontend-kunnskap fra kurset samlet og demonstrert i en og samme demo. Du
-            kan teste å lage ny, slette eller redigere, men ingenting er lagret
-            ved oppdatering av siden.
+            Her er frontend-kunnskapen fra "Mastering React"-kurset jeg tok sommeren 2022 samlet og demonstrert i en og samme nettside.
           </React.Fragment>
         ),
         demo_link: "https://inge1980.github.io/movies/",
@@ -106,12 +113,9 @@ const Projects = [
         title: "Episteme: IIS, PHP, MSSQL, SSMS, Javascript, HTML/CSS",
         description: (
           <React.Fragment>
-            Gjennom 2 år med Episteme har jeg vært med på å videreutvikle et&nbsp; 
+            Gjennom 2 år med Episteme har jeg videreutviklet et&nbsp; 
             <abbr title="Enterprise Resource Planning&#13;Programvare som støtter opp om et flertall av en bedrifts virksomhetsområder,&#13;som ordre, produksjon, lager, salg, innkjøp og økonomi.">ERP</abbr> system, 
-            samt å utvikle diverse administrasjonssystemer fra bunnen. Jeg redesignet også nettbutikken som tar i bruk nevnte ERP. 
-            Jeg kan dessverre ikke gi noen kodeeksempler, da noe av dette er eid av Systemhuset Episteme AS, og noe er eid av diverse kunder, 
-            men jeg kan vise til noen mer eller mindre sensurerte bilder som er produkt av tiden min hos Episteme.
-            <br />
+            samt utviklet diverse administrasjonssystemer fra bunnen. Jeg redesignet også nettbutikken som tar i bruk nevnte ERP.
             <br />
           </React.Fragment>
         ),
@@ -179,12 +183,8 @@ const Projects = [
         title: "Moava: WAMP, PHP, MySQL, phpMyAdmin, Javascript, HTML/CSS",
         description: (
           <React.Fragment>
-            I løpet av 9 år var jeg med på å videreutvikle eget CMS hos Moava som nå
-            er i bruk hos omtrent halvparten av skolene i Norge. Jeg redesignet også frontend for et mer moderne utseende og for å støtte mobilvisning. Jeg kan dessverre ikke gi
-            noen kodeeksempler, da <abbr title="Software as a service&#13;Skybasert løsning som gir brukere tilgang til programvareapplikasjoner uten behov for å installere eller vedlikeholde programvaren.">SaaS</abbr> produktet er eiendom av Moava AS, men jeg kan
-            vise frem noen nettsider hvor dette CMS-et er i bruk. Her er et
-            utvalg av skoler i området nær meg.
-            <br />
+            I løpet av 9 år var jeg med på å videreutvikle eget <abbr title="Content Management System&#13;System som lar deg opprette og redigere innhold på nettsider, intranett og nettbutikker.">CMS</abbr> hos Moava AS, 
+            som den gang var i bruk hos omtrent halvparten av skolene i Norge. Jeg redesignet også frontend til et mer moderne utseende og for å støtte mobilvisning.
             <br />
           </React.Fragment>
         ),
@@ -195,7 +195,7 @@ const Projects = [
         image: m1,
         title: "Skjemabygger",
         description:
-          "Noe av det siste jeg gjorde hos Moava var å lage en GDPR-vennlig drag'n'drop skjemabygger i deres administrasjonssystem.",
+          "Noe av det siste jeg gjorde som ansatt i Moava AS var å kode en GDPR-vennlig drag'n'drop skjemabygger til deres administrasjonssystem.",
         readmore: "/portfolio/projects/skjemabygger/",
       },
       {
@@ -203,7 +203,7 @@ const Projects = [
         image: a1,
         title: "Legg til artikkel i nyhetsfelt",
         description:
-          "Her effektiviserte jeg redigering av nyhetsfelt modulen i et administrasjonssystem. Alt på samme plass bare et klikk unna, ned fra tidligere fem klikk.",
+          "Her effektiviserte jeg redigering av nyhetsfelt modulen i et administrasjonssystem. Tilgjengelig bare et klikk unna, ned fra tidligere fem klikk.",
         readmore: "/portfolio/projects/nyhetsfelt/",
       },
       {
@@ -211,30 +211,30 @@ const Projects = [
         image: a7,
         title: "Bootstrap nyhetskarusell",
         description:
-          'Her lagde jeg en nyhetskarusell som er brukt på mange av nettsidene til Norges skoler. Den fungerer like greit på både kinoskjermer og mobil uansett størrelsesforhold på bildet.',
+          'Nyhetskarusell som er brukt på mange av nettsidene til Norges skoler. Funksjonell på både mobil og pc uansett størrelsesforhold på bildet.',
         demo_link: "https://alt.moava.org/index.php?pageID=23",
       },
     ],
   },
   {
     id: 3,
-    category: "Andre hobbyprosjekter 2001-2025",
+    category: "Diverse andre hobbyprosjekter 2001-2025",
     data: [
       {
         id: 2,
         image: a2,
-        title: "Bootstrap meny og sidemeny med trestruktur",
+        title: "2x mobilmenyer",
         description:
-          "Her kan man bruke to menyer samtidig. Perfekt for nettsider med kompleks struktur som vil se bra ut på mobil, eller bare hvis man trenger to separate menyer.",
+          'Sidemeny med trestruktur, og en vanlig Bootstrap "hamburger"-meny samtidig. Kompleks struktur i menyer som også ser bra ut på mobil.',
         //demo_link: "https://jsfiddle.net/turbopipp/6qw4075d/show/",
         demoandcode_link: "https://jsfiddle.net/turbopipp/6qw4075d/",
       },
       {
         id: 3,
         image: a3,
-        title: "CSS-lek med størrelsesforhold og skjermbredde",
+        title: "Størrelsesforhold og skjermbredde",
         description:
-          "Her er oppskriften på hvordan man kan beholde størrelsesforhold på videoer selv om bredden på skjermen blir mindre enn bredden på videoen.",
+          "Hvordan beholde størrelsesforhold på videoer selv om bredden på skjermen endres.",
         //demo_link: "https://jsfiddle.net/turbopipp/r1vfekku/show/",
         demoandcode_link: "https://jsfiddle.net/turbopipp/r1vfekku/",
       },
@@ -243,7 +243,7 @@ const Projects = [
         image: a5,
         title: "Javascript-lasting av bilder i bakgrunnen",
         description:
-          "Dette javascriptet er greit å bruke i tilfeller der man ønsker å laste bilder ferdig før man begynner å vise dem. Man kan f.eks. laste forstørret bilde av et produkt i bakgrunnen før brukeren klikker på forstørrelsesglasset. På den måten kan vi vise siden raskt, og bruke de sekundene før brukeren klikker sitt neste klikk til å laste bilde(r) i bakgrunnen.",
+          'Javascript-eksempel av "preloading", i de tilfellene hvor man ønsker å laste bilder ferdig i bakgrunnen før man begynner å vise dem. Nyttig om man f.eks. har bilder man vet straks skal vises, og vil spare brukeren for verdifulle sekunder ved sitt neste klikk.',
         //demo_link: "https://jsfiddle.net/turbopipp/fdegf1Lh/show/",
         demoandcode_link: "https://jsfiddle.net/turbopipp/fdegf1Lh/",
       },
@@ -252,7 +252,7 @@ const Projects = [
         image: a6,
         title: "Bootstrap mappegalleri",
         description:
-          "Hvis man har masse bilder strukturert i mapper og undermapper, så kan dette være en grei måte å vise frem strukturen. Ser like bra ut på mobil som på kinolerret.",
+          "Oversiktlig visning av bilder i mapper og undermapper. Fungerer like bra på mobil som på kinolerret.",
         //demo_link: "https://jsfiddle.net/turbopipp/0hsqLner/show",
         demoandcode_link: "https://jsfiddle.net/turbopipp/0hsqLner/",
       },
@@ -269,7 +269,7 @@ const Projects = [
         image: a9,
         title: "Konkurranse i 2012: Javascript-spill på under 1024 byte",
         description:
-          'Tilbake i 2012 før Valentines prøvde jeg meg i en konkurranse for å lage et primitivt javascript-spill på under 1 kilobyte. Jeg vant ikke, men det var gøy å lære litt om hvordan canvas fungerte. I spillet er poeng til venstre, og antall liv til høyre, og "Cupid" skulle prøve å treffe så mange hjerter som mulig før de fryser til is. Beregnet kun for pc, og pilen følger musepekeren.',
+          'Javascript konkurranse for å lage et primitivt javascript-spill på under 1 kilobyte i 2012. I spillet er poeng til venstre, og antall liv til høyre, og "Cupid" skulle prøve å treffe så mange hjerter som mulig før de fryser til is. Beregnet kun for pc, og pilen følger musepekeren.',
         demo_link: "https://js1k.com/2012-love/demo/1269/",
         code_link: "https://js1k.com/2012-love/details/1269/",
         //readmore: "/portfolio/projects/js1k",
@@ -279,9 +279,9 @@ const Projects = [
         image: a10,
         title: "Søkbart arkiv over sms-vitser",
         description:
-          "I perioden før MMS ble populært, lagde jeg og drev denne nettsiden fra 2001-2003. På den tiden var det SMS-vitser og “Dynamiske SMS” som gjaldt. Det var over 10 000 unike besøkende innom hver måned, og på den tiden et av Norges største gratis søkbare sms-arkiv med over 1100 kategoriserte vitser, flørter og dynamiske SMS. Besøkende sendte inn forslag, og alt jeg trengte å gjøre i adminpanelet var å evt. redigere og godkjenne før publisering. Nettsiden er ikke mer, men en auto-kopi fra 2003 finnes i “Internet Archive WayBackMachine”.",
+          "I perioden før MMS ble populært, lagde jeg og drev denne nettsiden fra 2001-2004. På den tiden hadde siden over 10 000 unike besøkende innom hver måned, og var et av Norges største gratis søkbare sms-arkiv med over 1100 kategoriserte vitser, flørter og dynamiske SMS. Besøkende sendte inn forslag, og jeg godkjente via et adminpanel. Nettsiden finnes ikke mer, men en auto-kopi fra 2004 finnes i “Internet Archive WayBackMachine”.",
         demo_link:
-          "https://web.archive.org/web/20030608184834/http://www.need4sms.com/",
+          "https://web.archive.org/web/20040526200014/http://need4sms.com:80/",
       },
     ],
   },

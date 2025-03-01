@@ -18,12 +18,12 @@ const Shoppinglist = () => {
                   <div className="row">
                     <div className="col-md-9">
                       <p className="text-start">
-                      Her har jeg brukt react-native-gesture-handler versjon 2 og react-native-reanimated versjon 3 for å få til en flytende "dra og slipp"-opplevelse. 
-                      Trykk og hold nede ikonet til høyre for å dra en vare opp eller ned, alt skjer i UI-tråden, slik at vi unngår potensiell lagg via JS-tråden.
-                      <br/>
-                      <br/>
-                      Handlelisten lagres lokalt via SQLite, og synkroniseres ved hjelp av Redux til Supabase Postgres database når man er online. 
-                      Legg til nye varer via knapp, eller slett varer via swipe til venstre. Kildekoden er foreløpig privat på github, men utsnitt kan vises på oppfordring.
+                        Her har jeg brukt <abbr title="React Native Gesture Handler (versjon 2.x)&#13;Bibliotek for å forenkle måten man får tilgang til plattformens egne berørings- og bevegelsessystem.">react-native-gesture-handler versjon 2</abbr> og <abbr title="React Native Reanimated (versjon 3.x)&#13;Animasjonsbibliotek for å lage animasjoner via UI-tråden.&#13;(i motsetning til JS-tråden som kan forårsake forsinkelser eller hakking)">react-native-reanimated versjon 3</abbr> for å få til en jevn "dra og slipp"-opplevelse.<br/>
+                        <br/>
+                        Man kan trykke og holde nede ikonet til høyre for å dra en vare opp eller ned, og alt skjer i UI-tråden slik at vi unngår potensiell hakking pga blokkeringer i Javascript-tråden.
+                        Det er også mulig å legge til nye varer via godt synlig knapp lett tilgjengelig via et tommeltrykk, eller slette varer via swipe til venstre. 
+                        Handlelisten lagres lokalt via SQLite, og synkroniseres ved hjelp av Redux til Supabase Postgres database når man er online. Dette er en offline-first app, hvor Redux state fungerer som systemets <abbr title="Single Source of Truth&#13;Sikrer at koden vi utvikler har en sentral, korrekt og oppdatert informasjonskilde.">SSOT</abbr>, og dataene blir hentet enten fra SQLite eller Supabase, basert på tilkoblingsstatus.
+                        Kildekoden er foreløpig privat på github, men utsnitt kan vises på oppfordring.
                       </p>
                     </div>
                     <div className="col-md-3">

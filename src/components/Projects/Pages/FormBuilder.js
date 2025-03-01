@@ -18,7 +18,7 @@ const FormBuilder = () => {
                   <div className="row">
                     <div className="col-md-3">
                       <p className="text-start">
-                      Da jeg jobber hos Moava lagde jeg en skjemabygger i deres administrasjonssystem. Her kunne du starte med å velge 
+                      Da jeg jobber hos Moava AS kodet jeg en skjemabygger til deres administrasjonssystem. Her kunne du starte med å velge 
                       blant mange maler, deretter redigere eller duplikere hvert enkelt felt inline. Man kunne organisere feltene via drag'n'drop, og 
                       felt med ulagrede endringer ble markert med svak rødfarge. For å overholde GDPR-regler ble det lagt inn tidsbegrensing på hvor 
                       lenge dataene ble lagret på bedriftens servere, og kunden fikk mulighet til å se innsendte resultater per skjema, kunne svare 

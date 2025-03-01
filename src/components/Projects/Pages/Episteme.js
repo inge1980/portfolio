@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import MoavaData from "./EpistemeData";
+import EpistemeData from "./EpistemeData";
 import shoplet from "../../../img/shoplet_episteme.png";
 
 const Episteme = () => {
@@ -33,7 +33,7 @@ const Episteme = () => {
                     </div>
                     <div className="col-md-12">
                       <ul className="list-group text-start">
-                        {MoavaData.map((item, index) => {
+                        {EpistemeData.map((item, index) => {
                           return (
                             <React.Fragment>
                               <li className="list-group-item">

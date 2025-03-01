@@ -16,9 +16,9 @@ const Shoplet = () => {
               <div className="card-body">
                 <div className="subpage_container w-100">
                   <div className="row">
-                  <div className="col-md-8">
+                    <div className="col-md-8">
                       <p className="text-start">
-                        Hos Systemhuset Episteme AS redesignet jeg en nettbutikk tilpasset mobilbruk, og var med på å utvikle REST API som også ble tatt i bruk her. All kode er dessverre firmaets eller kunders eiendom, så derfor kan jeg bare vise til dette bilde.
+                        Hos Systemhuset Episteme AS redesignet jeg <a href="https://shoplet.flytcatering.no/" target="_blank" alt="Nettbutikk designet av Episteme, som tar i bruk ERP systemet.">en nettbutikk tilpasset mobilbruk</a>, og var med på å utvikle REST API som også ble tatt i bruk her. Nettsiden blir ikke lengre vedlikeholdt, da dette kun var en midlertidig løsning i overgangen til REST API, men ta gjerne en titt via lenken. All kode er dessverre firmaets eller kunders eiendom. 
                       </p>
                     </div>
                     <div className="col-md-4">

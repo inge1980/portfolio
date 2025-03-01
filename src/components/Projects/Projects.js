@@ -8,15 +8,16 @@ const Projects = () => {
   return (
     <React.Fragment>
       {ProjectsData.map((projects) => {
-        return (
+          let hasMain = (projects.id === 2 || projects.id === 4) ? true : false;
+          return (
           <div key={projects.id} className="container">
             <span id={`projects_${projects.id}`}></span>
             <h1 className="text-start">{projects.category}</h1>
             <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-3">
               {projects.data.map((item, index) => {
                 const length = projects.data.length;
-                let width = length % 3 === 0 ? "width-33" : "width-25";
-                width = ( (projects.id === 2 || projects.id === 4)  && index === 0) ? "width-100" : width;
+                let width = ( ((length % 3 === 0) && !hasMain) || (((length - 1) % 3 === 0) && hasMain) ) ? "width-33" : "width-25";
+                width = ( hasMain && index === 0) ? "width-100" : width;
                 let target = "_blank";
                 target = (projects.id === 3 && item.id === 1) ? "_self" : target;
                 return (

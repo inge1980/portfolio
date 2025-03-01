@@ -46,3 +46,8 @@ div.card-footer {
 #projects_2, #projects_3, #projects_4 {
     padding-top: 20px;
 }
+@media screen and (min-width: 992px) {
+    #projects_2, #projects_3, #projects_4 {
+        padding-top: 150px;
+    }
+}
