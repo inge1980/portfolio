@@ -218,7 +218,7 @@ const Projects = [
   },
   {
     id: 3,
-    category: "Diverse andre hobbyprosjekter 2001-2025",
+    category: "Diverse eldre hobbyprosjekter 2001-2018",
     data: [
       {
         id: 2,
