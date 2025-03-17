@@ -2,6 +2,7 @@ import React from "react";
 import BootstrapNavbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
 import Projects from "./components/Projects/Projects";
+import Projects2 from "./components/Projects/ProjectsAll-in-one";
 //import Js1k from "./components/Projects/Pages/Js1k";
 import Imdb from "./components/Projects/Pages/Imdb";
 import Moava from "./components/Projects/Pages/Moava";
@@ -31,6 +32,7 @@ const App = () => {
           <Routes>
             <Route path="/portfolio/" element={<Intro />}></Route>
             <Route path="/portfolio/projects/" element={<Projects />}></Route>
+            <Route path="/portfolio/projects2/" element={<Projects2 />}></Route>
             {/*<Route path="/portfolio/projects/js1k/" element={<Js1k />}></Route>*/}
             <Route path="/portfolio/projects/imdb/" element={<Imdb />}></Route>
             <Route

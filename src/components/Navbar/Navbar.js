@@ -41,6 +41,11 @@ class BootstrapNavbar extends Component {
                   Prosjekter
                 </Nav.Link>
               </LinkContainer>
+{/*               <LinkContainer to="/portfolio/projects2/">
+                <Nav.Link href="#projects_2" onClick={this.handleClose}>
+                  Prosjekter2
+                </Nav.Link>
+              </LinkContainer> */}
               <LinkContainer to="/portfolio/skills/">
                 <Nav.Link href="#skills" onClick={this.handleClose}>
                   Ferdigheter
