@@ -74,8 +74,8 @@ const Projects = [
             Booking-modul bygd på Next.js og Material UI med fokus på validering av feltene.
           </React.Fragment>
         ),
-        demo_link: "https://showcase-ivory.vercel.app/",
-        code_link: "https://github.com/inge1980/showcase/",
+        demo_link: "https://hotel-booking-case-2024-improved.vercel.app/",
+        code_link: "https://github.com/inge1980/hotel_booking_case_2024_improved",
       },
       {
         id: 4,

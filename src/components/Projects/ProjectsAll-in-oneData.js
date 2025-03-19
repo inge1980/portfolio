@@ -28,13 +28,14 @@ const Projects = [
       {
         company: "Episteme AS",
         role: "Fullstack- og frontend-utvikler",
-        period: "2022-2025",
+        periodstart: "2022",
+        periodend: "2025",
         description:
           "Arbeidet med utvikling og forbedring av systemer innen e-handel, ERP og kantineløsninger.",
         projects: [
           {
             title: "Mobilvennlig nettbutikk & API",
-            image: r5,
+            image: e1,
             description: (
               <>
                 Redesignet nettbutikk for mobilbruk, implementert{" "}
@@ -45,51 +46,48 @@ const Projects = [
               </>
             ),
             links: [
-              { text: "Les mer", url: "/portfolio/projects/shoppinglist/" },
-              {
-                text: "Demo",
-                url: "https://inge1980.github.io/stackoverflow-tags/",
-              },
-              {
-                text: "Kode",
-                url: "https://github.com/inge1980/stackoverflow-tags/",
-              },
-              {
-                text: "Demo og kode",
-                url: "https://jsfiddle.net/turbopipp/0hsqLner/",
-              },
+              { text: "Les mer", url: "/portfolio/projects/shoplet/" },
             ],
           },
           {
             title: "Tilpasset ordresystem & ERP-integrasjon",
-            image: r5,
+            image: e2,
             description:
               "Designet og utviklet et spesialtilpasset ordresystem som forbedret brukergrensesnitt og optimaliserte ERP-integrasjonen.",
+            links: [
+              { text: "Les mer", url: "/portfolio/projects/ordreadmin/" },
+            ],
           },
           {
             title: "PIM-integrasjon i ERP",
-            image: r5,
+            image: e3,
             description:
               "Designet, utviklet og integrerte et PIM-system til eksisterende ERP, og forbedret produktinformasjonshåndtering og synkronisering på tvers av plattformer.",
+            links: [
+              { text: "Les mer", url: "/portfolio/projects/PIM/" },
+            ],
           },
           {
             title: "ERP Videreutvikling & Serveradministrasjon",
-            image: r5,
             description:
               "Optimaliserte ERP-systemets ytelse og sikkerhet, og forbedret integrasjonen med nettbutikken.",
           },
           {
             title: "Kantinesystem med ERP-integrasjon",
-            image: r5,
+            image: e5,
             description:
               "Designet og utviklet et kantinesystem med avdelingsbestilling, integrert med ERP for effektiv lagerstyring.",
+            links: [
+              { text: "Les mer", url: "/portfolio/projects/kantine/" },
+            ],
           },
         ],
       },
       {
         company: "Moava AS",
-        role: "Fullstack-utvikler (CMS & webapplikasjoner)",
-        period: "2013-2022",
+        role: "Fullstack-utvikler",
+        periodstart: "2013",
+        periodend: "2022",
         description:
           "Utviklet og forbedret Moava sitt CMS, med fokus på UX, responsivt design og automatisering.",
         projects: [
@@ -100,11 +98,18 @@ const Projects = [
           },
           {
             title: "Nyhetskarusell med video",
+            image: a7,
             description:
               "Utviklet en ny nyhetskarusell-modul som brukte eksisterende innhold fra nyhetsfeltet, og la til støtte for videoavspilling for økt visuell dynamikk.",
+            links: [
+              {
+                text: "Demo",
+                url: "https://alt.moava.org/index.php?pageID=23",
+              },
+            ],
           },
           {
-            title: "UI/UX-forbedringer i IKTplan.no",
+            title: "UI/UX-forbedringer i IKTplan.no (2018)",
             description:
               "Brukertesting og UI/UX-forbedringer i IKTplan.no, slik at lærere fikk en mer oversiktlig tilgang til læreplanen.",
           },
@@ -115,18 +120,33 @@ const Projects = [
           },
           {
             title: "Fleksibel dobbel mobilmeny",
+            image: a2,
             description:
               "Designet og utviklet en responsiv mobilmeny med fleksibel navigasjon og støtte for flere visningsmoduser.",
+            links: [
+              {
+                text: "Demo og kode",
+                url: "https://jsfiddle.net/turbopipp/6qw4075d/",
+              },
+            ],
           },
           {
             title: "Effektivisering av artikkelredigering",
+            image: a1,
             description:
               "Reduserte antall klikk i CMS-redigering fra fem til ett.",
+            links: [
+              { text: "Les mer", url: "/portfolio/projects/nyhetsfelt/" },
+            ],
           },
           {
-            title: "GDPR-vennlig drag’n’drop skjemabygger",
+            title: "GDPR-vennlig drag'n'drop skjemabygger",
+            image: m1,
             description:
               "Lagde en fleksibel skjemabygger med automatisert sletting av sensitive data.",
+            links: [
+              { text: "Les mer", url: "/portfolio/projects/skjemabygger/" },
+            ],
           },
           {
             title: "Eksport & sammenslåing av skjemadata",
@@ -153,12 +173,17 @@ const Projects = [
     sections: [
       {
         title: "React Native: Mobilapper",
-        period: "2024-2025",
+        periodstart: "2024",
+        periodend: "2025",
         projects: [
           {
             title: "Dynamiske drag'n'drop lister",
+            image: r5,
             description:
               "Utviklet en app med dynamisk drag'n'drop listehåndtering og støtte for flere hierarkiske nivåer.",
+            links: [
+              { text: "Les mer", url: "/portfolio/projects/shoppinglist/" },
+            ],
           },
           {
             title: "Avansert kalkulator med PEMDAS-støtte",
@@ -169,64 +194,138 @@ const Projects = [
       },
       {
         title: "React: Eksperimentering med nye teknologier",
-        period: "2022-2025",
+        periodstart: "2022",
+        periodend: "2025",
         projects: [
           {
             title: "Eksperimentering med Next.js & hooks",
+            image: r4,
             description: "Testing av Next.js-hosting og hooks-optimalisering.",
+            links: [
+              {
+                text: "Demo",
+                url: "https://showcase-ivory.vercel.app/",
+              },
+              {
+                text: "Kode",
+                url: "https://github.com/inge1980/showcase/",
+              },
+            ],
           },
           {
             title: "Simulert hotellbookingsystem",
+            image: r7,
             description:
               "Utviklet et hotellreservasjonssystem med validering og automatisering av skjemaer for bedre brukeropplevelse.",
+            links: [
+              {
+                text: "Demo",
+                url: "https://hotel-booking-case-2024-improved.vercel.app/",
+              },
+              {
+                text: "Kode",
+                url: "https://github.com/inge1980/hotel_booking_case_2024_improved",
+              },
+            ],
           },
           {
             title: "Porteføljeside med prosjektoversikt",
+            image: r6,
             description:
               "Lagde en responsiv porteføljeside med dynamisk navigasjon, tilpasset design og enhetstester.",
+            links: [
+              {
+                text: "Kode",
+                url: "https://github.com/inge1980/portfolio/",
+              },
+            ],
           },
           {
             title: "Datavisualisering med Stack Overflow-API",
+            image: r2,
             description:
               "Hentet og visualiserte brukerdata fra Stack Overflow ved hjelp av kakediagrammer.",
+            links: [
+              {
+                text: "Demo",
+                url: "https://inge1980.github.io/stackoverflow-tags/",
+              },
+              {
+                text: "Kode",
+                url: "https://github.com/inge1980/stackoverflow-tags/",
+              },
+            ],
           },
           {
             title: "Inge Movie Database (IMDB)",
+            image: r1,
             description: "Egendefinert filmindeks med søkefunksjonalitet.",
+            links: [
+              { text: "Les mer", url: "/portfolio/projects/imdb/" },
+              {
+                text: "Demo",
+                url: "https://inge1980.github.io/movies/",
+              },
+              {
+                text: "Kode",
+                url: "https://github.com/inge1980/movies/",
+              },
+            ],
           },
         ],
       },
       {
-        title: "PHP/WordPress - Automatisert nyhetsfeed for Osedalen.org",
-        period: "2013",
-        description:
-        "Automatiserte nyheter og varsler for lokalbefolkningen via WordPress og RSS.",
+        title: "PHP/WordPress & JavaScript Spillutvikling",
+        periodstart: "2012",
+        periodend: "2013",
+/*         description:
+        "Automatiserte nyheter og varsler for lokalbefolkningen via WordPress og RSS.", */
         projects: [
           {
-            title: "",
-            description: "",
+            title: "Automatisert nyhetsfeed for Osedalen.org",
+            image: a8,
+            description: "Automatiserte nyheter og varsler for lokalbefolkningen via WordPress og RSS.",
+            links: [
+              {
+                text: "Demo",
+                url: "https://www.osedalen.org/",
+              },
+            ],
           },
-        ],
-      },
-      {
-        title: "JavaScript: Spillutvikling",
-        period: "2012",
-        projects: [
           {
             title: "Spill på under 1024 byte",
+            image: a9,
             description:
               "Minimalistisk spill hvor Cupid skyter hjerter, laget for en kodeutfordring med plassbegrensning.",
+            links: [
+              {
+                text: "Demo",
+                url: "https://js1k.com/2012-love/demo/1269/",
+              },
+              {
+                text: "Kode",
+                url: "https://js1k.com/2012-love/details/1269/",
+              },
+            ],
           },
         ],
       },
       {
         title: "Perl: Webutvikling",
-        period: "2001-2003",
+        periodstart: "2001",
+        periodend: "2003",
         projects: [
           {
             title: "Søkbart SMS-vitsearkiv i Perl",
+            image: a10,
             description:
               "Bygde opp et av Norges største vitsearkiver med over 10 000 månedlige brukere. Søkbart CMS i Perl.",
+            links: [
+              {
+                text: "Demo",
+                url: "https://web.archive.org/web/20040526200014/http://need4sms.com:80/",
+              },
+            ],
           },
         ],
       },

@@ -4,6 +4,7 @@ import LazyLoad from 'react-lazyload';
 import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import projectsData from "./ProjectsAll-in-oneData";
+import BackToTop from "../Hooks/BackToTopButton";
 
 // Memoized ProjectItem-komponent
 const ProjectItem = React.memo(({ data, projectIndex, scrollToAnchor, projectToLoad, getDebounceValue, setScrollToAnchor }) => {
@@ -23,21 +24,31 @@ const ProjectItem = React.memo(({ data, projectIndex, scrollToAnchor, projectToL
               }
             }}
           >
-            <img
-              src={`https://fakeimg.pl/400x200?text=Project+${projectIndex}`}
-              className="rounded-start"
-              alt={`Project ${projectIndex}`}
-              style={{ width: "100%", height: "200px", objectFit: "cover" }}
-            />
+
+            {data.image ? (
+              <img
+                src={`${data.image}`}
+                className="rounded-start"
+                alt={`Project ${projectIndex}`}
+                style={{ width: "100%", height: "200px", objectFit: "cover" }}
+              />
+              ) : (
+                  <img
+                  src={`https://fakeimg.pl/400x200?text=Projekt+${projectIndex}`}
+                  className="rounded-start"
+                  alt={`Project ${projectIndex}`}
+                  style={{ width: "100%", height: "200px", objectFit: "cover" }}
+                />
+              )}
           </LazyLoad>
         </div>
         <div className="col-md-8">
-          <div className="card-body" style={{ height: "200px" }}>
+          <div className="card-body" style={{ height: "200px", position: 'relative' }}>
             <h5 className="card-title">{data.title}</h5>
             <p className="card-text">{data.description}</p>
             {/* {data.links && <a href="#" className="card-link">({data.links})</a>} */}
             {Array.isArray(data.links) && data.links.length > 0 && (
-              <p className="card-text" style={{ position: 'absolute', bottom: '10px', left: '50%' }}>
+              <p className="card-text" style={{ position: 'absolute', bottom: '10px', left: 0, right: 0, marginInline: 'auto', width: 'fit-content' }}>
                 {data.links.map((link, index) => (
                   <a key={index} href={link.url} className="card-link">{link.text}</a>
                 ))}
@@ -85,11 +96,11 @@ function ProjectPage() {
               <header>
                 {section.company ? (
                   <h3>
-                    {section.company} ({section.period}) - {section.role}
+                    {section.company} ({section.periodstart}-{section.periodend}) - {section.role}
                   </h3>
                 ) : (
                   <h3>
-                    {section.title} ({section.period})
+                    {section.periodstart} - {section.title} ({section.periodstart}-{section.periodend})
                   </h3>
                 )}
                 {section.description && <p>({section.description})</p>}
@@ -122,7 +133,7 @@ function ProjectPage() {
       ))}
     </div>
 
-        <div>
+        <div style={{ textAlign: 'left'}}>
             {/* Prosjektene med bilder */}
             {projectsData.map((category, index) => {
                 const catIndex = index + 1;
@@ -131,15 +142,15 @@ function ProjectPage() {
                     <div key={catIndex}>
                         {category.sections.map((section, secIndex) => (
                             <div key={secIndex}>
-                                <h3>{section.title} ({section.period})</h3>
-                                {section.description && <p>{section.description}</p>}
+                                {/* <h3>{section.title} ({section.period})</h3>
+                                {section.description && <p>{section.description}</p>} */}
 
                                 {section.projects.map((project) => {
                                   projectCounter++;
                                   return (
                                     <ProjectItem
                                           key={`project-${catIndex}-section-${secIndex}-proj-${projectCounter}`}
-                                          data={project}  // Pass the individual project instead of the whole category
+                                          data={project}
                                           projectIndex={projectCounter}
                                           scrollToAnchor={scrollToAnchor}
                                           projectToLoad={projectToLoad}
@@ -155,6 +166,8 @@ function ProjectPage() {
             })}
 
         </div>
+        
+      <BackToTop />
     </div>
   );
 }
