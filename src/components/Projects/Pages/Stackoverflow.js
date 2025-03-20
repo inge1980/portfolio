@@ -2,11 +2,13 @@ import React from "react";
 import { Nav } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import stackoverflow from "../../../img/react-stackoverflow.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 const Stackoverflow = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
         <h1 className="text-start">Datavisualisering med Stack Overflow-API</h1>

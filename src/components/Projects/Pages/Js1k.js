@@ -2,11 +2,13 @@ import React from "react";
 import { Nav } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import js1k from "../../../img/javascript-1016-byte-game.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 const Js1k = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
         <h1 className="text-start">Spill på under 1024 byte</h1>

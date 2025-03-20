@@ -3,12 +3,14 @@ import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import userinsight from "../../../img/javascript-user-insight-google-analytics.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 
 const UserInsight = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
         <h1 className="text-start">Analyse & trafikkoptimalisering</h1>

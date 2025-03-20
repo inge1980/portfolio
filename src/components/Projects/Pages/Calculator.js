@@ -3,12 +3,14 @@ import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import calculator from "../../../img/react-native-calculator.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 
 const Calculator = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
         <h1 className="text-start">Avansert kalkulator med PEMDAS-støtte</h1>

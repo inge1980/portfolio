@@ -3,12 +3,14 @@ import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import videoFormBuilder from "../../../vid/form_builder.mp4";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 
 const FormBuilder = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="skjemabygger"></span>
         <h1 className="text-start">Skjemabygger</h1>

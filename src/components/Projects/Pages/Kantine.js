@@ -3,11 +3,13 @@ import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import imgKatine from "../../../img/php-bootstrap-kantine_adminsystem_2.png"; 
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 const Kantine = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="skjemabygger"></span>
         <h1 className="text-start">Kantine admin</h1>

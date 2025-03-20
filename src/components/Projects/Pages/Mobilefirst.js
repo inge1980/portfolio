@@ -3,12 +3,14 @@ import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import mobilefirst from "../../../img/php-bootstrap-mobile-first.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 
 const Mobilfirst = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
         <h1 className="text-start">Bootstrap-migrering & mobilvennlig design</h1>

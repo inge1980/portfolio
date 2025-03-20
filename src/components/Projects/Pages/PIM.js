@@ -3,12 +3,14 @@ import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import imgPIM from "../../../img/php-bootstrap-PIM_admin_system.png"; 
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 
 const PIM = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="skjemabygger"></span>
         <h1 className="text-start">PIM - Product Information Management</h1>

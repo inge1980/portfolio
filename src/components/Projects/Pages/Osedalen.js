@@ -2,11 +2,13 @@ import React from "react";
 import { Nav } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import osedalen from "../../../img/osedalen.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 const Osedalen = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
         <h1 className="text-start">Nyhetsfeed fra 2013 - Osedalen.org</h1>

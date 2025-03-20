@@ -4,11 +4,13 @@ import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import EpistemeData from "./EpistemeData";
 import shoplet from "../../../img/shoplet_episteme.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 const Episteme = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="episteme"></span>
         <h1 className="text-start">Episteme</h1>

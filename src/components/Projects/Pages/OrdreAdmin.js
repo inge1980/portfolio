@@ -3,12 +3,14 @@ import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import ordreadmin from "../../../img/php-bootstrap-order_admin_system.png"; 
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 
 const OrderAdmin = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="skjemabygger"></span>
         <h1 className="text-start">Ordreadministrasjon</h1>

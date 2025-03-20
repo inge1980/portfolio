@@ -4,11 +4,13 @@ import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import MoavaData from "./MoavaData";
 import skoler from "../../../img/skoler_moava.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 const Moava = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="moava"></span>
         <h1 className="text-start">Moava</h1>

@@ -2,11 +2,13 @@ import React from "react";
 import { Nav } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import erp from "../../../img/php-erp-blurry.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 const ERP = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
         <h1 className="text-start">ERP Videreutvikling & Serveradministrasjon</h1>

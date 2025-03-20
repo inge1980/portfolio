@@ -6,12 +6,14 @@ import videoThemePicker from "../../../vid/theme_picker.mp4";
 import videoColorPicker from "../../../vid/color_picker.mp4";
 import imgBothPickers from "../../../img/javascript-both-pickers.png";
 import imgThemePicker from "../../../img/bootswatch-temavelger.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 
 const ThemePicker = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="themepicker"></span>
         <h1 className="text-start">Dynamisk temavelger & fargetilpasning</h1>

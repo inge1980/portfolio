@@ -3,12 +3,14 @@ import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import videoShoppinglist from "../../../vid/react-native-shoppinglist.mp4";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 
 const Shoppinglist = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
         <h1 className="text-start">Handleliste-app i React Native</h1>

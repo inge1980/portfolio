@@ -2,11 +2,13 @@ import React from "react";
 import { Nav } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import quiz from "../../../img/php-bootstrap-quiz.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 const Quiz = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
         <h1 className="text-start">Kundetilfredshet: Spørreundersøkelse</h1>

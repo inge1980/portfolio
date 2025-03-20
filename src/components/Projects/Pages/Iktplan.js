@@ -2,11 +2,13 @@ import React from "react";
 import { Nav } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import iktplan from "../../../img/php-bootstrap-iktplan.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 const Iktplan = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="iktplan"></span>
         <h1 className="text-start">Videreutvikling av IKTplan.no i samarbeid med Utdanningsdirektoratet (2018)</h1>

@@ -2,11 +2,13 @@ import React from "react";
 import { Nav } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import imdb from "../../../img/react-movies.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 const Imdb = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
         <h1 className="text-start">Inge Movie Database</h1>

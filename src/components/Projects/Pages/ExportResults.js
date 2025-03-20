@@ -2,11 +2,13 @@ import React from "react";
 import { Nav } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import exportresults from "../../../img/excel.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 const ExportResults = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="iktplan"></span>
         <h1 className="text-start">Eksport & sammenslåing av skjemadata</h1>

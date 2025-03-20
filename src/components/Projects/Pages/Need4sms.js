@@ -3,12 +3,14 @@ import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import need4sms from "../../../img/perl-cgi-collection-of-jokes-need4sms.png";
+import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 
 const Need4sms = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
         <h1 className="text-start">Søkbart SMS-vitsearkiv i Perl</h1>
