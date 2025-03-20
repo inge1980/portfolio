@@ -17,6 +17,8 @@ import a10 from "../../img/perl-cgi-collection-of-jokes-need4sms.png";
 import a11 from "../../img/javascript-user-insight-google-analytics.png";
 import a12 from "../../img/php-bootstrap-quiz.png";
 import a13 from "../../img/javascript-color-picker.png";
+import a14 from "../../img/php-bootstrap-iktplan.png";
+import a15 from "../../img/excel.png";
 import m1 from "../../img/php-bootstrap-form-builder.png";
 import m2 from "../../img/php-bootstrap-mobile-first.png";
 import e1 from "../../img/php-bootstrap-shoplet.png"; 
@@ -24,6 +26,7 @@ import e2 from "../../img/php-bootstrap-order_admin_system.png";
 import e3 from "../../img/php-bootstrap-PIM_admin_system.png"; 
 import e4 from "../../img/php-bootstrap-kantine_adminsystem_1.png"; 
 import e5 from "../../img/php-bootstrap-kantine_adminsystem_2.png"; 
+import e6 from "../../img/php-erp-blurry.png";
 
 import React from "react";
 const Projects = [
@@ -78,8 +81,12 @@ const Projects = [
           {
             textid: 'ERP',
             title: "ERP Videreutvikling & Serveradministrasjon",
+            image: e6,
             description:
               "Optimaliserte ERP-systemets ytelse og sikkerhet, og forbedret integrasjonen med nettbutikken.",
+            links: [
+              { text: "Les mer", url: "/portfolio/projects/epistemeerp/" },
+            ],
           },
           {
             textid: 'cafeteria',
@@ -130,8 +137,15 @@ const Projects = [
           {
             textid: 'edtech',
             title: "UI/UX-forbedringer i IKTplan.no (2018)",
+            image: a14,
             description:
               "Brukertesting og UI/UX-forbedringer i IKTplan.no, slik at lærere fikk en mer oversiktlig tilgang til læreplanen.",
+            links: [
+              {
+                text: "Les mer",
+                url: "/portfolio/projects/iktplan/",
+              },
+            ],
           },
           {
             textid: 'theme-selector',
@@ -182,8 +196,12 @@ const Projects = [
           {
             textid: 'export',
             title: "Eksport & sammenslåing av skjemadata",
+            image: a15,
             description:
               "Bygde eksportfunksjonalitet for CSV/XLS, inkludert vedleggshåndtering.",
+            links: [
+              { text: "Les mer", url: "/portfolio/projects/exportresults/" },
+            ],
           },
           {
             textid: 'quiz',

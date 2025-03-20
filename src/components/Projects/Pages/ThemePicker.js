@@ -4,7 +4,8 @@ import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import videoThemePicker from "../../../vid/theme_picker.mp4";
 import videoColorPicker from "../../../vid/color_picker.mp4";
-import imgColorPicker from "../../../img/javascript-both-pickers.png";
+import imgBothPickers from "../../../img/javascript-both-pickers.png";
+import imgThemePicker from "../../../img/bootswatch-temavelger.png";
 
 
 const ThemePicker = () => {
@@ -24,11 +25,20 @@ const ThemePicker = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-50">
-                          <a href={imgColorPicker} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                          <a href={imgBothPickers} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
                             <img
                               className="img-thumbnail"
-                              src={imgColorPicker}
-                              alt="Eksempel på redigering av spørreundersøkelse"
+                              src={imgBothPickers}
+                              alt="Eksempel på adminmeny øverst"
+                            />
+                          </a>
+                        </div>
+                        <div className="wordBreakImage w-50">
+                          <a href={imgThemePicker} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                            <img
+                              className="img-thumbnail"
+                              src={imgThemePicker}
+                              alt="Eksempel på temavalg"
                             />
                           </a>
                         </div>
@@ -41,6 +51,9 @@ const ThemePicker = () => {
                           </p>
                           <p className="text-start">
                             En administrasjonsløsning som gav kundene enkel kontroll over designvalg, samtidig som den reduserte behovet for tilpassede endringer ved kundeoppstart. Bidro til en mer strømlinjeformet og effektiv onboarding-prosess.
+                          </p>
+                          <p className="text-start">
+                            For flere detaljer se bilder, eller videoene for demonstrasjon.
                           </p>
                         </div>
                       </div>

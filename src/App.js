@@ -1,8 +1,8 @@
 import React from "react";
 import BootstrapNavbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
-import Projects from "./components/Projects/Projects";
-import Projects2 from "./components/Projects/ProjectsAll-in-one";
+import ProjectsOLD from "./components/Projects/ProjectsOLD";
+import Projects from "./components/Projects/ProjectsAll-in-one";
 import Js1k from "./components/Projects/Pages/Js1k";
 import Imdb from "./components/Projects/Pages/Imdb";
 import Moava from "./components/Projects/Pages/Moava";
@@ -22,6 +22,9 @@ import Osedalen from "./components/Projects/Pages/Osedalen";
 import Stackoverflow from "./components/Projects/Pages/Stackoverflow";
 import Quiz from "./components/Projects/Pages/Quiz";
 import ThemePicker from "./components/Projects/Pages/ThemePicker";
+import EpistemeERP from "./components/Projects/Pages/EpistemeERP";
+import Iktplan from "./components/Projects/Pages/Iktplan";
+import ExportResults from "./components/Projects/Pages/ExportResults";
 import AllSkills from "./components/AllSkills/AllSkills";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -37,8 +40,8 @@ const App = () => {
           <BootstrapNavbar />
           <Routes>
             <Route path="/portfolio/"                         element={<Intro />}></Route>
+            <Route path="/portfolio/projectsOLD/"             element={<ProjectsOLD />}></Route>
             <Route path="/portfolio/projects/"                element={<Projects />}></Route>
-            <Route path="/portfolio/projects2/"               element={<Projects2 />}></Route>
             <Route path="/portfolio/projects/js1k/"           element={<Js1k />}></Route>
             <Route path="/portfolio/projects/imdb/"           element={<Imdb />}></Route>
             <Route path="/portfolio/projects/moava/"          element={<Moava />}></Route>
@@ -58,6 +61,9 @@ const App = () => {
             <Route path="/portfolio/projects/stackoverflow/"  element={<Stackoverflow />}></Route>
             <Route path="/portfolio/projects/quiz/"           element={<Quiz />}></Route>
             <Route path="/portfolio/projects/themepicker/"    element={<ThemePicker />}></Route>
+            <Route path="/portfolio/projects/epistemeerp/"    element={<EpistemeERP />}></Route>
+            <Route path="/portfolio/projects/iktplan/"        element={<Iktplan />}></Route>
+            <Route path="/portfolio/projects/exportresults/"  element={<ExportResults />}></Route>
             <Route path="/portfolio/skills/" element={<AllSkills />}></Route>
             <Route path="/portfolio/contact/" element={<Contact />}></Route>
             <Route path="/" exact element={<Intro />}></Route>

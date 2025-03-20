@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import ProjectsData from "./ProjectsData";
+import ProjectsData from "./ProjectsOLDData";
 import "./Projects.css";
 
 const Projects = () => {
