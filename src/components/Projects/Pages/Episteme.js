@@ -1,10 +1,12 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+import { useNavigate } from "react-router-dom";
 import EpistemeData from "./EpistemeData";
 import shoplet from "../../../img/shoplet_episteme.png";
 
 const Episteme = () => {
+  const navigate = useNavigate();
   return (
     <React.Fragment>
       <div className="container">
@@ -54,11 +56,9 @@ const Episteme = () => {
                     </div>
                     <div className="col-md-12 backLink">
                       <React.Fragment>
-                        <LinkContainer to="/portfolio/projects/">
-                          <Nav.Link className="link-primary" href="#projects">
-                            Gå tilbake
-                          </Nav.Link>
-                        </LinkContainer>
+                        <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
+                          Gå tilbake
+                        </Nav.Link>
                       </React.Fragment>
                     </div>
                   </div>

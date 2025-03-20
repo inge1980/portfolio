@@ -1,10 +1,12 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+import { useNavigate } from "react-router-dom";
 import need4sms from "../../../img/perl-cgi-collection-of-jokes-need4sms.png";
 
 
 const Need4sms = () => {
+  const navigate = useNavigate();
   return (
     <React.Fragment>
       <div className="container">
@@ -19,11 +21,13 @@ const Need4sms = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-50">
-                          <img
-                            className="img-thumbnail"
-                            src={need4sms}
-                            alt="Eksempel av nettside"
-                          />
+                          <a href={need4sms} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                            <img
+                              className="img-thumbnail"
+                              src={need4sms}
+                              alt="Eksempel av nettside"
+                            />
+                          </a>
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
@@ -40,11 +44,9 @@ const Need4sms = () => {
                     </div>
                     <div className="col-md-12 backLink">
                       <React.Fragment>
-                        <LinkContainer to="/portfolio/projects2/">
-                          <Nav.Link className="link-primary" href="#projects">
-                            Gå tilbake
-                          </Nav.Link>
-                        </LinkContainer>
+                        <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
+                          Gå tilbake
+                        </Nav.Link>
                       </React.Fragment>
                     </div>
                   </div>

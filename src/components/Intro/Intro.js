@@ -3,6 +3,7 @@ import { Card, Nav } from "react-bootstrap";
 import "./Intro.css";
 import image from "../../img/author.png";
 import { LinkContainer } from "react-router-bootstrap";
+import ScrollToTop from './../ScrollToTop/ScrollToTop';
 
 const Intro = () => {
   const text = {
@@ -46,6 +47,7 @@ const Intro = () => {
 
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="col-md-12 introCard">
         <Card className="cardSmall">
           <Card.Img variant="top" src={image} />

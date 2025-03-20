@@ -273,7 +273,7 @@ const Projects = [
             title: "Porteføljeside med prosjektoversikt",
             image: r6,
             description:
-              "Lagde en responsiv porteføljeside med dynamisk navigasjon, tilpasset design og enhetstester.",
+              "Denne siden du besøker nå. En responsiv porteføljeside med dynamisk navigasjon, tilpasset design og enhetstester.",
             links: [
               {
                 text: "Kode",
@@ -288,6 +288,10 @@ const Projects = [
             description:
               "Hentet og visualiserte brukerdata fra Stack Overflow ved hjelp av kakediagrammer.",
             links: [
+              {
+                text: "Les mer",
+                url: "/portfolio/projects/stackoverflow/",
+              },
               {
                 text: "Demo",
                 url: "https://inge1980.github.io/stackoverflow-tags/",
@@ -331,6 +335,10 @@ const Projects = [
             description: "Automatiserte nyheter og varsler for lokalbefolkningen via WordPress og RSS.",
             links: [
               {
+                text: "Les mer",
+                url: "/portfolio/projects/osedalen/",
+              },
+              {
                 text: "Demo",
                 url: "https://www.osedalen.org/",
               },
@@ -343,6 +351,10 @@ const Projects = [
             description:
               "Minimalistisk spill hvor Cupid skyter hjerter, laget for en kodeutfordring med plassbegrensning.",
             links: [
+              {
+                text: "Les mer",
+                url: "/portfolio/projects/js1k/",
+              },
               {
                 text: "Demo",
                 url: "https://js1k.com/2012-love/demo/1269/",

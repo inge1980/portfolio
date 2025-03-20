@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
+import ScrollToTop from './../ScrollToTop/ScrollToTop';
 
 const Contact = () => {
   const captchaRef = useRef(null);
@@ -40,6 +41,7 @@ const Contact = () => {
 
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div className="container">
         <span id="contact"></span>
         <h1 className="h3 mb-3 font-weight-normal">Kontakt meg</h1>

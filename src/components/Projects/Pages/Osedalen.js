@@ -1,15 +1,15 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import js1k from "../../../img/javascript-1016-byte-game.png";
+import osedalen from "../../../img/osedalen.png";
 
-const Js1k = () => {
+const Osedalen = () => {
   const navigate = useNavigate();
   return (
     <React.Fragment>
       <div className="container">
         <span id="nyhetsfelt"></span>
-        <h1 className="text-start">Spill på under 1024 byte</h1>
+        <h1 className="text-start">Nyhetsfeed fra 2013 - Osedalen.org</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -19,22 +19,23 @@ const Js1k = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-50">
-                          <a href={js1k} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                          <a href={osedalen} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
                             <img
                               className="img-thumbnail"
-                              src={js1k}
-                              alt="Eksempel på spillet"
+                              src={osedalen}
+                              alt="Eksempel av mobiltilpasset forbedring"
                             />
                           </a>
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
-                            Tilbake i 2012 før Valentines prøvde jeg meg i en konkurranse for å lage
-                            et primitivt javascript-spill på under 1 kilobyte. Jeg vant ikke, men
-                            det var gøy å lære litt om hvordan canvas fungerte. I spillet er poeng
-                            til venstre, og antall liv til høyre, og "Cupid" skulle prøve å treffe
-                            så mange hjerter som mulig før de fryser til is. Beregnet kun for pc, og
-                            pilen følger musepekeren.
+                            Opprettet en automatisert nyhetsaggregator basert på WordPress som samlet og publiserte lokalnyheter fra forskjellige kilder, inkludert RSS-feeder, vær- og trafikkvarsler, samt Twitter-meldinger fra politiet. Systemet var designet for enkel godkjenning og publisering.
+                          </p>
+                          <p className="text-start">
+                            Brukerne fikk en effektiv og kontinuerlig oppdatering av lokalnyheter uten behov for manuelt arbeid fra administrator. Automatiseringen reduserte tiden brukt på nyhetsoppdateringer og gjorde det lettere å holde innholdet friskt og relevant for lokalsamfunnet.                            
+                          </p>
+                          <p className="text-start">
+                            Skapte en aktiv og lett tilgjengelig nyhetskilde for lokalbefolkningen frem til 2018, med automatisk oppdaterte nyheter og varsler.                            
                           </p>
                         </div>
                       </div>
@@ -57,4 +58,4 @@ const Js1k = () => {
   );
 };
 
-export default Js1k;
+export default Osedalen;

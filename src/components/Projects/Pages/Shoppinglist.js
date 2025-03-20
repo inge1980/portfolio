@@ -1,10 +1,12 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+import { useNavigate } from "react-router-dom";
 import videoShoppinglist from "../../../vid/react-native-shoppinglist.mp4";
 
 
 const Shoppinglist = () => {
+  const navigate = useNavigate();
   return (
     <React.Fragment>
       <div className="container">
@@ -35,11 +37,9 @@ const Shoppinglist = () => {
                     </div>
                     <div className="col-md-12 backLink">
                       <React.Fragment>
-                        <LinkContainer to="/portfolio/projects/">
-                          <Nav.Link className="link-primary" href="#projects">
-                            Gå tilbake
-                          </Nav.Link>
-                        </LinkContainer>
+                        <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
+                          Gå tilbake
+                        </Nav.Link>
                       </React.Fragment>
                     </div>
                   </div>
