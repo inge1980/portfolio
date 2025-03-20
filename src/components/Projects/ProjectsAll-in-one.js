@@ -9,7 +9,7 @@ import BackToTop from "../Hooks/BackToTopButton";
 // Memoized ProjectItem-komponent
 const ProjectItem = React.memo(({ data, projectIndex, scrollToAnchor, projectToLoad, getDebounceValue, setScrollToAnchor }) => {
   return (
-    <div key={projectIndex} id={`project${projectIndex}`} className="card mb-3 border-secondary" /* style={{maxWidth: '540px'}} */>
+    <div key={projectIndex} id={`project_${data.textid}`} className="card mb-3 border-secondary" /* style={{maxWidth: '540px'}} */>
       <div className="row g-0">
         <div className="col-md-4">
           <LazyLoad
@@ -34,7 +34,7 @@ const ProjectItem = React.memo(({ data, projectIndex, scrollToAnchor, projectToL
               />
               ) : (
                   <img
-                  src={`https://fakeimg.pl/400x200?text=Projekt+${projectIndex}`}
+                  src={`https://fakeimg.pl/400x200?text=${data.textid}`}
                   className="rounded-start"
                   alt={`Project ${projectIndex}`}
                   style={{ width: "100%", height: "200px", objectFit: "cover" }}
@@ -113,7 +113,7 @@ function ProjectPage() {
                     <li key={projectCounterLink} className="project">
                       <h4>
                           <Link
-                              to={`project${projectCounterLink}`}
+                              to={`project_${project.textid}`}
                               smooth={true}
                               duration={500}
                               offset={-60}

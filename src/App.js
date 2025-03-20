@@ -14,6 +14,10 @@ import OrdreAdmin from "./components/Projects/Pages/OrdreAdmin";
 import PIM from "./components/Projects/Pages/PIM";
 import Kantine from "./components/Projects/Pages/Kantine";
 import Shoppinglist from "./components/Projects/Pages/Shoppinglist";
+import Need4sms from "./components/Projects/Pages/Need4sms";
+import Calculator from "./components/Projects/Pages/Calculator";
+import Mobilefirst from "./components/Projects/Pages/Mobilefirst";
+import UserInsight from "./components/Projects/Pages/UserInsight";
 import AllSkills from "./components/AllSkills/AllSkills";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -71,6 +75,23 @@ const App = () => {
               path="/portfolio/projects/shoppinglist/"
               element={<Shoppinglist />}
             ></Route>
+            <Route
+              path="/portfolio/projects/need4sms/"
+              element={<Need4sms />}
+            ></Route>
+            <Route
+              path="/portfolio/projects/calculator/"
+              element={<Calculator />}
+            ></Route>
+            <Route
+              path="/portfolio/projects/mobilefirst/"
+              element={<Mobilefirst />}
+            ></Route>
+            <Route
+              path="/portfolio/projects/userinsight/"
+              element={<UserInsight />}
+            ></Route>
+            
             <Route path="/portfolio/skills/" element={<AllSkills />}></Route>
             <Route path="/portfolio/contact/" element={<Contact />}></Route>
             <Route path="/" exact element={<Intro />}></Route>

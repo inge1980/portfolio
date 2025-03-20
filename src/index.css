@@ -107,3 +107,13 @@ ekstra
   margin-top: 3px;
   display: inline;
 }
+
+.wordBreakWrapper .wordBreakImage {
+  float: right;
+  width: 40%;
+  margin-left: 12px;
+}
+
+.wordBreakWrapper .wordBreakText {
+  word-wrap: break-word;
+}

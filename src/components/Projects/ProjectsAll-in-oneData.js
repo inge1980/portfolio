@@ -4,6 +4,7 @@ import r4 from "../../img/react-nextjs-hooks.png";
 import r5 from "../../img/react-native-shoppinglist.png";
 import r6 from "../../img/react-native-portfolio.png";
 import r7 from "../../img/react-nextjs-hotel-booking.png";
+import r8 from "../../img/react-native-calculator.png";
 import a1 from "../../img/php-bootstrap-modal-ckeditor-inline-edit-news-field.png";
 import a2 from "../../img/bootstrap-double-menu.png";
 import a3 from "../../img/bootstrap-aspect-ratio.png";
@@ -13,7 +14,9 @@ import a7 from "../../img/bootstrap-news-carousel.png";
 import a8 from "../../img/osedalen.png";
 import a9 from "../../img/javascript-1016-byte-game.png";
 import a10 from "../../img/perl-cgi-collection-of-jokes-need4sms.png";
+import a11 from "../../img/javascript-user-insight-google-analytics.png";
 import m1 from "../../img/php-bootstrap-form-builder.png";
+import m2 from "../../img/php-bootstrap-mobile-first.png";
 import e1 from "../../img/php-bootstrap-shoplet.png"; 
 import e2 from "../../img/php-bootstrap-order_admin_system.png"; 
 import e3 from "../../img/php-bootstrap-PIM_admin_system.png"; 
@@ -34,6 +37,7 @@ const Projects = [
           "Arbeidet med utvikling og forbedring av systemer innen e-handel, ERP og kantineløsninger.",
         projects: [
           {
+            textid: 'webshop',
             title: "Mobilvennlig nettbutikk & API",
             image: e1,
             description: (
@@ -50,6 +54,7 @@ const Projects = [
             ],
           },
           {
+            textid: 'orderadmin',
             title: "Tilpasset ordresystem & ERP-integrasjon",
             image: e2,
             description:
@@ -59,6 +64,7 @@ const Projects = [
             ],
           },
           {
+            textid: 'PIM',
             title: "PIM-integrasjon i ERP",
             image: e3,
             description:
@@ -68,11 +74,13 @@ const Projects = [
             ],
           },
           {
+            textid: 'ERP',
             title: "ERP Videreutvikling & Serveradministrasjon",
             description:
               "Optimaliserte ERP-systemets ytelse og sikkerhet, og forbedret integrasjonen med nettbutikken.",
           },
           {
+            textid: 'cafeteria',
             title: "Kantinesystem med ERP-integrasjon",
             image: e5,
             description:
@@ -92,11 +100,20 @@ const Projects = [
           "Utviklet og forbedret Moava sitt CMS, med fokus på UX, responsivt design og automatisering.",
         projects: [
           {
+            textid: 'mobile-first',
             title: "Bootstrap-migrering & mobilvennlig design",
+            image: m2,
             description:
               "Automatiserte migreringen til Bootstrap, forbedret responsivt design på tvers av plattformer.",
+            links: [
+              {
+                text: "Les mer",
+                url: "/portfolio/projects/mobilefirst/",
+              },
+            ],
           },
           {
+            textid: 'newscarousel',
             title: "Nyhetskarusell med video",
             image: a7,
             description:
@@ -109,16 +126,19 @@ const Projects = [
             ],
           },
           {
+            textid: 'edtech',
             title: "UI/UX-forbedringer i IKTplan.no (2018)",
             description:
               "Brukertesting og UI/UX-forbedringer i IKTplan.no, slik at lærere fikk en mer oversiktlig tilgang til læreplanen.",
           },
           {
+            textid: 'theme-selector',
             title: "Dynamisk temavelger & fargetilpasning",
             description:
               "Utviklet en dynamisk temavelger som forenklet tilpasningen av nettsider.",
           },
           {
+            textid: 'doublemenu',
             title: "Fleksibel dobbel mobilmeny",
             image: a2,
             description:
@@ -131,6 +151,7 @@ const Projects = [
             ],
           },
           {
+            textid: 'edit-optimizing',
             title: "Effektivisering av artikkelredigering",
             image: a1,
             description:
@@ -140,6 +161,7 @@ const Projects = [
             ],
           },
           {
+            textid: 'formbuilder',
             title: "GDPR-vennlig drag'n'drop skjemabygger",
             image: m1,
             description:
@@ -149,19 +171,26 @@ const Projects = [
             ],
           },
           {
+            textid: 'export',
             title: "Eksport & sammenslåing av skjemadata",
             description:
               "Bygde eksportfunksjonalitet for CSV/XLS, inkludert vedleggshåndtering.",
           },
           {
+            textid: 'quiz',
             title: "Kundetilfredshetsundersøkelse",
             description:
               "Utviklet et verktøy for å samle innsikt etter 10 år uten brukerundersøkelser.",
           },
           {
+            textid: 'tracking',
             title: "Analyse & trafikkoptimalisering",
+            image: a11,
             description:
               "Optimaliserte trafikkmåling og digital sporing i CMS.",
+            links: [
+              { text: "Les mer", url: "/portfolio/projects/userinsight/" },
+            ],
           },
         ],
       },
@@ -177,6 +206,7 @@ const Projects = [
         periodend: "2025",
         projects: [
           {
+            textid: 'shoppinglist',
             title: "Dynamiske drag'n'drop lister",
             image: r5,
             description:
@@ -186,9 +216,17 @@ const Projects = [
             ],
           },
           {
+            textid: 'calculator',
             title: "Avansert kalkulator med PEMDAS-støtte",
+            image: r8,
             description:
               "Designet en kalkulator-app som håndterer parenteser og operatorprioritet for matematiske uttrykk.",
+            links: [
+              {
+                text: "Les mer",
+                url: "/portfolio/projects/calculator/",
+              },
+            ],
           },
         ],
       },
@@ -198,6 +236,7 @@ const Projects = [
         periodend: "2025",
         projects: [
           {
+            textid: 'showcase',
             title: "Eksperimentering med Next.js & hooks",
             image: r4,
             description: "Testing av Next.js-hosting og hooks-optimalisering.",
@@ -213,6 +252,7 @@ const Projects = [
             ],
           },
           {
+            textid: 'booking',
             title: "Simulert hotellbookingsystem",
             image: r7,
             description:
@@ -229,6 +269,7 @@ const Projects = [
             ],
           },
           {
+            textid: 'portfolio',
             title: "Porteføljeside med prosjektoversikt",
             image: r6,
             description:
@@ -241,6 +282,7 @@ const Projects = [
             ],
           },
           {
+            textid: 'stackoverflow',
             title: "Datavisualisering med Stack Overflow-API",
             image: r2,
             description:
@@ -257,6 +299,7 @@ const Projects = [
             ],
           },
           {
+            textid: 'imdb',
             title: "Inge Movie Database (IMDB)",
             image: r1,
             description: "Egendefinert filmindeks med søkefunksjonalitet.",
@@ -282,6 +325,7 @@ const Projects = [
         "Automatiserte nyheter og varsler for lokalbefolkningen via WordPress og RSS.", */
         projects: [
           {
+            textid: 'osedalen',
             title: "Automatisert nyhetsfeed for Osedalen.org",
             image: a8,
             description: "Automatiserte nyheter og varsler for lokalbefolkningen via WordPress og RSS.",
@@ -293,6 +337,7 @@ const Projects = [
             ],
           },
           {
+            textid: 'js1k',
             title: "Spill på under 1024 byte",
             image: a9,
             description:
@@ -316,11 +361,16 @@ const Projects = [
         periodend: "2003",
         projects: [
           {
+            textid: 'need4sms',
             title: "Søkbart SMS-vitsearkiv i Perl",
             image: a10,
             description:
               "Bygde opp et av Norges største vitsearkiver med over 10 000 månedlige brukere. Søkbart CMS i Perl.",
             links: [
+              {
+                text: "Les mer",
+                url: "/portfolio/projects/need4sms/",
+              },
               {
                 text: "Demo",
                 url: "https://web.archive.org/web/20040526200014/http://need4sms.com:80/",
