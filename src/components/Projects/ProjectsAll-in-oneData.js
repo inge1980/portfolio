@@ -15,6 +15,8 @@ import a8 from "../../img/osedalen.png";
 import a9 from "../../img/javascript-1016-byte-game.png";
 import a10 from "../../img/perl-cgi-collection-of-jokes-need4sms.png";
 import a11 from "../../img/javascript-user-insight-google-analytics.png";
+import a12 from "../../img/php-bootstrap-quiz.png";
+import a13 from "../../img/javascript-color-picker.png";
 import m1 from "../../img/php-bootstrap-form-builder.png";
 import m2 from "../../img/php-bootstrap-mobile-first.png";
 import e1 from "../../img/php-bootstrap-shoplet.png"; 
@@ -134,8 +136,15 @@ const Projects = [
           {
             textid: 'theme-selector',
             title: "Dynamisk temavelger & fargetilpasning",
+            image: a13,
             description:
               "Utviklet en dynamisk temavelger som forenklet tilpasningen av nettsider.",
+            links: [
+              {
+                text: "Les mer",
+                url: "/portfolio/projects/themepicker/",
+              },
+            ],
           },
           {
             textid: 'doublemenu',
@@ -179,8 +188,15 @@ const Projects = [
           {
             textid: 'quiz',
             title: "Kundetilfredshetsundersøkelse",
+            image: a12,
             description:
               "Utviklet et verktøy for å samle innsikt etter 10 år uten brukerundersøkelser.",
+            links: [
+              {
+                text: "Les mer",
+                url: "/portfolio/projects/quiz/",
+              },
+            ],
           },
           {
             textid: 'tracking',

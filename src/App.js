@@ -20,6 +20,8 @@ import Mobilefirst from "./components/Projects/Pages/Mobilefirst";
 import UserInsight from "./components/Projects/Pages/UserInsight";
 import Osedalen from "./components/Projects/Pages/Osedalen";
 import Stackoverflow from "./components/Projects/Pages/Stackoverflow";
+import Quiz from "./components/Projects/Pages/Quiz";
+import ThemePicker from "./components/Projects/Pages/ThemePicker";
 import AllSkills from "./components/AllSkills/AllSkills";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -54,6 +56,8 @@ const App = () => {
             <Route path="/portfolio/projects/userinsight/"    element={<UserInsight />}></Route>
             <Route path="/portfolio/projects/osedalen/"       element={<Osedalen />}></Route>
             <Route path="/portfolio/projects/stackoverflow/"  element={<Stackoverflow />}></Route>
+            <Route path="/portfolio/projects/quiz/"           element={<Quiz />}></Route>
+            <Route path="/portfolio/projects/themepicker/"    element={<ThemePicker />}></Route>
             <Route path="/portfolio/skills/" element={<AllSkills />}></Route>
             <Route path="/portfolio/contact/" element={<Contact />}></Route>
             <Route path="/" exact element={<Intro />}></Route>
