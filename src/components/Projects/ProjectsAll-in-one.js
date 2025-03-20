@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import { Link } from 'react-scroll';
 import LazyLoad from 'react-lazyload';
 import { Nav } from "react-bootstrap";
@@ -91,7 +91,7 @@ function ProjectPage() {
     if (scrollToAnchor && projectToLoad === index) {
       return 0; // Ingen forsinkelse ved anchor-klikk for det spesifikke prosjektet
     }
-    return 200; // 200ms forsinkelse for manuell scrolling, og for andre prosjekter
+    return 50; // 200ms forsinkelse for manuell scrolling, og for andre prosjekter
   };
   let projectCounter = 0;
   let projectCounterLink=0;

@@ -31,7 +31,7 @@ const Shoppinglist = () => {
                       </p>
                     </div>
                     <div className="col-md-3">
-                      <video className="embed-responsive-item ratio ratio-1x1" controls autoplay muted>
+                      <video className="embed-responsive-item ratio ratio-1x1" controls autoPlay muted>
                         <source src={videoShoppinglist} type="video/mp4" />
                         Beklager, nettleseren din støtter ikke video.
                       </video>

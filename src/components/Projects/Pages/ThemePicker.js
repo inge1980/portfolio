@@ -62,11 +62,11 @@ const ThemePicker = () => {
                     </div>
 
                     <div className="col-md-12">
-                      <video className="embed-responsive-item ratio ratio-1x1" controls autoplay muted>
+                      <video className="embed-responsive-item ratio ratio-1x1" controls autoPlay muted>
                         <source src={videoThemePicker} type="video/mp4" />
                         Beklager, nettleseren din støtter ikke video.
                       </video>
-                      <video className="embed-responsive-item ratio ratio-1x1" controls autoplay muted>
+                      <video className="embed-responsive-item ratio ratio-1x1" controls autoPlay muted>
                         <source src={videoColorPicker} type="video/mp4" />
                         Beklager, nettleseren din støtter ikke video.
                       </video>

@@ -25,7 +25,7 @@ const FormBuilder = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-75">
-                          <video className="embed-responsive-item ratio ratio-1x1" controls autoplay muted>
+                          <video className="embed-responsive-item ratio ratio-1x1" controls autoPlay muted>
                             <source src={videoFormBuilder} type="video/mp4" />
                             Beklager, nettleseren din støtter ikke video.
                           </video>

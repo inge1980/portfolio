@@ -28,7 +28,7 @@ const Newsfield = () => {
                       </p>
                     </div>
                     <div className="col-md-9">
-                      <video className="embed-responsive-item ratio ratio-1x1" controls autoplay muted>
+                      <video className="embed-responsive-item ratio ratio-1x1" controls autoPlay muted>
                         <source src={videoNewsfield} type="video/mp4" />
                         Beklager, nettleseren din støtter ikke video.
                       </video>
