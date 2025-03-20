@@ -101,9 +101,14 @@ ekstra
   text-decoration: underline;
 }
 
-.experience-container .project h4 a:visited{
+.card-text a.card-link.nav-link {
   text-decoration: underline;
-  color: purple;
+  color: var(--bs-link-color);
+  display: inline;
+}
+
+.card-text a.card-link.nav-link:hover {
+  color: var(--bs-link-hover-color);
 }
 
 .experience-container .project p {
