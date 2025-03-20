@@ -50,7 +50,21 @@ const ProjectItem = React.memo(({ data, projectIndex, scrollToAnchor, projectToL
             {Array.isArray(data.links) && data.links.length > 0 && (
               <p className="card-text" style={{ position: 'absolute', bottom: '10px', left: 0, right: 0, marginInline: 'auto', width: 'fit-content' }}>
                 {data.links.map((link, index) => (
-                  <a key={index} href={link.url} className="card-link">{link.text}</a>
+                  link.text === "Les mer" ? (
+                    <LinkContainer to={link.url} key={index}>
+                      <Nav.Link className="card-link">{link.text}</Nav.Link>
+                    </LinkContainer>
+                  ) : (
+                    <a 
+                      key={index} 
+                      href={link.url} 
+                      className="card-link" 
+                      rel="noreferrer" 
+                      target="_blank"
+                    >
+                      {link.text}
+                    </a>
+                  )
                 ))}
               </p>
             )}
