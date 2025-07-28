@@ -17,12 +17,12 @@ const Intro = () => {
       </React.Fragment>
     ),
     linkText:
-      "11 års profesjonell arbeidserfaring, pluss 12 år med hobbyerfaring fra diverse programmeringsprosjekter før karrieren startet.",
+      "12 års profesjonell arbeidserfaring, pluss flere år med hobbyerfaring fra diverse programmeringsprosjekter både før karrieren startet og underveis.",
     desc2: (
       <React.Fragment>
         {" "}
-        Så jeg har holdt på med PHP, MySQL, Subversion, HTML, CSS, Javascript, og diverse bibliotek
-        som f.eks. Bootstrap og jQuery i 23 år.
+        Jeg har holdt på med CMS-tilpasninger, ERP- og PIM-integrasjoner hovedsakelig i PHP med MySQL/MS SQL, så ting som HTML, CSS, Javascript, og diverse bibliotek
+        som f.eks. Bootstrap og jQuery har jeg nesten fått inn med morsmelka.
         <br />
         <br />
         Jeg liker å holde meg oppdatert på den nyeste teknologien, og de siste
