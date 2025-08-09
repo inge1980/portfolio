@@ -5,6 +5,7 @@ import r5 from "../../img/react-native-shoppinglist.png";
 import r6 from "../../img/react-native-portfolio.png";
 import r7 from "../../img/react-nextjs-hotel-booking.png";
 import r8 from "../../img/react-native-calculator.png";
+import r9 from "../../img/react-nextjs-dnd.png";
 import a1 from "../../img/php-bootstrap-modal-ckeditor-inline-edit-news-field.png";
 import a2 from "../../img/bootstrap-double-menu.png";
 import a3 from "../../img/bootstrap-aspect-ratio.png";
@@ -265,23 +266,23 @@ const Projects = [
         ],
       },
       {
-        title: "React: Eksperimentering med nye teknologier",
+        title: "React & Next.js: Utforsking av moderne teknologier",
         periodstart: "2022",
         periodend: "2025",
         projects: [
           {
-            textid: 'showcase',
-            title: "Eksperimentering med Next.js & hooks",
-            image: r4,
-            description: "Testing av Next.js-hosting og hooks-optimalisering.",
+            textid: 'desktop-dnd',
+            title: "Next.js og drag'n'drop-lek",
+            image: r9,
+            description: "Dynamisk kolonneantall, visuell pre-drop markør og animert drop.",
             links: [
               {
                 text: "Demo",
-                url: "https://showcase-ivory.vercel.app/",
+                url: "https://drag-n-drop-desktop.vercel.app/",
               },
               {
                 text: "Kode",
-                url: "https://github.com/inge1980/showcase/",
+                url: "https://github.com/inge1980/drag-n-drop-desktop",
               },
             ],
           },
@@ -303,11 +304,27 @@ const Projects = [
             ],
           },
           {
+            textid: 'showcase',
+            title: "Next.js, React hooks og Tailwind CSS",
+            image: r4,
+            description: "Utforsker Next.js, Vercel-hosting og Tailwind CSS.",
+            links: [
+              {
+                text: "Demo",
+                url: "https://showcase-ivory.vercel.app/",
+              },
+              {
+                text: "Kode",
+                url: "https://github.com/inge1980/showcase/",
+              },
+            ],
+          },
+          {
             textid: 'portfolio',
             title: "Porteføljeside med prosjektoversikt",
             image: r6,
             description:
-              "Denne siden du besøker nå. En responsiv porteføljeside med dynamisk navigasjon, tilpasset design og enhetstester.",
+              "En responsiv porteføljeside med dynamisk navigasjon, tilpasset design og enhetstester. Denne siden du besøker nå.",
             links: [
               {
                 text: "Kode",

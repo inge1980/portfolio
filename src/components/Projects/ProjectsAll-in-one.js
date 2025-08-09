@@ -156,8 +156,8 @@ function ProjectPage() {
                     <div key={catIndex}>
                         {category.sections.map((section, secIndex) => (
                             <div key={secIndex}>
-                                {/* <h3>{section.title} ({section.period})</h3>
-                                {section.description && <p>{section.description}</p>} */}
+                                <h3>{section.title ? section.title : section.company} {section.period ? "(" + section.period + ")" : ""}</h3>
+                                {/* {section.description && <p>{section.description}</p>} */}
 
                                 {section.projects.map((project) => {
                                   projectCounter++;
