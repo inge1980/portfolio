@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2760ba7d.css",
-    "main.js": "/portfolio/static/js/main.7ce1a8a0.js",
+    "main.js": "/portfolio/static/js/main.c509f13b.js",
     "static/media/form_builder.mp4": "/portfolio/static/media/form_builder.35ff4db84230b715a843.mp4",
     "static/media/newsfield.mp4": "/portfolio/static/media/newsfield.d1429c863049d7961bdc.mp4",
     "static/media/theme_picker.mp4": "/portfolio/static/media/theme_picker.8562009344a4db390130.mp4",
@@ -56,6 +56,7 @@
     "static/media/recaptcha.png": "/portfolio/static/media/recaptcha.1a8898156cd01cbd7af9.png",
     "static/media/backbone.png": "/portfolio/static/media/backbone.67ab47065cc6b4841e38.png",
     "static/media/ckeditor4.png": "/portfolio/static/media/ckeditor4.2758d3ef8f3022ce354a.png",
+    "static/media/react-nextjs-dnd.png": "/portfolio/static/media/react-nextjs-dnd.9d6d84d650a094759a30.png",
     "static/media/ts.png": "/portfolio/static/media/ts.7bf1163047def332ddd9.png",
     "static/media/react-nextjs-hooks.png": "/portfolio/static/media/react-nextjs-hooks.658864cb1788d9497d56.png",
     "static/media/bootstrap-news-carousel.png": "/portfolio/static/media/bootstrap-news-carousel.d644e8b7070d6f29e4e2.png",
@@ -130,10 +131,10 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/portfolio/static/media/roboto-greek-ext-400-normal.16eb83b4a3b1ea994243.woff",
     "index.html": "/portfolio/index.html",
     "main.2760ba7d.css.map": "/portfolio/static/css/main.2760ba7d.css.map",
-    "main.7ce1a8a0.js.map": "/portfolio/static/js/main.7ce1a8a0.js.map"
+    "main.c509f13b.js.map": "/portfolio/static/js/main.c509f13b.js.map"
   },
   "entrypoints": [
     "static/css/main.2760ba7d.css",
-    "static/js/main.7ce1a8a0.js"
+    "static/js/main.c509f13b.js"
   ]
 }
