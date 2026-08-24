@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
-import { LinkContainer } from "react-router-bootstrap";
+//import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import MoavaData from "./MoavaData";
 import skoler from "../../../img/skoler_moava.png";

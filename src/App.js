@@ -1,7 +1,6 @@
 import React from "react";
 import BootstrapNavbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
-import ProjectsOLD from "./components/Projects/ProjectsOLD";
 import Projects from "./components/Projects/ProjectsAll-in-one";
 import Js1k from "./components/Projects/Pages/Js1k";
 import Imdb from "./components/Projects/Pages/Imdb";
@@ -40,7 +39,6 @@ const App = () => {
           <BootstrapNavbar />
           <Routes>
             <Route path="/portfolio/"                         element={<Intro />}></Route>
-            <Route path="/portfolio/projectsOLD/"             element={<ProjectsOLD />}></Route>
             <Route path="/portfolio/projects/"                element={<Projects />}></Route>
             <Route path="/portfolio/projects/js1k/"           element={<Js1k />}></Route>
             <Route path="/portfolio/projects/imdb/"           element={<Imdb />}></Route>

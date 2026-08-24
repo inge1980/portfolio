@@ -18,7 +18,7 @@ import e1 from "../../img/php-bootstrap-shoplet.png";
 import e2 from "../../img/php-bootstrap-order_admin_system.png"; 
 import e3 from "../../img/php-bootstrap-PIM_admin_system.png"; 
 import e4 from "../../img/php-bootstrap-kantine_adminsystem_1.png"; 
-import e5 from "../../img/php-bootstrap-kantine_adminsystem_2.png"; 
+//import e5 from "../../img/php-bootstrap-kantine_adminsystem_2.png"; 
 
 import React from "react";
 
