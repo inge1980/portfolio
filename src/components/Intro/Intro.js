@@ -3,44 +3,47 @@ import { Card, Nav } from "react-bootstrap";
 import "./Intro.css";
 import image from "../../img/author.png";
 import { LinkContainer } from "react-router-bootstrap";
-import ScrollToTop from './../ScrollToTop/ScrollToTop';
+import ScrollToTop from "./../ScrollToTop/ScrollToTop";
 
 const Intro = () => {
   const text = {
-    title: "Hvem er jeg?",
+    title: "Who am I?",
     desc1: (
       <React.Fragment>
-        Jeg er en fullstack-utvikler som ser etter fullstack / frontend
-        jobbmuligheter.
+        I am a fullstack developer looking for fullstack and frontend
+        opportunities.
         <br />
-        <br />I løpet av et langt liv har jeg samlet opp{" "}
+        <br />
+        Over the years, I have built up{" "}
       </React.Fragment>
     ),
     linkText:
-      "12 års profesjonell arbeidserfaring, pluss flere år med hobbyerfaring fra diverse programmeringsprosjekter både før karrieren startet og underveis.",
+      "12 years of professional development experience, plus several years of hobby experience from various programming projects before and throughout my career.",
     desc2: (
       <React.Fragment>
         {" "}
-        Jeg har holdt på med CMS-tilpasninger, ERP- og PIM-integrasjoner hovedsakelig i PHP med MySQL/MS SQL, så ting som HTML, CSS, Javascript, og diverse bibliotek
-        som f.eks. Bootstrap og jQuery har jeg nesten fått inn med morsmelka.
+        I have worked extensively with CMS customization, ERP and PIM
+        integrations, primarily using PHP with MySQL and SQL Server. HTML, CSS,
+        JavaScript, and libraries such as Bootstrap and jQuery have therefore
+        been a natural part of my work for many years.
         <br />
         <br />
-        Jeg liker å holde meg oppdatert på den nyeste teknologien, og de siste
-        årene har jeg etterutdannet meg med bl.a. et kurs i Node.js, noen
-        omfattende kurs i React og TypeScript, et masterfag i Brukerorientert
-        Design, samt noen studiepoeng i matematikk.
+        I like keeping up with modern technology, and in recent years I have
+        expanded my skills through courses in Node.js, React and TypeScript,
+        as well as a master's-level course in User-Oriented Design and
+        university-level mathematics.
         <br />
         <br />
-        Matematikk på skolen må jeg innrømme jeg ikke har tatt fordi jeg elsker
-        det, men fordi brukervennlighet er såpass interessant og viktig for meg
-        at jeg tok 10 studiepoeng matte for å kunne kvalifisere til et masterfag
-        innen "Brukerorientert Design".
+        My recent projects have also given me hands-on experience with React,
+        React Native, C# and .NET, REST APIs, Azure, Docker, PostgreSQL, and
+        modern AI technologies such as RAG, embeddings, vector databases, and
+        semantic search.
         <br />
         <br />
-        Jeg har en solid kunnskapsbase fra objektorientert programmering, og jeg
-        tilegner meg ny kunnskap raskt, derfor ser jeg frem til å spesialisere
-        meg i de programmeringsspråk og arbeidsverktøy min fremtidige
-        arbeidsgiver bruker.
+        I have a solid foundation in object-oriented programming and learn new
+        technologies quickly. I am therefore looking forward to specializing
+        further in the languages, frameworks, and tools used by my future
+        employer.
       </React.Fragment>
     ),
   };
@@ -63,7 +66,7 @@ const Intro = () => {
               {text.desc2}
               <LinkContainer to="/portfolio/contact/">
                 <Nav.Link href="#" className="link-primary">
-                Kontakt meg
+                  Contact me
                 </Nav.Link>
               </LinkContainer>
             </Card.Text>
@@ -73,7 +76,11 @@ const Intro = () => {
         <div className="cardBig card mb-3">
           <div className="row g-0">
             <div className="col-sm-3 col-md-4">
-              <img src={image} className="img-fluid" alt="Profilbilde" />
+              <img
+                src={image}
+                className="img-fluid"
+                alt="Profile"
+              />
             </div>
             <div className="col-sm-9 col-md-8">
               <div className="card-body">
@@ -90,10 +97,10 @@ const Intro = () => {
                 </p>
                 <p className="card-text text-center">
                   <LinkContainer to="/portfolio/contact/">
-                  <Nav.Link href="#" className="link-primary">
-                    Kontakt meg
-                  </Nav.Link>
-                </LinkContainer>
+                    <Nav.Link href="#" className="link-primary">
+                      Contact me
+                    </Nav.Link>
+                  </LinkContainer>
                 </p>
               </div>
             </div>
