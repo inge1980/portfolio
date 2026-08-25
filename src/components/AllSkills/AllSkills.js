@@ -1,14 +1,17 @@
 import React from "react";
-import Skillsets from "./../Skillsets/Skill";
-import MoreSkills from "./../MoreSkills/MoreSkills";
+import * as Skillsets from "../Skillsets";
 import ScrollToTop from './../ScrollToTop/ScrollToTop';
 
 const AllSkills = () => {
   return (
     <React.Fragment>
       <ScrollToTop />
-      <Skillsets />
-      <MoreSkills />
+      <Skillsets.Development />
+      <Skillsets.Infrastructure />
+      <Skillsets.Ai />
+      <Skillsets.Tools />
+      <Skillsets.Design />
+      <Skillsets.More />
     </React.Fragment>
   );
 };
