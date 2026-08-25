@@ -33,22 +33,22 @@ class BootstrapNavbar extends Component {
             <Nav className="justify-content-end flex-grow-1 pe-3">
               <LinkContainer to="/portfolio">
                 <Nav.Link href="#" onClick={this.handleClose}>
-                  Hjem
+                  Home
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/portfolio/projects/">
                 <Nav.Link href="#projects_1" onClick={this.handleClose}>
-                  Prosjekter
+                  Projects
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/portfolio/skills/">
                 <Nav.Link href="#skills" onClick={this.handleClose}>
-                  Ferdigheter
+                  Skills
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/portfolio/contact/">
                 <Nav.Link href="#contact" onClick={this.handleClose}>
-                  Kontakt
+                  Contact
                 </Nav.Link>
               </LinkContainer>
             </Nav>

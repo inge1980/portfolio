@@ -23,15 +23,15 @@ const Contact = () => {
         ({ status }) => {
           console.log('EmailJS success:', status); // Debugging
           alert(
-            "Tusen takk, beskjeden er sendt. Jeg vil kontakte deg snart som mulig."
+            "Thank you very much. Your message has been sent. I'll contact you as soon as possible."
           );
           e.target.reset();
         },
         (err) => {
-          const errorMessage = err.message || 'En ukjent feil oppstod'; // Default message if no specific message exists
+          const errorMessage = err.message || 'An unknown error occurred'; // Default message if no specific message exists
           console.log('EmailJS error:', errorMessage); // Debugging
           alert(
-            "Beklager, det kan virke som om du ikke er helt menneskelig. Glemte du kanskje \u00E5 klikke i boksen? :-)"
+            "Sorry, it looks like you might not be entirely human. Did you forget to check the box? :-)"
           );
         }
       );
@@ -44,17 +44,17 @@ const Contact = () => {
       <ScrollToTop />
       <div className="container">
         <span id="contact"></span>
-        <h1 className="h3 mb-3 font-weight-normal">Kontakt meg</h1>
+        <h1 className="h3 mb-3 font-weight-normal">Contact me</h1>
         <form className="form-signin" ref={form} onSubmit={sendEmail}>
           <div className="row">
             <div className="col-md-3 pe-0 text-start text-md-end">
-              <label htmlFor="inputName">Navn:</label>
+              <label htmlFor="inputName">Name:</label>
             </div>
             <div className="col-md-9 mb-2">
               <input
                 type="text"
                 name="name"
-                placeholder="Skriv ditt navn her.."
+                placeholder="Enter your name here.."
                 id="inputName"
                 className="form-control"
                 required="required"
@@ -62,13 +62,13 @@ const Contact = () => {
             </div>
 
             <div className="col-md-3 pe-0 text-start text-md-end">
-              <label htmlFor="inputEmail">Epost:</label>
+              <label htmlFor="inputEmail">Email:</label>
             </div>
             <div className="col-md-9 mb-2">
               <input
                 type="email"
                 name="email"
-                placeholder="Skriv din epost her.."
+                placeholder="Enter your email here.."
                 required="required"
                 id="inputEmail"
                 className="form-control"
@@ -76,13 +76,13 @@ const Contact = () => {
             </div>
 
             <div className="col-md-3 pe-0 text-start text-md-end">
-              <label htmlFor="inputPhone">Telefonnummer:</label>
+              <label htmlFor="inputPhone">Phone number:</label>
             </div>
             <div className="col-md-9 mb-2">
               <input
                 type="tel"
                 name="mobile"
-                placeholder="Skriv ditt telefonnummer her.."
+                placeholder="Enter your phone number here.."
                 maxLength={8}
                 required="required"
                 id="inputPhone"
@@ -91,13 +91,13 @@ const Contact = () => {
             </div>
 
             <div className="col-md-3 pe-0 text-start text-md-end">
-              <label htmlFor="inputMessage">Beskjed:</label>
+              <label htmlFor="inputMessage">Message:</label>
             </div>
             <div className="col-md-9 mb-2">
               <textarea
                 name="message"
                 rows="7"
-                placeholder="Skriv inn din beskjed her.."
+                placeholder="Enter your message here.."
                 required="required"
                 id="inputMessage"
                 className="form-control"
@@ -113,7 +113,7 @@ const Contact = () => {
                 }}
               />
               <button className="btn btn-success float-left mt-2" type="submit">
-                Send beskjed
+                Send message
               </button>
             </div>
           </div>
