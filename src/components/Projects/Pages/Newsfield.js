@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 import videoNewsfield from "../../../vid/newsfield.mp4";
 import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
-
 const Newsfield = () => {
   const navigate = useNavigate();
   return (
@@ -13,7 +12,7 @@ const Newsfield = () => {
       <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
-        <h1 className="text-start">Nyhetsfelt</h1>
+        <h1 className="text-start">News Feed with Inline Editing</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -22,22 +21,26 @@ const Newsfield = () => {
                   <div className="row">
                     <div className="col-md-3">
                       <p className="text-start">
-                      Her gjorde jeg det mulig å raskt legge til ny artikkel i nyhetsfelt via modalvindu uten å laste hele siden på nytt. 
-                      I stedet for å ta omveien innom et administrasjonspanelet, kunne man da redigere direkte via CKEditor, inkludert en knapp for å laste opp filer
-                      og en grei forhåndsvisning av artikkelen. Alt på samme plass bare et klikk unna, ned fra tidligere fem klikk.
+                      I redesigned the news publishing workflow by introducing inline editing inside a modal window, allowing users to create and update articles without leaving the page or reloading the website. The workflow was reduced from five clicks to one while keeping everything in a single workspace.
+                      </p>
+                      <p className="text-start">
+                      The editor was built around CKEditor with file uploads, live previews, automatic saving while typing, visual feedback for unsaved changes, and support for rearranging media content directly inside the article.
+                      </p>
+                      <p className="text-start">
+                      As demonstrated in the video, publishing happens immediately when the modal is closed, updating the live website without requiring a full page refresh.
                       </p>
                     </div>
                     <div className="col-md-9">
                       <video className="embed-responsive-item ratio ratio-1x1" controls autoPlay muted>
                         <source src={videoNewsfield} type="video/mp4" />
-                        Beklager, nettleseren din støtter ikke video.
+                        Sorry, your browser does not support video playback.
                       </video>
 
                     </div>
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

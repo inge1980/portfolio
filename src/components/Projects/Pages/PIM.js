@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 import imgPIM from "../../../img/php-bootstrap-PIM_admin_system.png"; 
 import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
-
 const PIM = () => {
   const navigate = useNavigate();
   return (
@@ -13,7 +12,7 @@ const PIM = () => {
       <ScrollToTop />
       <div className="container">
         <span id="skjemabygger"></span>
-        <h1 className="text-start">PIM - Product Information Management</h1>
+        <h1 className="text-start">Product Information Management (PIM)</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -22,23 +21,28 @@ const PIM = () => {
                   <div className="row">
                   <div className="col-md-8">
                       <p className="text-start">
-                        Videreutviklet et&nbsp;
-                        <abbr title="Enterprise Resource Planning&#13;Programvare som støtter opp om et flertall av en bedrifts virksomhetsområder,&#13;som ordre, produksjon, lager, salg, innkjøp og økonomi.">ERP</abbr>-system til et&nbsp;
-                        <abbr title="Product Information Management&#13;Sentral håndtering av produktinformasjon for nettbutikker, ERP-systemer, trykte kataloger og mer.">PIM</abbr>-system for å skape bedre oversikt ved å samle informasjon på et sted.
-                        <br/><br/>All kode er dessverre firmaets eller kunders eiendom, så derfor kan jeg bare vise til dette bilde.
+                        I extended an existing&nbsp;
+                        <abbr title="Enterprise Resource Planning&#13;Software that supports multiple areas of a business,&#13;including orders, production, inventory, sales, purchasing, and accounting.">ERP</abbr> platform with&nbsp;
+                        <abbr title="Product Information Management&#13;A centralized approach to managing product information across ERP systems, online stores, catalogs, and other connected platforms.">PIM</abbr> capabilities, creating a centralized system for managing product information across the ERP and connected online store.
+                      </p>
+                      <p className="text-start">
+                        The ERP remained the authoritative source for product data, while a REST API exposed product information consistently to the storefront. This reduced duplicated data, improved consistency between systems, and made product information easier to maintain without disrupting existing ERP workflows.
+                      </p>
+                      <p className="text-start">
+                        My work included backend development, SQL Server queries, REST API integration, frontend functionality for managing product information, and maintaining compatibility with the existing ERP architecture.
                       </p>
                     </div>
                     <div className="col-md-4">
                       <img
                         className="img-thumbnail"
                         src={imgPIM}
-                        alt="Eksempel av nettbutikk"
+                        alt="Example of the PIM system"
                       />
                     </div>
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

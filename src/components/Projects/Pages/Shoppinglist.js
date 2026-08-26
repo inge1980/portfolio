@@ -13,7 +13,7 @@ const Shoppinglist = () => {
       <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
-        <h1 className="text-start">Handleliste-app i React Native</h1>
+        <h1 className="text-start">React Native Shopping List App</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -22,25 +22,27 @@ const Shoppinglist = () => {
                   <div className="row">
                     <div className="col-md-9">
                       <p className="text-start">
-                        Her har jeg brukt <abbr title="React Native Gesture Handler (versjon 2.x)&#13;Bibliotek for å forenkle måten man får tilgang til plattformens egne berørings- og bevegelsessystem.">react-native-gesture-handler versjon 2</abbr> og <abbr title="React Native Reanimated (versjon 3.x)&#13;Animasjonsbibliotek for å lage animasjoner via UI-tråden.&#13;(i motsetning til JS-tråden som kan forårsake forsinkelser eller hakking)">react-native-reanimated versjon 3</abbr> for å få til en jevn "dra og slipp"-opplevelse.<br/>
+                        I used <abbr title="React Native Gesture Handler (version 2.x)&#13;A library that simplifies access to the platform's native touch and gesture systems.">react-native-gesture-handler version 2</abbr> and <abbr title="React Native Reanimated (version 3.x)&#13;An animation library for running animations on the UI thread.&#13;(instead of the JS thread, where blocking operations can cause delays or stuttering)">react-native-reanimated version 3</abbr> to create a smooth drag-and-drop experience.<br/>
                         <br/>
-                        Man kan trykke og holde nede ikonet til høyre for å dra en vare opp eller ned, og alt skjer i UI-tråden slik at vi unngår potensiell hakking pga blokkeringer i Javascript-tråden.
-                        Det er også mulig å legge til nye varer via godt synlig knapp lett tilgjengelig via et tommeltrykk, eller slette varer via swipe til venstre. 
-                        Handlelisten lagres lokalt via SQLite, og synkroniseres ved hjelp av Redux til Supabase Postgres database når man er online. Dette er en offline-first app, hvor Redux state fungerer som systemets <abbr title="Single Source of Truth&#13;Sikrer at koden vi utvikler har en sentral, korrekt og oppdatert informasjonskilde.">SSOT</abbr>, og dataene blir hentet enten fra SQLite eller Supabase, basert på tilkoblingsstatus.
-                        Kildekoden er foreløpig privat på github, men utsnitt kan vises på oppfordring.
+                        Users can press and hold the icon on the right side of an item to drag it up or down. The interaction runs on the UI thread to avoid potential stuttering caused by blocking the JavaScript thread.
+                        New items can be added using a clearly visible button that is easily accessible with a thumb, while items can be deleted by swiping them to the left.
+                      </p>
+                      <p className="text-start">
+                        The shopping list is stored locally using SQLite and synchronized through Redux with a Supabase Postgres database when the device is online. This is an offline-first app, where the Redux state acts as the <abbr title="Single Source of Truth&#13;Ensures that the application has one central, consistent, and up-to-date source of information.">SSOT</abbr>, while data is loaded from either SQLite or Supabase depending on the connection status.
+                        The source code is currently private on GitHub, but selected parts can be shown upon request.
                       </p>
                     </div>
                     <div className="col-md-3">
                       <video className="embed-responsive-item ratio ratio-1x1" controls autoPlay muted>
                         <source src={videoShoppinglist} type="video/mp4" />
-                        Beklager, nettleseren din støtter ikke video.
+                        Your browser does not support video playback.
                       </video>
 
                     </div>
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

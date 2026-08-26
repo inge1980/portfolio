@@ -16,7 +16,7 @@ const ThemePicker = () => {
       <ScrollToTop />
       <div className="container">
         <span id="themepicker"></span>
-        <h1 className="text-start">Dynamisk temavelger & fargetilpasning</h1>
+        <h1 className="text-start">Dynamic Theme Picker & Color Customization</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -27,35 +27,35 @@ const ThemePicker = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-50">
-                          <a href={imgBothPickers} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                          <a href={imgBothPickers} target="_blank" rel="noopener noreferrer" title="Open the image in a new tab">
                             <img
                               className="img-thumbnail"
                               src={imgBothPickers}
-                              alt="Eksempel på adminmeny øverst"
+                              alt="Example of the admin menu at the top"
                             />
                           </a>
                         </div>
                         <div className="wordBreakImage w-50">
-                          <a href={imgThemePicker} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                          <a href={imgThemePicker} target="_blank" rel="noopener noreferrer" title="Open the image in a new tab">
                             <img
                               className="img-thumbnail"
                               src={imgThemePicker}
-                              alt="Eksempel på temavalg"
+                              alt="Example of the theme selection"
                             />
                           </a>
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
-                            Implementere en dynamisk temavelger ved å integrere Bootswatch med Bootstrap, slik at brukere kunne teste forskjellige temaer via en administrasjonsmeny før de lagret endringene. Utvikle funksjonalitet for å justere bakgrunnsfarge og invertere menyfarger, med en brukervennlig forhåndsvisning.
+                            I implemented a dynamic theme picker by integrating Bootswatch with Bootstrap, allowing users to preview different themes through an administration menu before saving their changes. I also developed functionality for adjusting the background color and inverting menu colors, with a user-friendly live preview.
                           </p>
                           <p className="text-start">
-                            Frigjorde designressurser ved å la kundene selv velge og tilpasse temaer, i stedet for at designeren måtte gjøre manuelle tilpasninger. Økte fleksibiliteten for kundene, slik at de kunne skape mer unike nettsider uten ekstra utviklingsarbeid.
+                            This reduced the need for developer and design resources by allowing customers to choose and customize themes themselves, rather than requiring manual design changes. It also gave customers greater flexibility to create more unique websites without additional development work.
                           </p>
                           <p className="text-start">
-                            En administrasjonsløsning som gav kundene enkel kontroll over designvalg, samtidig som den reduserte behovet for tilpassede endringer ved kundeoppstart. Bidro til en mer strømlinjeformet og effektiv onboarding-prosess.
+                            The result was an administration solution that gave customers simple control over their design choices while reducing the need for custom changes during onboarding. This contributed to a more streamlined and efficient onboarding process.
                           </p>
                           <p className="text-start">
-                            For flere detaljer se bilder, eller videoene for demonstrasjon.
+                            For more details, see the images or watch the videos for a demonstration.
                           </p>
                         </div>
                       </div>
@@ -64,17 +64,17 @@ const ThemePicker = () => {
                     <div className="col-md-12">
                       <video className="embed-responsive-item ratio ratio-1x1" controls autoPlay muted>
                         <source src={videoThemePicker} type="video/mp4" />
-                        Beklager, nettleseren din støtter ikke video.
+                        Your browser does not support video playback.
                       </video>
                       <video className="embed-responsive-item ratio ratio-1x1" controls autoPlay muted>
                         <source src={videoColorPicker} type="video/mp4" />
-                        Beklager, nettleseren din støtter ikke video.
+                        Your browser does not support video playback.
                       </video>
                     </div>
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

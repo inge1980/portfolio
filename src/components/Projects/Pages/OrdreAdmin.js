@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 import ordreadmin from "../../../img/php-bootstrap-order_admin_system.png"; 
 import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
-
 const OrderAdmin = () => {
   const navigate = useNavigate();
   return (
@@ -13,7 +12,7 @@ const OrderAdmin = () => {
       <ScrollToTop />
       <div className="container">
         <span id="skjemabygger"></span>
-        <h1 className="text-start">Ordreadministrasjon</h1>
+        <h1 className="text-start">Order Office Interface</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -22,23 +21,27 @@ const OrderAdmin = () => {
                   <div className="row">
                   <div className="col-md-8">
                       <p className="text-start">
-                        Skilte ut eget ordresystem fra et eksisterende&nbsp;
-                        <abbr title="Enterprise Resource Planning&#13;Programvare som støtter opp om et flertall av en bedrifts virksomhetsområder,&#13;som ordre, produksjon, lager, salg, innkjøp og økonomi.">ERP</abbr>-system. 
-                        Begrenset tilgang, og forenklet brukergrensesnitt som kan brukes av et ordrekontor.
-                        <br/><br/>All kode er dessverre firmaets eller kunders eiendom, så derfor kan jeg bare vise til dette bilde.
+                        I developed a dedicated Order Office interface on top of an existing&nbsp;
+                        <abbr title="Enterprise Resource Planning&#13;Software that supports multiple areas of a business,&#13;including orders, production, inventory, sales, purchasing, and accounting.">ERP</abbr> platform, creating a focused workspace for order processing without exposing the full ERP interface.
+                      </p>
+                      <p className="text-start">
+                        The application communicated with the ERP through the same REST API architecture used across the platform, allowing order-office staff to work with a simplified interface while the ERP remained responsible for the underlying business logic, order processing, and invoicing.
+                      </p>
+                      <p className="text-start">
+                        My work included frontend development, REST API integration, role-based access, and adapting the interface to fit established ERP workflows while reducing unnecessary complexity for daily users.
                       </p>
                     </div>
                     <div className="col-md-4">
                       <img
                         className="img-thumbnail"
                         src={ordreadmin}
-                        alt="Eksempel av nettbutikk"
+                        alt="Example of the Order Office interface"
                       />
                     </div>
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

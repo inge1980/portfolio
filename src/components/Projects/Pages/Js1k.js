@@ -11,7 +11,7 @@ const Js1k = () => {
       <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
-        <h1 className="text-start">Spill på under 1024 byte</h1>
+        <h1 className="text-start">JavaScript Game Under 1024 Bytes</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -21,22 +21,23 @@ const Js1k = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-50">
-                          <a href={js1k} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                          <a href={js1k} target="_blank" rel="noopener noreferrer" title="Open the image in a new tab">
                             <img
                               className="img-thumbnail"
                               src={js1k}
-                              alt="Eksempel på spillet"
+                              alt="Example of the JavaScript game"
                             />
                           </a>
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
-                            Tilbake i 2012 før Valentines prøvde jeg meg i en konkurranse for å lage
-                            et primitivt javascript-spill på under 1 kilobyte. Jeg vant ikke, men
-                            det var gøy å lære litt om hvordan canvas fungerte. I spillet er poeng
-                            til venstre, og antall liv til høyre, og "Cupid" skulle prøve å treffe
-                            så mange hjerter som mulig før de fryser til is. Beregnet kun for pc, og
-                            pilen følger musepekeren.
+                            In 2012, just before Valentine's Day, I entered a competition to create a
+                            simple JavaScript game in under 1 kilobyte. I didn't win, but it was a fun
+                            challenge and gave me an opportunity to learn more about how the HTML5 canvas
+                            worked. The game displays the score on the left and the number of lives on the
+                            right. Cupid has to hit as many hearts as possible before they freeze into ice.
+                            The game was designed for desktop computers, with the arrow following the mouse
+                            pointer.
                           </p>
                         </div>
                       </div>
@@ -44,7 +45,7 @@ const Js1k = () => {
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

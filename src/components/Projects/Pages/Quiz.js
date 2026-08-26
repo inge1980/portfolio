@@ -11,7 +11,7 @@ const Quiz = () => {
       <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
-        <h1 className="text-start">Kundetilfredshet: Spørreundersøkelse</h1>
+        <h1 className="text-start">Customer Satisfaction: User Survey</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -21,23 +21,23 @@ const Quiz = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-25">
-                          <a href={quiz} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                          <a href={quiz} target="_blank" rel="noopener noreferrer" title="Open the image in a new tab">
                             <img
                               className="img-thumbnail"
                               src={quiz}
-                              alt="Eksempel på redigering av spørreundersøkelse"
+                              alt="Example of the survey editing interface"
                             />
                           </a>
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
-                            I et CMS som hadde vært i drift i over 10 år uten noen form for kundeundersøkelse, tok jeg initiativ til å bruke en egenutviklet skjemabygger for å gjennomføre en spørreundersøkelse til innsamling av tilbakemeldinger fra brukerne. Jeg utformet spørsmålene basert på en 0-5-skala for å sikre konsistente og sammenlignbare statistikker over tid. For å øke deltakelsen ble det også lagt til en premiering med trekning av en iPhone.
+                            After running a CMS for a decade without structured user surveys, I took the initiative to use a form builder, I had recently developed, to conduct a user survey and collect feedback from customers. I designed the questions around a 0-5 rating scale to ensure that the results would be consistent and comparable over time. To encourage participation, we also offered an iPhone as a prize in a random draw.
                           </p>
                           <p className="text-start">
-                            Undersøkelsen gav oss innsikt i viktige områder som brukernes opplevelse og utfordringer med plattformen. Denne informasjonen ble brukt til å gjøre målrettede forbedringer, som igjen bidro til økt kundelojalitet og redusert kundefrafall.
+                            The survey gave us valuable insight into areas such as the users' experience with the platform and the challenges they encountered. We used this feedback to make targeted improvements, which helped increase customer loyalty and reduce customer churn.
                           </p>
                           <p className="text-start">
-                            På bakgrunn av undersøkelsen utviklet vi forbedringer i redigeringsgrensesnittet, blant annet ved å redusere antall klikk fra fem til ett og innføre inline-redigering. Dette bidro til økt brukervennlighet og reduserte med all sannsynlighet kundefrafall med 5% over de neste 3 årene. I tillegg førte innsikten fra undersøkelsen til økt mersalg, noe som gjorde plattformen mer lønnsom og konkurransedyktig.
+                            Based on the survey results, we improved the editing interface by reducing the number of clicks required from five to one, and introduced inline editing. These changes improved usability and likely contributed to a 5% reduction in customer churn over the following three years. The insights from the survey also contributed to increased upselling, making the platform more profitable and competitive.
                           </p>
                         </div>
                       </div>
@@ -45,7 +45,7 @@ const Quiz = () => {
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

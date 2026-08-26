@@ -13,7 +13,7 @@ const Calculator = () => {
       <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
-        <h1 className="text-start">Avansert kalkulator med PEMDAS-støtte</h1>
+        <h1 className="text-start">PEMDAS Calculator in React Native</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -23,23 +23,24 @@ const Calculator = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-50">
-                          <a href={calculator} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                          <a href={calculator} target="_blank" rel="noopener noreferrer" title="Open image in new tab">
                             <img
                               className="img-thumbnail"
                               src={calculator}
-                              alt="Eksempel av kalkulator"
+                              alt="Screenshot of the PEMDAS calculator built with React Native"
                             />
                           </a>
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
-                            For å teste mine ferdigheter i React Native, utviklet jeg en mobilapplikasjon som implementerte en kalkulator for å utføre beregninger i henhold til PEMDAS-reglene (parenteser, eksponenter, multiplikasjon, divisjon, addisjon, subtraksjon). Appen måtte håndtere både enkle og komplekse matematiske uttrykk og gi nøyaktige resultater, samtidig som den skulle ha et intuitivt brukergrensesnitt. Jeg implementerte også annonseintegrasjon ved hjelp av Google Mobile Ads SDK.
+                            I built a mobile calculator in React Native and TypeScript that evaluates mathematical expressions according to the PEMDAS order of operations: parentheses, exponents, multiplication, division, addition and subtraction. It handles both simple calculations and more complex expressions while providing clear input and accurate results.
+                          </p>
+                          <p className="text-start">The project was created as a self-development project to deepen my practical experience with React Native and mobile development. I implemented dynamic expression handling and designed the interface with a focus on straightforward input and a smooth mobile user experience.
+                          </p>
+                          <p className="text-start">The app also integrates the Google Mobile Ads SDK and was developed and tested for Android. The project demonstrates practical experience with React Native, TypeScript, mathematical expression handling, mobile UX and third-party SDK integration.
                           </p>
                           <p className="text-start">
-                            Prosjektet gav meg muligheten til å fordype meg i React Native og utvikle en app som demonstrerer mine ferdigheter i mobilutvikling. Kalkulatoren implementerte avansert matematikk, støttet dynamisk input, og ble designet med et brukervennlig grensesnitt som gjør det enkelt for brukeren å utføre beregninger på mobilen.
-                          </p>
-                          <p className="text-start">
-                            Appen ble utviklet og testet med vellykkede resultater, og den viser hvordan komplekse matematiske operasjoner kan implementeres på en enkel måte i en mobilapp. Selv om appen ikke ble publisert på Google Play, er den tilgjengelig på GitHub som et privat prosjekt og fungerer som et praktisk bevis på mine ferdigheter i React Native og mobilutvikling.
+                            <strong>Technology:</strong> React Native, TypeScript, Android, Google Mobile Ads SDK, UX/UI.
                           </p>
                         </div>
                       </div>
@@ -47,7 +48,7 @@ const Calculator = () => {
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

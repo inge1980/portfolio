@@ -13,7 +13,7 @@ const Need4sms = () => {
       <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
-        <h1 className="text-start">Søkbart SMS-vitsearkiv i Perl</h1>
+        <h1 className="text-start">Searchable SMS Joke Archive in Perl</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -23,23 +23,23 @@ const Need4sms = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-50">
-                          <a href={need4sms} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                          <a href={need4sms} target="_blank" rel="noopener noreferrer" title="Open the image in a new tab">
                             <img
                               className="img-thumbnail"
                               src={need4sms}
-                              alt="Eksempel av nettside"
+                              alt="Example of the website"
                             />
                           </a>
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
-                          I perioden 2001-2003 bygde jeg et CMS i Perl for å organisere og lagre innsendte SMS-vitser. Jeg utvidet prosjektet til et søkbart arkiv med over 1 100 kategoriserte gratis sms-vitser, sjekkereplikker og dynamiske SMS. Prosjektet inkluderte muligheten for brukere å sende inn egne vitser via skjemaer, som administrator godkjente og publiserte via kun et trykk på en knapp. Nettsiden tiltrakk seg over 10 000 unike besøkende per måned, og ble et av Norges største gratis SMS-arkiv på den tiden.
+                          Between 2001 and 2003, I built a CMS in Perl to organize and store submitted SMS jokes. I later expanded the project into a searchable archive containing more than 1,100 categorized jokes, pickup lines, and dynamic SMS messages. Users could submit their own content through forms, which an administrator could review and publish with a single click. The website attracted more than 10,000 unique visitors per month and became one of Norway's largest free SMS joke archives at the time.
                           </p>
                           <p className="text-start">
-                          Prosjektet gav meg innsikt i hvordan man kan håndtere store mengder tekstdata og gjøre det lett tilgjengelig for brukere gjennom en søkbar database. Jeg lærte mye om effektiv databasestyring og brukerinteraksjon, samt hvordan man kan optimalisere innholdet for søkemotorer, noe som førte til høy trafikk på nettstedet. Brukerne kunne enkelt navigere i det store arkivet, noe som økte engasjementet.
+                          The project gave me valuable experience in handling large amounts of text data and making it easily accessible through a searchable database. I learned a great deal about database management, user interaction, and search engine optimization, which helped drive significant traffic to the website. The searchable archive made it easy for users to navigate a large amount of content and helped increase engagement.
                           </p>
                           <p className="text-start">
-                          Nettsiden ble da et av de mest populære bibliotekene for SMS-vitser, og det lærte meg mye om å bygge skalerbare og brukervennlige løsninger. Prosjektet gav meg verdifull erfaring med webutvikling og databasedesign. Etter et sikkerhetsbrudd måtte siden til slutt legges ned, noe som lærte meg viktigheten av sikkerhetstiltak og regelmessige sikkerhetskopier - en praksis jeg har videreført i alle mine senere prosjekter.
+                          The website eventually became one of the most popular SMS joke archives in Norway and taught me a great deal about building scalable and user-friendly solutions. The project gave me valuable experience in web development and database design. After a security breach, the website eventually had to be taken offline, which taught me the importance of security measures and regular backups, practices I have carried forward into my later projects.
                           </p>
                         </div>
                       </div>
@@ -47,7 +47,7 @@ const Need4sms = () => {
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

@@ -11,7 +11,7 @@ const ERP = () => {
       <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
-        <h1 className="text-start">ERP Videreutvikling & Serveradministrasjon</h1>
+        <h1 className="text-start">ERP Platform Development & Modernization</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -21,23 +21,23 @@ const ERP = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-25">
-                          <a href={erp} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                          <a href={erp} target="_blank" rel="noopener noreferrer" title="Open the image in a new tab">
                             <img
                               className="img-thumbnail"
                               src={erp}
-                              alt="Eksempel på ERP"
+                              alt="Example of the ERP platform"
                             />
                           </a>
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
-                            Gjennomførte kontinuerlige forbedringer og tilpasninger av et ERP-system basert på kundenes behov. Håndterte også serveradministrasjon via IIS og SQL Server, inkludert databaseoptimalisering og driftssikring. Denne oppdateringen inkluderte også integrasjoner med nettbutikken for å sikre at begge systemene fungerte optimalt sammen.
+                            I worked on the continuous development and modernization of a business-critical ERP platform supporting warehouse management, retail, ordering, invoicing, and e-commerce. A major part of the project involved replacing direct database communication between the online store and ERP with a dedicated REST API, reducing system coupling while preserving established business workflows.
                           </p>
                           <p className="text-start">
-                            Sikret at ERP-systemet forble oppdatert og relevant for virksomhetene som brukte det, samtidig som ytelse og sikkerhet ble optimalisert. Gjennom god serveradministrasjon ble både ERP-systemet og nettbutikken stabile og sikre.
+                            My responsibilities included extending ERP functionality, developing SQL queries and data access logic, redesigning the customer-facing online store, implementing customer-specific features, and maintaining production environments hosted on IIS with SQL Server. I also investigated and resolved production issues while ensuring compatibility with existing business processes.
                           </p>
                           <p className="text-start">
-                            Bedre respons og stabilitet i ERP-systemet, raskere databaseforespørsler og forbedret driftssikkerhet. Brukerne fikk et mer tilpasset system som møtte deres spesifikke krav, og begge systemene (ERP og nettbutikk) fungerte sømløst sammen.
+                            The modernization created a cleaner architectural boundary between customer-facing applications and the ERP, making the platform easier to maintain and extend without requiring a full system replacement. It also established a foundation for dedicated applications such as Product Information Management and Order Office interfaces built on top of the REST API.
                           </p>
                         </div>
                       </div>
@@ -45,7 +45,7 @@ const ERP = () => {
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

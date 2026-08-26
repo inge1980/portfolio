@@ -11,7 +11,7 @@ const Osedalen = () => {
       <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
-        <h1 className="text-start">Nyhetsfeed fra 2013 - Osedalen.org</h1>
+        <h1 className="text-start">News Feed from 2013 - Osedalen.org</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -21,23 +21,23 @@ const Osedalen = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-50">
-                          <a href={osedalen} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                          <a href={osedalen} target="_blank" rel="noopener noreferrer" title="Open the image in a new tab">
                             <img
                               className="img-thumbnail"
                               src={osedalen}
-                              alt="Eksempel av mobiltilpasset forbedring"
+                              alt="Example of the news feed website"
                             />
                           </a>
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
-                            Opprettet en automatisert nyhetsaggregator basert på WordPress som samlet og publiserte lokalnyheter fra forskjellige kilder, inkludert RSS-feeder, vær- og trafikkvarsler, samt Twitter-meldinger fra politiet. Systemet var designet for enkel godkjenning og publisering.
+                            I created an automated news aggregator based on WordPress that collected and published local news from various sources, including RSS feeds, weather and traffic alerts, and police updates from Twitter. The system was designed to make reviewing and publishing content as simple as possible.
                           </p>
                           <p className="text-start">
-                            Brukerne fikk en effektiv og kontinuerlig oppdatering av lokalnyheter uten behov for manuelt arbeid fra administrator. Automatiseringen reduserte tiden brukt på nyhetsoppdateringer og gjorde det lettere å holde innholdet friskt og relevant for lokalsamfunnet.                            
+                            Users received continuous updates on local news without requiring manual work from an administrator. The automation reduced the time spent managing news updates and made it easier to keep the content fresh and relevant for the local community.
                           </p>
                           <p className="text-start">
-                            Skapte en aktiv og lett tilgjengelig nyhetskilde for lokalbefolkningen frem til 2018, med automatisk oppdaterte nyheter og varsler.                            
+                            The result was an active and easily accessible source of local news for the community until 2018, with automatically updated news and alerts.
                           </p>
                         </div>
                       </div>
@@ -45,7 +45,7 @@ const Osedalen = () => {
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

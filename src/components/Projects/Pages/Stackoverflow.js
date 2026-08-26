@@ -11,7 +11,7 @@ const Stackoverflow = () => {
       <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
-        <h1 className="text-start">Datavisualisering med Stack Overflow-API</h1>
+        <h1 className="text-start">Data Visualization with the Stack Overflow API</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -21,23 +21,23 @@ const Stackoverflow = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-50">
-                          <a href={stackoverflow} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                          <a href={stackoverflow} target="_blank" rel="noopener noreferrer" title="Open the image in a new tab">
                             <img
                               className="img-thumbnail"
                               src={stackoverflow}
-                              alt="Eksempel av mobiltilpasset forbedring"
+                              alt="Example of the Data Visualization"
                             />
                           </a>
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
-                            Jeg bygget en applikasjon for å hente og visualisere brukerdata fra Stack Overflow API ved hjelp av React og Chart.js. Dataene ble presentert i et lettfattelig kakediagram som viste en oversikt over mine bidrag på plattformen.
+                            I built an application that retrieves and visualizes user data from the Stack Overflow API using React and Chart.js. The data was presented in an easy-to-understand pie chart, providing an overview of my contributions to the platform.
                           </p>
                           <p className="text-start">
-                            Dette prosjektet gjorde det mulig å vise frem egne bidrag og engasjement på Stack Overflow på en mer visuell og intuitiv måte. Brukeren får raskt en oversikt over hva de har bidratt med, og hvordan de er engasjert med andre utviklere.
+                            The project provided a more visual and intuitive way to showcase my contributions and activity on Stack Overflow (<a href="https://inge1980.github.io/stackoverflow-tags/" target="_blank" rel="noreferrer" alt="Demo of the live data visualization">demo</a>). It gives users a quick overview of what I have contributed and how I have interacted with other developers on the platform.
                           </p>
                           <p className="text-start">
-                            Økt synlighet og personlig merkevarebygging som utvikler, ettersom jeg kunne bruke applikasjonen til å vise mine tekniske ferdigheter og kunnskap på en enkel måte. Prosjektet gav meg også innsikt i hvordan man håndterer API-integrasjoner i React.                            
+                            The project also gave me practical experience with API integration in React and demonstrated how external data can be retrieved, processed, and presented in a clear visual format.
                           </p>
                         </div>
                       </div>
@@ -45,7 +45,7 @@ const Stackoverflow = () => {
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

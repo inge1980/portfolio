@@ -13,7 +13,7 @@ const FormBuilder = () => {
       <ScrollToTop />
       <div className="container">
         <span id="skjemabygger"></span>
-        <h1 className="text-start">Skjemabygger</h1>
+        <h1 className="text-start">GDPR-Compliant Form Builder</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -27,16 +27,16 @@ const FormBuilder = () => {
                         <div className="wordBreakImage w-75">
                           <video className="embed-responsive-item ratio ratio-1x1" controls autoPlay muted>
                             <source src={videoFormBuilder} type="video/mp4" />
-                            Beklager, nettleseren din støtter ikke video.
+                            Sorry, your browser does not support video.
                           </video>
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
-                            Da jeg jobber hos Moava AS kodet jeg en skjemabygger til deres administrasjonssystem. Her kunne du starte med å velge 
-                            blant mange maler, deretter redigere eller duplikere hvert enkelt felt inline. Man kunne organisere feltene via drag'n'drop, og 
-                            felt med ulagrede endringer ble markert med svak rødfarge. For å overholde GDPR-regler ble det lagt inn tidsbegrensing på hvor 
-                            lenge dataene ble lagret på bedriftens servere, og kunden fikk mulighet til å se innsendte resultater per skjema, kunne svare 
-                            direkte til innsender og evt. eksportere alle resultatene.
+                            While working at Moava AS, I developed a form builder for their administration system. Users could start by choosing 
+                            from a range of templates, then edit or duplicate individual fields inline. Fields could be organized using drag-and-drop, 
+                            while fields with unsaved changes were highlighted in a subtle red color. To comply with GDPR requirements, data retention periods 
+                            were enforced on the company's servers, and customers could view submitted results for each form, reply directly to the sender, and 
+                            export all results.
                           </p>
                         </div>
                       </div>
@@ -44,7 +44,7 @@ const FormBuilder = () => {
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

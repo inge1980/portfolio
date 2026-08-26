@@ -174,7 +174,7 @@ const Projects = [
             title: "Optimizing Article Editing",
             image: a1,
             description:
-              "Reduced often used CMS editing workflows from five clicks to one.",
+              "Introduced inline editing and reduced a common CMS workflow from five clicks to one.",
             links: [
               { text: "Read more", url: "/portfolio/projects/nyhetsfelt/" },
             ],

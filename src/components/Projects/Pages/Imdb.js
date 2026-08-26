@@ -11,7 +11,7 @@ const Imdb = () => {
       <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
-        <h1 className="text-start">Inge Movie Database</h1>
+        <h1 className="text-start">Inge Movie Database (IMDB)</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -21,31 +21,35 @@ const Imdb = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-50">
-                          <a href={imdb} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                          <a href={imdb} target="_blank" rel="noopener noreferrer" title="Open the image in a new tab">
                             <img
                               className="img-thumbnail"
                               src={imdb}
-                              alt="Eksempel av mobiltilpasset forbedring"
+                              alt="Example of the Inge Movie Database"
                             />
                           </a>
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
-                          Jeg tok Typescript og "Mastering React"-kurs sommeren 2022. Kursene tok omtrent 24 timer fordelt på fire dager, inkludert alle
-        videoene og oppgavene, og det er så absolutt å anbefale. Det fikk meg blant annet til å reflektere over
-        hvordan jeg kunne ha løst tidligere prosjekter anderledes hvis jeg bare hadde hatt inngående kunnskap om Typescript og React.
+                            I built the Inge Movie Database as part of an in-depth React and TypeScript course. The project is a movie index that stores data in local storage and includes component-based architecture, state management, React Router, form fields with validation, and reusable React components.
                           </p>
                           <p className="text-start">
-                            Klikk her for å se kursdetaljene om{" "}
+                            The project gave me practical experience building a structured React application with TypeScript, functional components and hooks. It also strengthened my understanding of how TypeScript can improve code quality and maintainability through type safety and interfaces.
+                          </p>
+                          <p className="text-start">
+                            I completed both the React and TypeScript courses and earned certifications in each. The project provided a practical foundation for building maintainable React applications and applying modern frontend development practices.
+                          </p>
+                          <p className="text-start">
+                            Click here to view the course details for{" "}
                             <a
                               className="link-primary"
                               href="https://codewithmosh.com/p/the-ultimate-typescript"
                               target="_blank"
                               rel="noreferrer"
                             >
-                              Typescript
+                              TypeScript
                             </a>
-                            {" "}eller{" "}
+                            {" "}or{" "}
                             <a
                               className="link-primary"
                               href="https://codewithmosh.com/p/mastering-react"
@@ -62,7 +66,7 @@ const Imdb = () => {
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

@@ -11,7 +11,7 @@ const ExportResults = () => {
       <ScrollToTop />
       <div className="container">
         <span id="iktplan"></span>
-        <h1 className="text-start">Eksport & sammenslåing av skjemadata</h1>
+        <h1 className="text-start">Form Data Export & Consolidation</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -21,23 +21,23 @@ const ExportResults = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-25">
-                          <a href={exportresults} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                          <a href={exportresults} target="_blank" rel="noopener noreferrer" title="Open image in new tab">
                             <img
                               className="img-thumbnail"
                               src={exportresults}
-                              alt="Eksempel på eksportering av data og filer"
+                              alt="Example of the form data and the file export"
                             />
                           </a>
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
-                            Etter utviklingen av en spørreskjema-mal for skjemabyggeren, oppstod behovet for å eksportere innsendte resultater til CSV- og XLS-format. Jeg tok ansvar for å implementere eksportfunksjonaliteten ved hjelp av PHPSpreadsheet. Løsningen inkluderte støtte for vedlagte filer, som ble pakket i en ZIP-fil før nedlastning. Etter eksporten kunne kundene åpne Excel-arket og finne fungerende lenker til de vedlagte filene for hvert innsendte resultat.
+                            After developing a form builder with reusable templates, there was a need to export submitted results in CSV and XLS formats. I implemented the export functionality using PHPSpreadsheet, including support for file attachments. Attachments were packaged into a ZIP file for download, while the exported Excel spreadsheet contained working links to the corresponding files for each submission.
                           </p>
                           <p className="text-start">
-                            Løsningen gjorde det enklere for administratorer å håndtere og analysere innsendte skjemaer, samtidig som den ivaretok personvern og datahåndtering i tråd med GDPR. Ved å legge ansvaret for videre behandling av data over på kunden, kunne vi slette informasjon hos oss i henhold til brukernes samtykke.
+                            The solution made it easier for administrators to manage and analyze submitted form data while supporting GDPR-compliant data handling. By allowing customers to take responsibility for further processing of exported data, submitted information could be deleted from our systems according to the agreed retention and consent requirements.
                           </p>
                           <p className="text-start">
-                            Effektiv og brukervennlig eksportfunksjonalitet som gav kundene bedre innsikt i innsamlede data og sikret etterlevelse av GDPR-krav. Løsningen reduserte også manuelt arbeid for bedriftens administratorer og gjorde det lettere for kunder å sammenstille og dele informasjon på en sikker måte.
+                            The result was an efficient and user-friendly export workflow that simplified data processing and reduced manual administration. It also made it easier for customers to consolidate and securely work with submitted data and attachments.
                           </p>
                         </div>
                       </div>
@@ -45,7 +45,7 @@ const ExportResults = () => {
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

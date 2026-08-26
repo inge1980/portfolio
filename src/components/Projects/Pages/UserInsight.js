@@ -13,7 +13,7 @@ const UserInsight = () => {
       <ScrollToTop />
       <div className="container">
         <span id="nyhetsfelt"></span>
-        <h1 className="text-start">Analyse & trafikkoptimalisering</h1>
+        <h1 className="text-start">Analytics & Traffic Optimization</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -23,23 +23,23 @@ const UserInsight = () => {
                     <div className="col-md-12">
                       <div className="wordBreakWrapper">
                         <div className="wordBreakImage w-50">
-                          <a href={userinsight} target="_blank" rel="noopener noreferrer" title="Åpne bildet i ny fane">
+                          <a href={userinsight} target="_blank" rel="noopener noreferrer" title="Open the image in a new tab">
                             <img
                               className="img-thumbnail"
                               src={userinsight}
-                              alt="Eksempel på analyse & trafikkoptimalisering"
+                              alt="Example of the analytics and traffic optimization"
                             />
                           </a>
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
-                            Hos Moava tok jeg initiativ til å implementere Google Tag Manager (GTM) sammen med Google Analytics (GA) for å få innsikt i hvordan potensielle kunder navigerte på nettstedet vårt. Jeg kartla kundereisen frem til handlingen "Bestill demo" og satte opp sporing for viktige hendelser som klikk og sidevisninger.
+                            At Moava, I took the initiative to implement Google Tag Manager (GTM) together with Google Analytics (GA) to gain insight into how potential customers navigated our website. I mapped the customer journey leading up to the "Book a demo" action and set up tracking for important events such as clicks and page views.
                           </p>
                           <p className="text-start">
-                            Prosjektet gav oss innsikt i brukeradferden på nettstedet, og identifiserte spesifikke områder i kundereisen som hadde høy avvisningsfrekvens eller der brukerne droppet ut. Selv om prosjektet ikke resulterte i umiddelbare forbedringer, gav det oss et klart bilde av hvilke deler av nettstedet som måtte optimaliseres. Denne innsikten var viktig for å identifisere utfordringer og forbedre brukeropplevelsen på lang sikt.
+                            The project gave us insight into user behavior on the website and helped identify specific areas of the customer journey with high bounce rates or where users were dropping out. Although the project did not result in immediate improvements, it gave us a clear picture of which parts of the website needed optimization. This insight was important for identifying issues and improving the user experience over time.
                           </p>
                           <p className="text-start">
-                            Gjennom prosjektet utviklet jeg ferdigheter innen webanalyse og data-drevet markedsføring. Jeg fikk praktisk erfaring med Google Tag Manager og Google Analytics, og lærte hvordan vi kan bruke data for å optimere digitale strategier. Prosjektet la et solid grunnlag for fremtidige tiltak som kan forbedre konverteringsraten på nettstedet, og har vært et viktig skritt mot en mer datadrevet tilnærming i selskapet.                            
+                            Through this project, I developed skills in web analytics and data-driven marketing. I gained practical experience with Google Tag Manager and Google Analytics, and learned how to use data to optimize digital strategies. The project provided a solid foundation for future initiatives aimed at improving the website's conversion rate and contributed to a more data-driven approach within the company.
                           </p>
                         </div>
                       </div>
@@ -47,7 +47,7 @@ const UserInsight = () => {
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

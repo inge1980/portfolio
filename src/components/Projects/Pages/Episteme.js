@@ -22,17 +22,17 @@ const Episteme = () => {
                   <div className="row">
                     <div className="col-md-8">
                       <p className="text-start">
-                        Hos Systemhuset Episteme AS var jeg med på å videreutvikle et&nbsp; 
-                        <abbr title="Enterprise Resource Planning&#13;Programvare som støtter opp om et flertall av en bedrifts virksomhetsområder,&#13;som ordre, produksjon, lager, salg, innkjøp og økonomi.">ERP</abbr> system, 
-                        samt redesigne systemet fra bunnen. Jeg redesignet også nettbutikken som tar i bruk nevnte ERP. All kode er dessverre firmaets eller kunders eiendom, så derfor har jeg istedet valgt å 
-                        samle linker til noen nettsider som tar i bruk systemet.
+                        At Systemhuset Episteme AS, I worked on further developing an&nbsp;
+                        <abbr title="Enterprise Resource Planning&#13;Software that supports multiple areas of a business,&#13;such as orders, production, inventory, sales, purchasing and finance.">ERP</abbr> system, 
+                        including redesigning the system from the ground up. I also redesigned the webshop connected to the ERP system. All code is unfortunately owned by the company or its customers, so instead I have 
+                        collected links to some websites that use the system.
                       </p>
                     </div>
                     <div className="col-md-4">
                       <img
                         className="img-thumbnail"
                         src={shoplet}
-                        alt="Eksempel av nettbutikk"
+                        alt="Example of the webshop"
                       />
                     </div>
                     <div className="col-md-12">
@@ -59,7 +59,7 @@ const Episteme = () => {
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>

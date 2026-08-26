@@ -13,7 +13,7 @@ const Moava = () => {
       <ScrollToTop />
       <div className="container">
         <span id="moava"></span>
-        <h1 className="text-start">Moava</h1>
+        <h1 className="text-start">Moava CMS</h1>
         <div className="row">
           <div className="col-12">
             <div className="card">
@@ -22,17 +22,19 @@ const Moava = () => {
                   <div className="row">
                     <div className="col-md-6">
                       <p className="text-start">
-                        Hos min tidligere arbeidsgiver var jeg med på å videreutvikle et
-                        omfattende administrativt system, også kalt <abbr title="Content Management System&#13;System som lar deg opprette og redigere innhold på nettsider, intranett og nettbutikker.">CMS</abbr>. 
-                        Jeg har samlet endel lenker til skoler i mitt nærområde som bruker Moavas CMS til å publisere nyheter og
-                        informasjon, men jeg kan dessverre ikke lenke til administrasjonsdelen som har nyttige verktøy som forenkler en lærers digitale hverdag, da <abbr title="Software as a service&#13;Skybasert løsning som gir brukere tilgang til programvareapplikasjoner uten behov for å installere eller vedlikeholde programvaren.">SaaS</abbr> produktet er eiendom av Moava AS.
+                        At my previous employer, I was part of the development team responsible for further developing a
+                        large-scale administrative system, also known as a <abbr title="Content Management System&#13;A system for creating and managing content for websites, intranets and online stores.">CMS</abbr>.
+                        I have collected links to schools in my local area that use Moava's CMS to publish news and
+                        information. Unfortunately, I cannot link to the administration interface, which contains tools
+                        designed to simplify teachers' day-to-day digital work, as the <abbr title="Software as a service&#13;A cloud-based solution that provides access to software applications without requiring users to install or maintain the software.">SaaS</abbr>
+                        product is owned by Moava AS.
                       </p>
                     </div>
                     <div className="col-md-6">
                       <img
                         className="img-thumbnail"
                         src={skoler}
-                        alt="Eksempel av skoler nettside"
+                        alt="Example of a school website"
                       />
                     </div>
                     <div className="col-md-12">
@@ -59,7 +61,7 @@ const Moava = () => {
                     <div className="col-md-12 backLink">
                       <React.Fragment>
                         <Nav.Link className="link-primary" onClick={() => navigate(-1)}>
-                          Gå tilbake
+                          Go back
                         </Nav.Link>
                       </React.Fragment>
                     </div>
