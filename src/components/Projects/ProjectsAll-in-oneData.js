@@ -43,7 +43,7 @@ const Projects = [
             image: e1,
             description: (
               <>
-                Modernized the webshop and replaced direct ERP access with a{" "}
+                Modernized the webshop with responsive UX, allergen filtering, user login, favorites and dynamic pricing, while replacing direct ERP access with a{" "}
                 <abbr title="REST API (also known as RESTful API or RESTful Web API)">
                   REST API
                 </abbr>{" "}
@@ -79,7 +79,7 @@ const Projects = [
             title: "ERP Development & Production Infrastructure",
             image: e6,
             description:
-              "Modernized ERP functionality, production infrastructure and system integrations.",
+              "Modernized ERP functionality, production infrastructure, database performance and system integrations.",
             links: [
               { text: "Read more", url: "/portfolio/projects/epistemeerp/" },
             ],
@@ -102,14 +102,14 @@ const Projects = [
         periodstart: "2013",
         periodend: "2022",
         description:
-          "Developed and improved Moava's CMS, focusing on UX, responsive design and optimization.",
+          "Developed and modernized a large-scale SaaS CMS across architecture, UX, data and performance",
         projects: [
           {
             textid: 'mobile-first',
-            title: "Bootstrap Migration & Responsive Design",
+            title: "Responsive Bootstrap Modernization",
             image: m2,
             description:
-              "Automated migration and improved mobile UX.",
+              "Modernized 20+ CMS modules and migrated ~1,300 school websites to a responsive frontend with progressive rollout and automated legacy configuration conversion.",
             links: [
               {
                 text: "Read more",
@@ -119,10 +119,10 @@ const Projects = [
           },
           {
             textid: 'newscarousel',
-            title: "News Carousel with Video",
+            title: "Dynamic News Article Carousel",
             image: a7,
             description:
-              "Module with video playback and dynamic content.",
+              "Transformed a news article module into a dynamic carousel supporting articles with both image and video content, including autoplay and modal article viewing.",
             links: [
               {
                 text: "Demo",
@@ -132,10 +132,10 @@ const Projects = [
           },
           {
             textid: 'edtech',
-            title: "UI/UX IKTplan.no (2018)",
+            title: "IKTplan.no - UX Modernization",
             image: a14,
             description:
-              "Simplified curriculum access through user testing and UI/UX improvements.",
+              "Improved navigation and usability of IKTplan.no, a digital skills resource for teachers, through user testing and frontend optimization in collaboration with the Norwegian Directorate for Education and Training.",
             links: [
               {
                 text: "Read more",
@@ -148,7 +148,7 @@ const Projects = [
             title: "Dynamic Theme Picker & Color Customization",
             image: a13,
             description:
-              "Made website customization more accessible for users.",
+              "Made website customization more accessible through dynamic theme and color configuration.",
             links: [
               {
                 text: "Read more",
@@ -161,7 +161,7 @@ const Projects = [
             title: "Flexible Double Mobile Menu",
             image: a2,
             description:
-              "Responsive, multi-view navigation.",
+              "Built responsive multi-view navigation optimized for mobile interaction.",
             links: [
               {
                 text: "Demo & Code",
@@ -174,17 +174,17 @@ const Projects = [
             title: "Optimizing Article Editing",
             image: a1,
             description:
-              "From five clicks to one in CMS editing.",
+              "Reduced often used CMS editing workflows from five clicks to one.",
             links: [
               { text: "Read more", url: "/portfolio/projects/nyhetsfelt/" },
             ],
           },
           {
             textid: 'formbuilder',
-            title: "GDPR-Friendly Drag'n'Drop Form Builder",
+            title: "GDPR-Compliant Form Builder",
             image: m1,
             description:
-              "Automated deletion of sensitive data.",
+              "Built dynamic form management with role-based editing, automated data retention, S3 file lifecycle management and data exports.",
             links: [
               { text: "Read more", url: "/portfolio/projects/skjemabygger/" },
             ],
@@ -194,7 +194,7 @@ const Projects = [
             title: "Export & Merge Form Data",
             image: a15,
             description:
-              "CSV/XLS export with attachment handling.",
+              "Built CSV/XLS exports with attachment handling and optimized spreadsheet generation.",
             links: [
               { text: "Read more", url: "/portfolio/projects/exportresults/" },
             ],
@@ -204,7 +204,7 @@ const Projects = [
             title: "Customer Satisfaction Survey",
             image: a12,
             description:
-              "Gather insights after 10 years without user surveys.",
+              "Introduced customer feedback collection after a decade without structured user surveys.",
             links: [
               {
                 text: "Read more",
@@ -217,7 +217,7 @@ const Projects = [
             title: "Analytics & Traffic Optimization",
             image: a11,
             description:
-              "Optimized tracking and digital insights in the CMS.",
+              "Improved CMS analytics, tracking and visibility into website usage.",
             links: [
               { text: "Read more", url: "/portfolio/projects/userinsight/" },
             ],
@@ -240,17 +240,17 @@ const Projects = [
             title: "Hierarchical Drag'n'Drop Lists",
             image: r5,
             description:
-              "Offline-first app with Redux SSOT and Supabase sync.",
+              "Built an offline-first app for hierarchical lists with Redux SSOT, SQLite local storage and Supabase cloud sync.",
             links: [
               { text: "Read more", url: "/portfolio/projects/shoppinglist/" },
             ],
           },
           {
             textid: 'calculator',
-            title: "Advanced Calculator",
+            title: "PEMDAS Calculator",
             image: r8,
             description:
-              "PEMDAS support, expression visualization.",
+              "Built a React Native calculator supporting complex mathematical expressions with intuitive input and Google Mobile Ads integration.",
             links: [
               {
                 text: "Read more",
@@ -302,7 +302,7 @@ const Projects = [
             textid: 'showcase',
             title: "Next.js, React Hooks & Tailwind",
             image: r4,
-            description: "Experimenting with a modern stack.",
+            description: "Experimenting with a modern stack, server-side rendering and performance optimization",
             links: [
               {
                 text: "Demo",
@@ -319,7 +319,7 @@ const Projects = [
             title: "Portfolio Site with Project Overview",
             image: r6,
             description:
-              "Dynamic navigation, custom design and unit tests. The page you're on right now.",
+              "Dynamic navigation, custom design and unit tests. The page you're on now.",
             links: [
               {
                 text: "Code",
@@ -423,7 +423,7 @@ const Projects = [
             title: "Searchable SMS Joke Archive in Perl",
             image: a10,
             description:
-              "One of Norway's biggest joke archives at the time with 10k+ users/month.",
+              "Built a searchable CMS and archive with 1,100+ categorized jokes and 10k+ monthly users.",
             links: [
               {
                 text: "Read more",
