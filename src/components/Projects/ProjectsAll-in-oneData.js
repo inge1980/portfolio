@@ -27,102 +27,102 @@ import e6 from "../../img/php-erp-blurry.png";
 
 const Projects = [
   {
-    category: "Profesjonell erfaring",
+    category: "Professional Experience",
     sections: [
       {
         company: "Episteme AS",
-        role: "Fullstack- og frontend-utvikler",
+        role: "Fullstack & Frontend Developer",
         periodstart: "2022",
         periodend: "2025",
         description:
-          "Arbeidet med utvikling og forbedring av systemer innen e-handel, ERP og kantineløsninger.",
+          "Developed and modernized ERP, e-commerce and integrated business systems",
         projects: [
           {
             textid: 'webshop',
-            title: "Mobilnettbutikk & REST API",
+            title: "Mobile Webshop & REST API",
             image: e1,
             description: (
               <>
-                Redesignet mobil, implementert dynamisk prissetting og{" "}
-                <abbr title="REST API (også kalt RESTful API eller RESTful web API)">
+                Modernized the webshop and replaced direct ERP access with a{" "}
+                <abbr title="REST API (also known as RESTful API or RESTful Web API)">
                   REST API
                 </abbr>{" "}
                 .
               </>
             ),
             links: [
-              { text: "Les mer", url: "/portfolio/projects/shoplet/" },
+              { text: "Read more", url: "/portfolio/projects/shoplet/" },
             ],
           },
           {
             textid: 'orderadmin',
-            title: "Tilpasset ordresystem & ERP",
+            title: "Custom Order System & ERP",
             image: e2,
             description:
-              "Forbedret UX og optimalisert ERP-integrasjon",
+              "Extracted an order office system from ERP with a simplified, role-based UI.",
             links: [
-              { text: "Les mer", url: "/portfolio/projects/ordreadmin/" },
+              { text: "Read more", url: "/portfolio/projects/ordreadmin/" },
             ],
           },
           {
             textid: 'PIM',
-            title: "PIM i ERP",
+            title: "PIM in ERP",
             image: e3,
             description:
-              "Integrerte PIM for konsistent produktdata på tvers av plattformer.",
+              "Built PIM in ERP as a central product source for the webshop via REST API.",
             links: [
-              { text: "Les mer", url: "/portfolio/projects/PIM/" },
+              { text: "Read more", url: "/portfolio/projects/PIM/" },
             ],
           },
           {
             textid: 'ERP',
-            title: "ERP Videreutvikling & Serveroptimalisering",
+            title: "ERP Development & Production Infrastructure",
             image: e6,
             description:
-              "Optimaliserte ytelse, sikkerhet og ERP-nettbutikkintegrasjon.",
+              "Modernized ERP functionality, production infrastructure and system integrations.",
             links: [
-              { text: "Les mer", url: "/portfolio/projects/epistemeerp/" },
+              { text: "Read more", url: "/portfolio/projects/epistemeerp/" },
             ],
           },
           {
             textid: 'cafeteria',
-            title: "Kantinesystem med ERP",
+            title: "Canteen Management System & ERP",
             image: e5,
             description:
-              "Avdelingsbestilling integrert med ERP for effektiv lagerstyring",
+              "Built role-based ordering for multiple departments with ERP inventory integration.",
             links: [
-              { text: "Les mer", url: "/portfolio/projects/kantine/" },
+              { text: "Read more", url: "/portfolio/projects/kantine/" },
             ],
           },
         ],
       },
       {
         company: "Moava AS",
-        role: "Fullstack-utvikler",
+        role: "Fullstack Developer",
         periodstart: "2013",
         periodend: "2022",
         description:
-          "Utviklet og forbedret Moava sitt CMS, med fokus på UX, responsivt design og automatisering.",
+          "Developed and improved Moava's CMS, focusing on UX, responsive design and optimization.",
         projects: [
           {
             textid: 'mobile-first',
-            title: "Bootstrap-migrering & responsivt design",
+            title: "Bootstrap Migration & Responsive Design",
             image: m2,
             description:
-              "Automatiserte migrering og forbedret mobil UX.",
+              "Automated migration and improved mobile UX.",
             links: [
               {
-                text: "Les mer",
+                text: "Read more",
                 url: "/portfolio/projects/mobilefirst/",
               },
             ],
           },
           {
             textid: 'newscarousel',
-            title: "Nyhetskarusell med video",
+            title: "News Carousel with Video",
             image: a7,
             description:
-              "Modul med videoavspilling og dynamisk innhold.",
+              "Module with video playback and dynamic content.",
             links: [
               {
                 text: "Demo",
@@ -135,91 +135,91 @@ const Projects = [
             title: "UI/UX IKTplan.no (2018)",
             image: a14,
             description:
-              "Forenklet tilgang til læreplan via brukertesting og UI/UX-forbedringer.",
+              "Simplified curriculum access through user testing and UI/UX improvements.",
             links: [
               {
-                text: "Les mer",
+                text: "Read more",
                 url: "/portfolio/projects/iktplan/",
               },
             ],
           },
           {
             textid: 'theme-selector',
-            title: "Dynamisk temavelger & fargetilpasning",
+            title: "Dynamic Theme Picker & Color Customization",
             image: a13,
             description:
-              "Forenkelt nettside-tilpasning for brukere.",
+              "Made website customization more accessible for users.",
             links: [
               {
-                text: "Les mer",
+                text: "Read more",
                 url: "/portfolio/projects/themepicker/",
               },
             ],
           },
           {
             textid: 'doublemenu',
-            title: "Fleksibel dobbel mobilmeny",
+            title: "Flexible Double Mobile Menu",
             image: a2,
             description:
-              "Responsiv, multi-visning navigasjon.",
+              "Responsive, multi-view navigation.",
             links: [
               {
-                text: "Demo og kode",
+                text: "Demo & Code",
                 url: "https://jsfiddle.net/turbopipp/6qw4075d/",
               },
             ],
           },
           {
             textid: 'edit-optimizing',
-            title: "Artikkelredigering effektivisert",
+            title: "Optimizing Article Editing",
             image: a1,
             description:
-              "Fra fem klikk til ett i CMS-redigering.",
+              "From five clicks to one in CMS editing.",
             links: [
-              { text: "Les mer", url: "/portfolio/projects/nyhetsfelt/" },
+              { text: "Read more", url: "/portfolio/projects/nyhetsfelt/" },
             ],
           },
           {
             textid: 'formbuilder',
-            title: "GDPR-vennlig drag'n'drop skjemabygger",
+            title: "GDPR-Friendly Drag'n'Drop Form Builder",
             image: m1,
             description:
-              "Automatisert sletting av sensitive data.",
+              "Automated deletion of sensitive data.",
             links: [
-              { text: "Les mer", url: "/portfolio/projects/skjemabygger/" },
+              { text: "Read more", url: "/portfolio/projects/skjemabygger/" },
             ],
           },
           {
             textid: 'export',
-            title: "Eksport & sammenslåing av skjemadata",
+            title: "Export & Merge Form Data",
             image: a15,
             description:
-              "CSV/XLS eksport med vedleggshåndtering.",
+              "CSV/XLS export with attachment handling.",
             links: [
-              { text: "Les mer", url: "/portfolio/projects/exportresults/" },
+              { text: "Read more", url: "/portfolio/projects/exportresults/" },
             ],
           },
           {
             textid: 'quiz',
-            title: "Kundetilfredshetsundersøkelse",
+            title: "Customer Satisfaction Survey",
             image: a12,
             description:
-              "Utviklet et verktøy for å samle innsikt etter 10 år uten brukerundersøkelser.",
+              "Gather insights after 10 years without user surveys.",
             links: [
               {
-                text: "Les mer",
+                text: "Read more",
                 url: "/portfolio/projects/quiz/",
               },
             ],
           },
           {
             textid: 'tracking',
-            title: "Analyse & trafikkoptimalisering",
+            title: "Analytics & Traffic Optimization",
             image: a11,
             description:
-              "Optimaliserte sporing og digital innsikt i CMS.",
+              "Optimized tracking and digital insights in the CMS.",
             links: [
-              { text: "Les mer", url: "/portfolio/projects/userinsight/" },
+              { text: "Read more", url: "/portfolio/projects/userinsight/" },
             ],
           },
         ],
@@ -227,33 +227,33 @@ const Projects = [
     ],
   },
   {
-    category: "Case Studier",
-    description: "Selvutvikling innen Perl, PHP, TypeScript, React og React Native.",
+    category: "Case Studies",
+    description: "Self-development in Perl, PHP, TypeScript, React and React Native.",
     sections: [
       {
-        title: "React Native: Mobilapper",
+        title: "React Native: Mobile Apps",
         periodstart: "2024",
         periodend: "2025",
         projects: [
           {
             textid: 'shoppinglist',
-            title: "Hierarkiske drag'n'drop-lister",
+            title: "Hierarchical Drag'n'Drop Lists",
             image: r5,
             description:
-              "Offline-first app med Redux SSOT og Supabase sync.",
+              "Offline-first app with Redux SSOT and Supabase sync.",
             links: [
-              { text: "Les mer", url: "/portfolio/projects/shoppinglist/" },
+              { text: "Read more", url: "/portfolio/projects/shoppinglist/" },
             ],
           },
           {
             textid: 'calculator',
-            title: "Avansert kalkulator",
+            title: "Advanced Calculator",
             image: r8,
             description:
-              "PEMDAS-støtte, visualisering av uttrykk.",
+              "PEMDAS support, expression visualization.",
             links: [
               {
-                text: "Les mer",
+                text: "Read more",
                 url: "/portfolio/projects/calculator/",
               },
             ],
@@ -267,75 +267,75 @@ const Projects = [
         projects: [
           {
             textid: 'desktop-dnd',
-            title: "Next.js drag'n'drop med pre-drop markør",
+            title: "Next.js Drag'n'Drop with Pre-Drop Indicator",
             image: r9,
-            description: "Dynamiske kolonner med animert drop.",
+            description: "Dynamic columns with animated drop.",
             links: [
               {
                 text: "Demo",
                 url: "https://drag-n-drop-desktop.vercel.app/",
               },
               {
-                text: "Kode",
+                text: "Code",
                 url: "https://github.com/inge1980/drag-n-drop-desktop",
               },
             ],
           },
           {
             textid: 'booking',
-            title: "Simulert hotellbookingsystem",
+            title: "Simulated Hotel Booking System",
             image: r7,
             description:
-              "Validering, automatisk feedback, UX-fokus.",
+              "Validation, instant feedback, UX-focused.",
             links: [
               {
                 text: "Demo",
                 url: "https://hotel-booking-case-2024-improved.vercel.app/",
               },
               {
-                text: "Kode",
+                text: "Code",
                 url: "https://github.com/inge1980/hotel_booking_case_2024_improved",
               },
             ],
           },
           {
             textid: 'showcase',
-            title: "Next.js, React hooks & Tailwind",
+            title: "Next.js, React Hooks & Tailwind",
             image: r4,
-            description: "Eksperimentering med moderne stack.",
+            description: "Experimenting with a modern stack.",
             links: [
               {
                 text: "Demo",
                 url: "https://showcase-ivory.vercel.app/",
               },
               {
-                text: "Kode",
+                text: "Code",
                 url: "https://github.com/inge1980/showcase/",
               },
             ],
           },
           {
             textid: 'portfolio',
-            title: "Porteføljeside med prosjektoversikt",
+            title: "Portfolio Site with Project Overview",
             image: r6,
             description:
-              "Dynamisk navigasjon, tilpasset design og enhetstester. Denne siden du besøker nå.",
+              "Dynamic navigation, custom design and unit tests. The page you're on right now.",
             links: [
               {
-                text: "Kode",
+                text: "Code",
                 url: "https://github.com/inge1980/portfolio/",
               },
             ],
           },
           {
             textid: 'stackoverflow',
-            title: "ChartJS datavisualisering med Stack Overflow API",
+            title: "ChartJS Data Visualization with Stack Overflow API",
             image: r2,
             description:
-              "Interaktive kakediagrammer av brukerdata.",
+              "Interactive pie charts of user data.",
             links: [
               {
-                text: "Les mer",
+                text: "Read more",
                 url: "/portfolio/projects/stackoverflow/",
               },
               {
@@ -343,7 +343,7 @@ const Projects = [
                 url: "https://inge1980.github.io/stackoverflow-tags/",
               },
               {
-                text: "Kode",
+                text: "Code",
                 url: "https://github.com/inge1980/stackoverflow-tags/",
               },
             ],
@@ -352,15 +352,15 @@ const Projects = [
             textid: 'imdb',
             title: "Inge Movie Database (IMDB)",
             image: r1,
-            description: "Egendefinert filmindeks med søk.",
+            description: "Custom movie index with search.",
             links: [
-              { text: "Les mer", url: "/portfolio/projects/imdb/" },
+              { text: "Read more", url: "/portfolio/projects/imdb/" },
               {
                 text: "Demo",
                 url: "https://inge1980.github.io/movies/",
               },
               {
-                text: "Kode",
+                text: "Code",
                 url: "https://github.com/inge1980/movies/",
               },
             ],
@@ -372,16 +372,16 @@ const Projects = [
         periodstart: "2012",
         periodend: "2013",
 /*         description:
-        "Automatiserte nyheter og varsler for lokalbefolkningen via WordPress og RSS.", */
+        "Automated news and alerts for the local community through WordPress and RSS.", */
         projects: [
           {
             textid: 'osedalen',
-            title: "Automatisert nyhetsfeed",
+            title: "Automated News Feed",
             image: a8,
             description: "WordPress + RSS for Osedalen.org.",
             links: [
               {
-                text: "Les mer",
+                text: "Read more",
                 url: "/portfolio/projects/osedalen/",
               },
               {
@@ -392,13 +392,13 @@ const Projects = [
           },
           {
             textid: 'js1k',
-            title: "Mini-spill <1024 byte",
+            title: "Mini Game <1024 Bytes",
             image: a9,
             description:
-              "Cupid skyter hjerter, kodeutfordring med plassbegrensning.",
+              "Cupid shoots hearts, a code challenge with a space limit.",
             links: [
               {
-                text: "Les mer",
+                text: "Read more",
                 url: "/portfolio/projects/js1k/",
               },
               {
@@ -406,7 +406,7 @@ const Projects = [
                 url: "https://js1k.com/2012-love/demo/1269/",
               },
               {
-                text: "Kode",
+                text: "Code",
                 url: "https://js1k.com/2012-love/details/1269/",
               },
             ],
@@ -414,19 +414,19 @@ const Projects = [
         ],
       },
       {
-        title: "Perl: Webutvikling",
+        title: "Perl: Web Development",
         periodstart: "2001",
         periodend: "2003",
         projects: [
           {
             textid: 'need4sms',
-            title: "Søkbart SMS-vitsearkiv i Perl",
+            title: "Searchable SMS Joke Archive in Perl",
             image: a10,
             description:
-              "Et av datidens største vitsearkiver i Norge med 10k+ brukere/mnd.",
+              "One of Norway's biggest joke archives at the time with 10k+ users/month.",
             links: [
               {
-                text: "Les mer",
+                text: "Read more",
                 url: "/portfolio/projects/need4sms/",
               },
               {
