@@ -2,7 +2,7 @@ import React from "react";
 import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
-import airagcandidate from "../../../img/react-native-calculator.png";
+import airagcandidate from "../../../img/ai-candidate-assistant.png";
 import ScrollToTop from "./../../ScrollToTop/ScrollToTop";
 
 const AIRagCandidate = () => {
