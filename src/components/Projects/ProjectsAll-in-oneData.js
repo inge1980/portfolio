@@ -51,7 +51,7 @@ const Projects = [
               </>
             ),
             links: [
-              { text: "Read more", url: "/portfolio/projects/shoplet/" },
+              { type: "readmore", text: "Read more", url: "/portfolio/projects/shoplet/" },
             ],
           },
           {
@@ -61,7 +61,7 @@ const Projects = [
             description:
               "Extracted an order office system from ERP with a simplified, role-based UI.",
             links: [
-              { text: "Read more", url: "/portfolio/projects/ordreadmin/" },
+              { type: "readmore", text: "Read more", url: "/portfolio/projects/ordreadmin/" },
             ],
           },
           {
@@ -71,7 +71,7 @@ const Projects = [
             description:
               "Built PIM in ERP as a central product source for the webshop via REST API.",
             links: [
-              { text: "Read more", url: "/portfolio/projects/PIM/" },
+              { type: "readmore", text: "Read more", url: "/portfolio/projects/PIM/" },
             ],
           },
           {
@@ -81,7 +81,7 @@ const Projects = [
             description:
               "Modernized ERP functionality, production infrastructure, database performance and system integrations.",
             links: [
-              { text: "Read more", url: "/portfolio/projects/epistemeerp/" },
+              { type: "readmore", text: "Read more", url: "/portfolio/projects/epistemeerp/" },
             ],
           },
           {
@@ -91,7 +91,7 @@ const Projects = [
             description:
               "Built role-based ordering for multiple departments with ERP inventory integration.",
             links: [
-              { text: "Read more", url: "/portfolio/projects/kantine/" },
+              { type: "readmore", text: "Read more", url: "/portfolio/projects/kantine/" },
             ],
           },
         ],
@@ -176,7 +176,7 @@ const Projects = [
             description:
               "Introduced inline editing and reduced a common CMS workflow from five clicks to one.",
             links: [
-              { text: "Read more", url: "/portfolio/projects/nyhetsfelt/" },
+              { type: "readmore", text: "Read more", url: "/portfolio/projects/nyhetsfelt/" },
             ],
           },
           {
@@ -186,7 +186,7 @@ const Projects = [
             description:
               "Built dynamic form management with role-based editing, automated data retention, S3 file lifecycle management and data exports.",
             links: [
-              { text: "Read more", url: "/portfolio/projects/skjemabygger/" },
+              { type: "readmore", text: "Read more", url: "/portfolio/projects/skjemabygger/" },
             ],
           },
           {
@@ -196,7 +196,7 @@ const Projects = [
             description:
               "Built CSV/XLS exports with attachment handling and optimized spreadsheet generation.",
             links: [
-              { text: "Read more", url: "/portfolio/projects/exportresults/" },
+              { type: "readmore", text: "Read more", url: "/portfolio/projects/exportresults/" },
             ],
           },
           {
@@ -219,7 +219,7 @@ const Projects = [
             description:
               "Improved CMS analytics, tracking and visibility into website usage.",
             links: [
-              { text: "Read more", url: "/portfolio/projects/userinsight/" },
+              { type: "readmore", text: "Read more", url: "/portfolio/projects/userinsight/" },
             ],
           },
         ],
@@ -242,7 +242,7 @@ const Projects = [
             description:
               "Built an offline-first app for hierarchical lists with Redux SSOT, SQLite local storage and Supabase cloud sync.",
             links: [
-              { text: "Read more", url: "/portfolio/projects/shoppinglist/" },
+              { type: "readmore", text: "Read more", url: "/portfolio/projects/shoppinglist/" },
             ],
           },
           {
@@ -354,7 +354,7 @@ const Projects = [
             image: r1,
             description: "Custom movie index with search.",
             links: [
-              { text: "Read more", url: "/portfolio/projects/imdb/" },
+              { type: "readmore", text: "Read more", url: "/portfolio/projects/imdb/" },
               {
                 text: "Demo",
                 url: "https://inge1980.github.io/movies/",

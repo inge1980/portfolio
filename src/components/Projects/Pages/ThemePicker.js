@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
-//import { LinkContainer } from "react-router-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import videoThemePicker from "../../../vid/theme_picker.mp4";
 import videoColorPicker from "../../../vid/color_picker.mp4";

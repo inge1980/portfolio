@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap"
 import { useNavigate } from "react-router-dom";
 import osedalen from "../../../img/osedalen.png";
 import ScrollToTop from './../../ScrollToTop/ScrollToTop';
