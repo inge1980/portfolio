@@ -31,6 +31,8 @@ import c3 from "../../img/lostnfoundapi.png";
 const Projects = [
   {
     category: "Professional Experience",
+    periodstart: "2013",
+    periodend: "2025",
     sections: [
       {
         company: "Episteme AS",
@@ -235,12 +237,14 @@ const Projects = [
   },
   {
     category: "Case Studies",
-    description: "Selected personal projects exploring C#/.NET, React, React Native, TypeScript, PHP and Perl",
+    periodstart: "2001",
+    periodend: "now",
+    description: "Selected self-directed projects exploring C#/.NET, React, React Native, TypeScript, PHP and Perl",
     sections: [
       {
-        title: "C# / .NET",
+        title: "C#/.NET",
         periodstart: "2026",
-        periodend: "2026",
+        periodend: "now",
         projects: [
           {
             textid: 'airagcandidate',
@@ -277,7 +281,7 @@ const Projects = [
       {
         title: "React Native: Mobile Apps",
         periodstart: "2024",
-        periodend: "2025",
+        periodend: "now",
         projects: [
           {
             textid: 'shoppinglist',
@@ -308,7 +312,7 @@ const Projects = [
       {
         title: "React & Next.js",
         periodstart: "2022",
-        periodend: "2025",
+        periodend: "now",
         projects: [
           {
             textid: 'desktop-dnd',
@@ -416,7 +420,7 @@ const Projects = [
       {
         title: "PHP/WordPress & JavaScript",
         periodstart: "2012",
-        periodend: "2013",
+        periodend: "2018",
 /*         description:
         "Automated news and alerts for the local community through WordPress and RSS.", */
         projects: [

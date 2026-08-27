@@ -101,7 +101,7 @@ function ProjectPage() {
       {projectsData.map((category, catIndex) => (
         <section key={catIndex} className="category">
           <header>
-            <h2>{category.category}</h2>
+            <h2>{category.category} ({category.periodstart}-{category.periodend})</h2>
             {category.description && <p>({category.description})</p>}
           </header>
 
