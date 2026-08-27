@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.30925298.css",
-    "main.js": "/portfolio/static/js/main.b29175a7.js",
+    "main.js": "/portfolio/static/js/main.84b0d9b0.js",
     "static/media/form_builder.mp4": "/portfolio/static/media/form_builder.35ff4db84230b715a843.mp4",
     "static/media/newsfield.mp4": "/portfolio/static/media/newsfield.d1429c863049d7961bdc.mp4",
     "static/media/theme_picker.mp4": "/portfolio/static/media/theme_picker.8562009344a4db390130.mp4",
@@ -30,11 +30,13 @@
     "static/media/php-bootstrap-form-builder.png": "/portfolio/static/media/php-bootstrap-form-builder.e759d295729f455be7d9.png",
     "static/media/php.png": "/portfolio/static/media/php.b6a2e04fa25c2ecf587c.png",
     "static/media/react-native-portfolio.png": "/portfolio/static/media/react-native-portfolio.bed5c350ff807b855041.png",
+    "static/media/ai-candidate-assistant.png": "/portfolio/static/media/ai-candidate-assistant.f7e1052e3e64d9d31d0e.png",
     "static/media/perl-cgi-collection-of-jokes-need4sms.png": "/portfolio/static/media/perl-cgi-collection-of-jokes-need4sms.526ee6616ef06217cc26.png",
     "static/media/mssql.png": "/portfolio/static/media/mssql.f3e8528fdf4be8ec2cda.png",
     "static/media/semanticsearch.png": "/portfolio/static/media/semanticsearch.c0fb9b9a015f133ca6a2.png",
     "static/media/googledevtools.png": "/portfolio/static/media/googledevtools.4cb5680d9975b008efa3.png",
     "static/media/osedalen.png": "/portfolio/static/media/osedalen.d95640e9cb73803b68c7.png",
+    "static/media/azuredesktop.png": "/portfolio/static/media/azuredesktop.e2793275217943498a89.png",
     "static/media/rag.png": "/portfolio/static/media/rag.81527da3cc6cab5ae560.png",
     "static/media/subversion.png": "/portfolio/static/media/subversion.bc60f4d0824d8ad8133c.png",
     "static/media/phpmyadmin.png": "/portfolio/static/media/phpmyadmin.b0a509d12e31726bf5a0.png",
@@ -48,6 +50,7 @@
     "static/media/postgresql.png": "/portfolio/static/media/postgresql.f4bb8958bf0c22c6a36c.png",
     "static/media/swagger.png": "/portfolio/static/media/swagger.c25774b50a0c5e9acaa4.png",
     "static/media/awss3.png": "/portfolio/static/media/awss3.c64c8296888f3ee8dcd6.png",
+    "static/media/lostnfoundapi.png": "/portfolio/static/media/lostnfoundapi.3476bae2751b9dee497d.png",
     "static/media/wampserver.png": "/portfolio/static/media/wampserver.d0561d7b407c713210c7.png",
     "static/media/excel.png": "/portfolio/static/media/excel.1ecce5b05dab84f52794.png",
     "static/media/php-bootstrap-iktplan.png": "/portfolio/static/media/php-bootstrap-iktplan.c17d59dff6cdb1b181a5.png",
@@ -147,10 +150,10 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/portfolio/static/media/roboto-greek-ext-400-normal.16eb83b4a3b1ea994243.woff",
     "index.html": "/portfolio/index.html",
     "main.30925298.css.map": "/portfolio/static/css/main.30925298.css.map",
-    "main.b29175a7.js.map": "/portfolio/static/js/main.b29175a7.js.map"
+    "main.84b0d9b0.js.map": "/portfolio/static/js/main.84b0d9b0.js.map"
   },
   "entrypoints": [
     "static/css/main.30925298.css",
-    "static/js/main.b29175a7.js"
+    "static/js/main.84b0d9b0.js"
   ]
 }
