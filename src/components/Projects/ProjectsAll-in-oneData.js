@@ -24,6 +24,9 @@ import e2 from "../../img/php-bootstrap-order_admin_system.png";
 import e3 from "../../img/php-bootstrap-PIM_admin_system.png"; 
 import e5 from "../../img/php-bootstrap-kantine_adminsystem_2.png"; 
 import e6 from "../../img/php-erp-blurry.png";
+import c1 from "../../img/php-erp-blurry.png"; // airagcandidate todo
+import c2 from "../../img/php-erp-blurry.png"; // azuredevops todo
+import c3 from "../../img/php-erp-blurry.png"; // lostnfoundapi todo
 
 const Projects = [
   {
@@ -235,6 +238,43 @@ const Projects = [
     description: "Self-development in Perl, PHP, TypeScript, React and React Native.",
     sections: [
       {
+        title: "C# / .NET",
+        periodstart: "2026",
+        periodend: "2026",
+        projects: [
+          {
+            textid: 'airagcandidate',
+            title: "AI Candidate Assistant with RAG",
+            image: c1,
+            description:
+              "RAG backend with ASP.NET Core, PostgreSQL, pgvector and multi-provider LLM fallback.",
+            links: [
+              { type: "readmore", text: "Read more", url: "/portfolio/projects/airagcandidate/" },
+            ],
+          },
+          {
+            textid: 'azuredevops',
+            title: "Azure .NET DevOps Platform",
+            image: c2,
+            description:
+              "Automated Azure deployment with ASP.NET Core, Docker, Terraform, GitHub Actions and managed identity.",
+            links: [
+              { type: "readmore", text: "Read more", url: "/portfolio/projects/azuredevops/" },
+            ],
+          },
+          {
+            textid: 'lostnfoundapi',
+            title: "Lost & Found API",
+            image: c3,
+            description:
+              "ASP.NET Core API with PostgreSQL, Entity Framework Core, automated tests and Docker.",
+            links: [
+              { type: "readmore", text: "Read more", url: "/portfolio/projects/lostnfoundapi/" },
+            ],
+          },
+        ],
+      },
+      {
         title: "React Native: Mobile Apps",
         periodstart: "2024",
         periodend: "2025",
@@ -244,7 +284,7 @@ const Projects = [
             title: "Hierarchical Drag'n'Drop Lists",
             image: r5,
             description:
-              "Built an offline-first app for hierarchical lists with Redux SSOT, SQLite local storage and Supabase cloud sync.",
+              "Offline-first app for hierarchical lists with Redux SSOT, SQLite local storage and Supabase cloud sync.",
             links: [
               { type: "readmore", text: "Read more", url: "/portfolio/projects/shoppinglist/" },
             ],
@@ -254,7 +294,7 @@ const Projects = [
             title: "PEMDAS Calculator",
             image: r8,
             description:
-              "Built a React Native calculator supporting complex mathematical expressions with intuitive input and Google Mobile Ads integration.",
+              "React Native calculator supporting complex mathematical expressions with intuitive input and Google Mobile Ads integration.",
             links: [
               {
                 type: "readmore", 
@@ -431,7 +471,7 @@ const Projects = [
             title: "Searchable SMS Joke Archive in Perl",
             image: a10,
             description:
-              "Built a searchable CMS and archive with 1,100+ categorized jokes and 10k+ monthly users.",
+              "Searchable CMS and archive with 1,100+ categorized jokes and 10k+ monthly users.",
             links: [
               {
                 type: "readmore", 
