@@ -29,9 +29,11 @@ const Intro = () => {
         <br />
         <br />
         In recent years, I have expanded into React, React Native, TypeScript,
-        C# and .NET through practical projects and continued learning. I have
-        also worked with Azure, Docker, PostgreSQL, and modern AI concepts such
-        as RAG, embeddings, vector databases, and semantic search.
+        C# and .NET through practical projects and a structured backend development
+        training program. My recent C#/.NET work includes ASP.NET Core APIs,
+        PostgreSQL, Entity Framework Core, Docker, Azure, Terraform, CI/CD and
+        AI-assisted applications using RAG, embeddings, vector databases and
+        semantic search.
         <br />
         <br />
         I have particular experience working with established production systems,
