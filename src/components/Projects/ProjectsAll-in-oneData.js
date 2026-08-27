@@ -235,7 +235,7 @@ const Projects = [
   },
   {
     category: "Case Studies",
-    description: "Self-development in Perl, PHP, TypeScript, React and React Native.",
+    description: "Selected personal projects exploring C#/.NET, React, React Native, TypeScript, PHP and Perl",
     sections: [
       {
         title: "C# / .NET",
