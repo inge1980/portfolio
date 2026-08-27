@@ -29,7 +29,13 @@ const Contact = () => {
         },
         (err) => {
           const errorMessage = err.message || 'An unknown error occurred'; // Default message if no specific message exists
-          console.log('EmailJS error:', errorMessage); // Debugging
+          
+          // Debugging
+          console.error("EmailJS error:", err);
+          console.error("Status:", err.status);
+          console.error("Text:", err.text);
+          console.log('Message:', errorMessage);
+
           alert(
             "Sorry, it looks like you might not be entirely human. Did you forget to check the box? :-)"
           );
