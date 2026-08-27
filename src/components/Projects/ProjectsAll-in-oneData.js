@@ -112,6 +112,7 @@ const Projects = [
               "Modernized 20+ CMS modules and migrated ~1,300 school websites to a responsive frontend with progressive rollout and automated legacy configuration conversion.",
             links: [
               {
+                type: "readmore", 
                 text: "Read more",
                 url: "/portfolio/projects/mobilefirst/",
               },
@@ -138,6 +139,7 @@ const Projects = [
               "Improved navigation and usability of IKTplan.no, a digital skills resource for teachers, through user testing and frontend optimization in collaboration with the Norwegian Directorate for Education and Training.",
             links: [
               {
+                type: "readmore", 
                 text: "Read more",
                 url: "/portfolio/projects/iktplan/",
               },
@@ -151,6 +153,7 @@ const Projects = [
               "Made website customization more accessible through dynamic theme and color configuration.",
             links: [
               {
+                type: "readmore", 
                 text: "Read more",
                 url: "/portfolio/projects/themepicker/",
               },
@@ -207,6 +210,7 @@ const Projects = [
               "Introduced customer feedback collection after a decade without structured user surveys.",
             links: [
               {
+                type: "readmore", 
                 text: "Read more",
                 url: "/portfolio/projects/quiz/",
               },
@@ -253,6 +257,7 @@ const Projects = [
               "Built a React Native calculator supporting complex mathematical expressions with intuitive input and Google Mobile Ads integration.",
             links: [
               {
+                type: "readmore", 
                 text: "Read more",
                 url: "/portfolio/projects/calculator/",
               },
@@ -335,6 +340,7 @@ const Projects = [
               "Interactive pie charts of user data.",
             links: [
               {
+                type: "readmore", 
                 text: "Read more",
                 url: "/portfolio/projects/stackoverflow/",
               },
@@ -381,6 +387,7 @@ const Projects = [
             description: "WordPress + RSS for Osedalen.org.",
             links: [
               {
+                type: "readmore", 
                 text: "Read more",
                 url: "/portfolio/projects/osedalen/",
               },
@@ -398,6 +405,7 @@ const Projects = [
               "Cupid shoots hearts, a code challenge with a space limit.",
             links: [
               {
+                type: "readmore", 
                 text: "Read more",
                 url: "/portfolio/projects/js1k/",
               },
@@ -426,6 +434,7 @@ const Projects = [
               "Built a searchable CMS and archive with 1,100+ categorized jokes and 10k+ monthly users.",
             links: [
               {
+                type: "readmore", 
                 text: "Read more",
                 url: "/portfolio/projects/need4sms/",
               },
