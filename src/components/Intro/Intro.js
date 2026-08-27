@@ -13,34 +13,36 @@ const Intro = () => {
         I am a Fullstack and Frontend Developer seeking new opportunities.
         <br />
         <br />
-        Over the years, I have built up{" "}
+        I have{" "}
       </React.Fragment>
     ),
     linkText:
-      "12 years of professional development experience, plus several years of hobby experience from various programming projects before and throughout my career.",
+      "12 years of professional development experience, plus several years of programming experience from personal projects.",
     desc2: (
       <React.Fragment>
         {" "}
-        I have worked extensively on large-scale CMS modernization, ERP platform 
-        development, PIM integrations, REST APIs, and responsive web applications, 
-        primarily using PHP with MySQL and SQL Server. HTML, CSS, JavaScript, and 
-        libraries such as Bootstrap and jQuery have therefore been a natural part 
-        of my work for many years.
+        Much of my professional experience has been building and modernizing
+        web applications and enterprise systems using PHP, JavaScript, HTML, CSS,
+        Bootstrap, jQuery, MySQL, and SQL Server. My work has included large-scale
+        CMS modernization, ERP platform development, PIM functionality, REST API
+        integration, and responsive web applications.
         <br />
         <br />
-        I enjoy keeping up with modern technology and have expanded my skills 
-        through courses in Node.js, React, and TypeScript, as well as a 
-        master's-level course in User-Oriented Design and university-level mathematics.
+        In recent years, I have expanded into React, React Native, TypeScript,
+        C# and .NET through practical projects and continued learning. I have
+        also worked with Azure, Docker, PostgreSQL, and modern AI concepts such
+        as RAG, embeddings, vector databases, and semantic search.
         <br />
         <br />
-        My projects have also given me hands-on experience with React, React Native, 
-        C# and .NET, REST APIs, Azure, Docker, PostgreSQL, and modern AI technologies 
-        such as RAG, embeddings, vector databases, and semantic search.
+        I have particular experience working with established production systems,
+        where new functionality needs to coexist with existing business logic,
+        integrations, and legacy architecture. I also enjoy building focused
+        applications and interfaces around complex backend systems.
         <br />
         <br />
-        I have a strong foundation in object-oriented programming and learn new
-        technologies quickly. I enjoy modernizing legacy systems and building new 
-        applications, and I look forward to contributing those skills to my next team.
+        My background combines long-term experience with established technologies
+        and continued development with modern tools and frameworks. I am looking
+        to bring that combination to my next role.
       </React.Fragment>
     ),
   };
