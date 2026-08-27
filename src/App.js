@@ -24,9 +24,9 @@ import ThemePicker from "./components/Projects/Pages/ThemePicker";
 import EpistemeERP from "./components/Projects/Pages/EpistemeERP";
 import Iktplan from "./components/Projects/Pages/Iktplan";
 import ExportResults from "./components/Projects/Pages/ExportResults";
-import Airagcandidate from "./components/Projects/Pages/Airagcandidate";
+import AIRagCandidate from "./components/Projects/Pages/AIRagCandidate";
 import AzureDevOps from "./components/Projects/Pages/AzureDevOps";
-import LostnFoundApi from "./components/Projects/Pages/LostnFoundApi";
+import LostAndFoundApi from "./components/Projects/Pages/LostAndFoundApi";
 import AllSkills from "./components/AllSkills/AllSkills";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -66,9 +66,9 @@ const App = () => {
             <Route path="/portfolio/projects/iktplan/"        element={<Iktplan />}></Route>
             <Route path="/portfolio/projects/exportresults/"  element={<ExportResults />}></Route>
 
-            <Route path="/portfolio/projects/airagcandidate/" element={<Airagcandidate />}></Route>
+            <Route path="/portfolio/projects/airagcandidate/" element={<AIRagCandidate />}></Route>
             <Route path="/portfolio/projects/azuredevops/"    element={<AzureDevOps />}></Route>
-            <Route path="/portfolio/projects/lostnfoundapi/"  element={<LostnFoundApi />}></Route>
+            <Route path="/portfolio/projects/lostnfoundapi/"  element={<LostAndFoundApi />}></Route>
 
             <Route path="/portfolio/skills/" element={<AllSkills />}></Route>
             <Route path="/portfolio/contact/" element={<Contact />}></Route>
