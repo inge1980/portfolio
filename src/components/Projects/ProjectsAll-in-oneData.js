@@ -24,9 +24,9 @@ import e2 from "../../img/php-bootstrap-order_admin_system.png";
 import e3 from "../../img/php-bootstrap-PIM_admin_system.png"; 
 import e5 from "../../img/php-bootstrap-kantine_adminsystem_2.png"; 
 import e6 from "../../img/php-erp-blurry.png";
-import c1 from "../../img/php-erp-blurry.png"; // airagcandidate todo
-import c2 from "../../img/php-erp-blurry.png"; // azuredevops todo
-import c3 from "../../img/php-erp-blurry.png"; // lostnfoundapi todo
+import c1 from "../../img/ai-candidate-assistant.png";
+import c2 from "../../img/azuredesktop.png";
+import c3 from "../../img/lostnfoundapi.png";
 
 const Projects = [
   {
