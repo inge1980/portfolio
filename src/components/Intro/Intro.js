@@ -10,8 +10,7 @@ const Intro = () => {
     title: "Who am I?",
     desc1: (
       <React.Fragment>
-        I am a fullstack developer looking for fullstack and frontend
-        opportunities.
+        I am a Fullstack and Frontend Developer seeking new opportunities.
         <br />
         <br />
         Over the years, I have built up{" "}
@@ -22,28 +21,26 @@ const Intro = () => {
     desc2: (
       <React.Fragment>
         {" "}
-        I have worked extensively with CMS customization, ERP and PIM
-        integrations, primarily using PHP with MySQL and SQL Server. HTML, CSS,
-        JavaScript, and libraries such as Bootstrap and jQuery have therefore
-        been a natural part of my work for many years.
+        I have worked extensively on large-scale CMS modernization, ERP platform 
+        development, PIM integrations, REST APIs, and responsive web applications, 
+        primarily using PHP with MySQL and SQL Server. HTML, CSS, JavaScript, and 
+        libraries such as Bootstrap and jQuery have therefore been a natural part 
+        of my work for many years.
         <br />
         <br />
-        I like keeping up with modern technology, and in recent years I have
-        expanded my skills through courses in Node.js, React and TypeScript,
-        as well as a master's-level course in User-Oriented Design and
-        university-level mathematics.
+        I enjoy keeping up with modern technology and have expanded my skills 
+        through courses in Node.js, React, and TypeScript, as well as a 
+        master's-level course in User-Oriented Design and university-level mathematics.
         <br />
         <br />
-        My recent projects have also given me hands-on experience with React,
-        React Native, C# and .NET, REST APIs, Azure, Docker, PostgreSQL, and
-        modern AI technologies such as RAG, embeddings, vector databases, and
-        semantic search.
+        My projects have also given me hands-on experience with React, React Native, 
+        C# and .NET, REST APIs, Azure, Docker, PostgreSQL, and modern AI technologies 
+        such as RAG, embeddings, vector databases, and semantic search.
         <br />
         <br />
-        I have a solid foundation in object-oriented programming and learn new
-        technologies quickly. I am therefore looking forward to specializing
-        further in the languages, frameworks, and tools used by my future
-        employer.
+        I have a strong foundation in object-oriented programming and learn new
+        technologies quickly. I enjoy modernizing legacy systems and building new 
+        applications, and I look forward to contributing those skills to my next team.
       </React.Fragment>
     ),
   };
