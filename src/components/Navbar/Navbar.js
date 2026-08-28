@@ -23,7 +23,7 @@ class BootstrapNavbar extends Component {
         expanded={this.state.expanded}
       >
         <Container fluid>
-          <LinkContainer to="/portfolio/">
+          <LinkContainer to="/">
             <Navbar.Brand href="#" onClick={this.handleClose}>
               {process.env.REACT_APP_AUTHOR_NAME}
             </Navbar.Brand>
@@ -31,22 +31,22 @@ class BootstrapNavbar extends Component {
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Collapse id={`offcanvasNavbar-expand-${expand}`}>
             <Nav className="justify-content-end flex-grow-1 pe-3">
-              <LinkContainer to="/portfolio">
+              <LinkContainer to="/">
                 <Nav.Link href="#" onClick={this.handleClose}>
                   Home
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/portfolio/projects/">
+              <LinkContainer to="/projects/">
                 <Nav.Link href="#projects_1" onClick={this.handleClose}>
                   Projects
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/portfolio/skills/">
+              <LinkContainer to="/skills/">
                 <Nav.Link href="#skills" onClick={this.handleClose}>
                   Skills
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/portfolio/contact/">
+              <LinkContainer to="/contact/">
                 <Nav.Link href="#contact" onClick={this.handleClose}>
                   Contact
                 </Nav.Link>

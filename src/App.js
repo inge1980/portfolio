@@ -41,37 +41,37 @@ const App = () => {
         <div className="row mb-3 text-center">
           <BootstrapNavbar />
           <Routes>
-            <Route path="/portfolio/"                         element={<Intro />}></Route>
-            <Route path="/portfolio/projects/"                element={<Projects />}></Route>
-            <Route path="/portfolio/projects/js1k/"           element={<Js1k />}></Route>
-            <Route path="/portfolio/projects/imdb/"           element={<Imdb />}></Route>
-            <Route path="/portfolio/projects/moava/"          element={<Moava />}></Route>
-            <Route path="/portfolio/projects/episteme/"       element={<Episteme />}></Route>
-            <Route path="/portfolio/projects/nyhetsfelt/"     element={<Newsfield />}></Route>
-            <Route path="/portfolio/projects/skjemabygger/"   element={<FormBuilder />}></Route>
-            <Route path="/portfolio/projects/shoplet/"        element={<Shoplet />}></Route>
-            <Route path="/portfolio/projects/ordreadmin/"     element={<OrdreAdmin />}></Route>
-            <Route path="/portfolio/projects/PIM/"            element={<PIM />}></Route>
-            <Route path="/portfolio/projects/kantine/"        element={<Kantine />}></Route>
-            <Route path="/portfolio/projects/shoppinglist/"   element={<Shoppinglist />}></Route>
-            <Route path="/portfolio/projects/need4sms/"       element={<Need4sms />}></Route>
-            <Route path="/portfolio/projects/calculator/"     element={<Calculator />}></Route>
-            <Route path="/portfolio/projects/mobilefirst/"    element={<Mobilefirst />}></Route>
-            <Route path="/portfolio/projects/userinsight/"    element={<UserInsight />}></Route>
-            <Route path="/portfolio/projects/osedalen/"       element={<Osedalen />}></Route>
-            <Route path="/portfolio/projects/stackoverflow/"  element={<Stackoverflow />}></Route>
-            <Route path="/portfolio/projects/quiz/"           element={<Quiz />}></Route>
-            <Route path="/portfolio/projects/themepicker/"    element={<ThemePicker />}></Route>
-            <Route path="/portfolio/projects/epistemeerp/"    element={<EpistemeERP />}></Route>
-            <Route path="/portfolio/projects/iktplan/"        element={<Iktplan />}></Route>
-            <Route path="/portfolio/projects/exportresults/"  element={<ExportResults />}></Route>
+            <Route path="/"                         element={<Intro />}></Route>
+            <Route path="/projects/"                element={<Projects />}></Route>
+            <Route path="/projects/js1k/"           element={<Js1k />}></Route>
+            <Route path="/projects/imdb/"           element={<Imdb />}></Route>
+            <Route path="/projects/moava/"          element={<Moava />}></Route>
+            <Route path="/projects/episteme/"       element={<Episteme />}></Route>
+            <Route path="/projects/nyhetsfelt/"     element={<Newsfield />}></Route>
+            <Route path="/projects/skjemabygger/"   element={<FormBuilder />}></Route>
+            <Route path="/projects/shoplet/"        element={<Shoplet />}></Route>
+            <Route path="/projects/ordreadmin/"     element={<OrdreAdmin />}></Route>
+            <Route path="/projects/PIM/"            element={<PIM />}></Route>
+            <Route path="/projects/kantine/"        element={<Kantine />}></Route>
+            <Route path="/projects/shoppinglist/"   element={<Shoppinglist />}></Route>
+            <Route path="/projects/need4sms/"       element={<Need4sms />}></Route>
+            <Route path="/projects/calculator/"     element={<Calculator />}></Route>
+            <Route path="/projects/mobilefirst/"    element={<Mobilefirst />}></Route>
+            <Route path="/projects/userinsight/"    element={<UserInsight />}></Route>
+            <Route path="/projects/osedalen/"       element={<Osedalen />}></Route>
+            <Route path="/projects/stackoverflow/"  element={<Stackoverflow />}></Route>
+            <Route path="/projects/quiz/"           element={<Quiz />}></Route>
+            <Route path="/projects/themepicker/"    element={<ThemePicker />}></Route>
+            <Route path="/projects/epistemeerp/"    element={<EpistemeERP />}></Route>
+            <Route path="/projects/iktplan/"        element={<Iktplan />}></Route>
+            <Route path="/projects/exportresults/"  element={<ExportResults />}></Route>
 
-            <Route path="/portfolio/projects/airagcandidate/" element={<AIRagCandidate />}></Route>
-            <Route path="/portfolio/projects/azuredevops/"    element={<AzureDevOps />}></Route>
-            <Route path="/portfolio/projects/lostnfoundapi/"  element={<LostAndFoundApi />}></Route>
+            <Route path="/projects/airagcandidate/" element={<AIRagCandidate />}></Route>
+            <Route path="/projects/azuredevops/"    element={<AzureDevOps />}></Route>
+            <Route path="/projects/lostnfoundapi/"  element={<LostAndFoundApi />}></Route>
 
-            <Route path="/portfolio/skills/" element={<AllSkills />}></Route>
-            <Route path="/portfolio/contact/" element={<Contact />}></Route>
+            <Route path="/skills/" element={<AllSkills />}></Route>
+            <Route path="/contact/" element={<Contact />}></Route>
             <Route path="/" exact element={<Intro />}></Route>
             <Route
               path="*"

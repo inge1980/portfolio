@@ -56,7 +56,7 @@ const Projects = [
               </>
             ),
             links: [
-              { type: "readmore", text: "Read more", url: "/portfolio/projects/shoplet/" },
+              { type: "readmore", text: "Read more", url: "/projects/shoplet/" },
             ],
           },
           {
@@ -66,7 +66,7 @@ const Projects = [
             description:
               "Extracted an order office system from ERP with a simplified, role-based UI.",
             links: [
-              { type: "readmore", text: "Read more", url: "/portfolio/projects/ordreadmin/" },
+              { type: "readmore", text: "Read more", url: "/projects/ordreadmin/" },
             ],
           },
           {
@@ -76,7 +76,7 @@ const Projects = [
             description:
               "Built PIM in ERP as a central product source for the webshop via REST API.",
             links: [
-              { type: "readmore", text: "Read more", url: "/portfolio/projects/PIM/" },
+              { type: "readmore", text: "Read more", url: "/projects/PIM/" },
             ],
           },
           {
@@ -86,7 +86,7 @@ const Projects = [
             description:
               "Modernized ERP functionality, production infrastructure, database performance and system integrations.",
             links: [
-              { type: "readmore", text: "Read more", url: "/portfolio/projects/epistemeerp/" },
+              { type: "readmore", text: "Read more", url: "/projects/epistemeerp/" },
             ],
           },
           {
@@ -96,7 +96,7 @@ const Projects = [
             description:
               "Built role-based ordering for multiple departments with ERP inventory integration.",
             links: [
-              { type: "readmore", text: "Read more", url: "/portfolio/projects/kantine/" },
+              { type: "readmore", text: "Read more", url: "/projects/kantine/" },
             ],
           },
         ],
@@ -119,7 +119,7 @@ const Projects = [
               {
                 type: "readmore", 
                 text: "Read more",
-                url: "/portfolio/projects/mobilefirst/",
+                url: "/projects/mobilefirst/",
               },
             ],
           },
@@ -146,7 +146,7 @@ const Projects = [
               {
                 type: "readmore", 
                 text: "Read more",
-                url: "/portfolio/projects/iktplan/",
+                url: "/projects/iktplan/",
               },
             ],
           },
@@ -160,7 +160,7 @@ const Projects = [
               {
                 type: "readmore", 
                 text: "Read more",
-                url: "/portfolio/projects/themepicker/",
+                url: "/projects/themepicker/",
               },
             ],
           },
@@ -184,7 +184,7 @@ const Projects = [
             description:
               "Introduced inline editing and reduced a common CMS workflow from five clicks to one.",
             links: [
-              { type: "readmore", text: "Read more", url: "/portfolio/projects/nyhetsfelt/" },
+              { type: "readmore", text: "Read more", url: "/projects/nyhetsfelt/" },
             ],
           },
           {
@@ -194,7 +194,7 @@ const Projects = [
             description:
               "Built dynamic form management with role-based editing, automated data retention, S3 file lifecycle management and data exports.",
             links: [
-              { type: "readmore", text: "Read more", url: "/portfolio/projects/skjemabygger/" },
+              { type: "readmore", text: "Read more", url: "/projects/skjemabygger/" },
             ],
           },
           {
@@ -204,7 +204,7 @@ const Projects = [
             description:
               "Built CSV/XLS exports with attachment handling and optimized spreadsheet generation.",
             links: [
-              { type: "readmore", text: "Read more", url: "/portfolio/projects/exportresults/" },
+              { type: "readmore", text: "Read more", url: "/projects/exportresults/" },
             ],
           },
           {
@@ -217,7 +217,7 @@ const Projects = [
               {
                 type: "readmore", 
                 text: "Read more",
-                url: "/portfolio/projects/quiz/",
+                url: "/projects/quiz/",
               },
             ],
           },
@@ -228,7 +228,7 @@ const Projects = [
             description:
               "Improved CMS analytics, tracking and visibility into website usage.",
             links: [
-              { type: "readmore", text: "Read more", url: "/portfolio/projects/userinsight/" },
+              { type: "readmore", text: "Read more", url: "/projects/userinsight/" },
             ],
           },
         ],
@@ -253,7 +253,7 @@ const Projects = [
             description:
               "RAG backend with ASP.NET Core, PostgreSQL, pgvector and multi-provider LLM fallback.",
             links: [
-              { type: "readmore", text: "Read more", url: "/portfolio/projects/airagcandidate/" },
+              { type: "readmore", text: "Read more", url: "/projects/airagcandidate/" },
             ],
           },
           {
@@ -263,7 +263,7 @@ const Projects = [
             description:
               "Automated Azure deployment with ASP.NET Core, Docker, Terraform, GitHub Actions and managed identity.",
             links: [
-              { type: "readmore", text: "Read more", url: "/portfolio/projects/azuredevops/" },
+              { type: "readmore", text: "Read more", url: "/projects/azuredevops/" },
             ],
           },
           {
@@ -273,7 +273,7 @@ const Projects = [
             description:
               "ASP.NET Core API with PostgreSQL, Entity Framework Core, automated tests and Docker.",
             links: [
-              { type: "readmore", text: "Read more", url: "/portfolio/projects/lostnfoundapi/" },
+              { type: "readmore", text: "Read more", url: "/projects/lostnfoundapi/" },
             ],
           },
         ],
@@ -290,7 +290,7 @@ const Projects = [
             description:
               "Offline-first app for hierarchical lists with Redux SSOT, SQLite local storage and Supabase cloud sync.",
             links: [
-              { type: "readmore", text: "Read more", url: "/portfolio/projects/shoppinglist/" },
+              { type: "readmore", text: "Read more", url: "/projects/shoppinglist/" },
             ],
           },
           {
@@ -303,7 +303,7 @@ const Projects = [
               {
                 type: "readmore", 
                 text: "Read more",
-                url: "/portfolio/projects/calculator/",
+                url: "/projects/calculator/",
               },
             ],
           },
@@ -386,7 +386,7 @@ const Projects = [
               {
                 type: "readmore", 
                 text: "Read more",
-                url: "/portfolio/projects/stackoverflow/",
+                url: "/projects/stackoverflow/",
               },
               {
                 text: "Demo",
@@ -404,7 +404,7 @@ const Projects = [
             image: r1,
             description: "Custom movie index with search.",
             links: [
-              { type: "readmore", text: "Read more", url: "/portfolio/projects/imdb/" },
+              { type: "readmore", text: "Read more", url: "/projects/imdb/" },
               {
                 text: "Demo",
                 url: "https://inge1980.github.io/movies/",
@@ -433,7 +433,7 @@ const Projects = [
               {
                 type: "readmore", 
                 text: "Read more",
-                url: "/portfolio/projects/osedalen/",
+                url: "/projects/osedalen/",
               },
               {
                 text: "Demo",
@@ -451,7 +451,7 @@ const Projects = [
               {
                 type: "readmore", 
                 text: "Read more",
-                url: "/portfolio/projects/js1k/",
+                url: "/projects/js1k/",
               },
               {
                 text: "Demo",
@@ -480,7 +480,7 @@ const Projects = [
               {
                 type: "readmore", 
                 text: "Read more",
-                url: "/portfolio/projects/need4sms/",
+                url: "/projects/need4sms/",
               },
               {
                 text: "Demo",
