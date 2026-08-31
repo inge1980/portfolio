@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.30925298.css",
-    "main.js": "/portfolio/static/js/main.426f9333.js",
+    "main.css": "/portfolio/static/css/main.c62f97aa.css",
+    "main.js": "/portfolio/static/js/main.83906d9e.js",
     "static/media/form_builder.mp4": "/portfolio/static/media/form_builder.35ff4db84230b715a843.mp4",
     "static/media/newsfield.mp4": "/portfolio/static/media/newsfield.d1429c863049d7961bdc.mp4",
     "static/media/theme_picker.mp4": "/portfolio/static/media/theme_picker.8562009344a4db390130.mp4",
@@ -12,9 +12,11 @@
     "static/media/javascript-both-pickers.png": "/portfolio/static/media/javascript-both-pickers.3ad036481d2fde694d51.png",
     "static/media/php-bootstrap-mobile-first.png": "/portfolio/static/media/php-bootstrap-mobile-first.2b1364655ff77e827c3b.png",
     "static/media/php-bootstrap-order_admin_system.png": "/portfolio/static/media/php-bootstrap-order_admin_system.8395cda391eec77bf590.png",
+    "static/media/n8n-content-creator-meme-example.png": "/portfolio/static/media/n8n-content-creator-meme-example.1de84a387493b81ea872.png",
     "static/media/javascript-color-picker.png": "/portfolio/static/media/javascript-color-picker.3862f5c28f93d3001610.png",
     "static/media/react-native-shoppinglist.mp4": "/portfolio/static/media/react-native-shoppinglist.5da65448bf05ffa70274.mp4",
     "static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.png": "/portfolio/static/media/php-bootstrap-modal-ckeditor-inline-edit-news-field.237a9b3ce724a058207b.png",
+    "static/media/n8n-content-creator-spreadsheet.png": "/portfolio/static/media/n8n-content-creator-spreadsheet.1abe6932f4fe228fe9a7.png",
     "static/media/bootswatch-temavelger.png": "/portfolio/static/media/bootswatch-temavelger.04a6a8f5cf4bc2b411bc.png",
     "static/media/llm.png": "/portfolio/static/media/llm.6d1356628c2af5e2aae9.png",
     "static/media/php-bootstrap-quiz.png": "/portfolio/static/media/php-bootstrap-quiz.69bba24086ff2eac7088.png",
@@ -32,6 +34,7 @@
     "static/media/react-native-portfolio.png": "/portfolio/static/media/react-native-portfolio.bed5c350ff807b855041.png",
     "static/media/ai-candidate-assistant.png": "/portfolio/static/media/ai-candidate-assistant.f7e1052e3e64d9d31d0e.png",
     "static/media/perl-cgi-collection-of-jokes-need4sms.png": "/portfolio/static/media/perl-cgi-collection-of-jokes-need4sms.526ee6616ef06217cc26.png",
+    "static/media/n8n-content-creator-workflow.png": "/portfolio/static/media/n8n-content-creator-workflow.c04aef33c44c4491cf3c.png",
     "static/media/mssql.png": "/portfolio/static/media/mssql.f3e8528fdf4be8ec2cda.png",
     "static/media/semanticsearch.png": "/portfolio/static/media/semanticsearch.c0fb9b9a015f133ca6a2.png",
     "static/media/googledevtools.png": "/portfolio/static/media/googledevtools.4cb5680d9975b008efa3.png",
@@ -52,6 +55,7 @@
     "static/media/awss3.png": "/portfolio/static/media/awss3.c64c8296888f3ee8dcd6.png",
     "static/media/lostnfoundapi.png": "/portfolio/static/media/lostnfoundapi.3476bae2751b9dee497d.png",
     "static/media/wampserver.png": "/portfolio/static/media/wampserver.d0561d7b407c713210c7.png",
+    "static/media/n8n-content-creator-railway-dashboard.png": "/portfolio/static/media/n8n-content-creator-railway-dashboard.38f7ce8e711a7b8d1976.png",
     "static/media/excel.png": "/portfolio/static/media/excel.1ecce5b05dab84f52794.png",
     "static/media/php-bootstrap-iktplan.png": "/portfolio/static/media/php-bootstrap-iktplan.c17d59dff6cdb1b181a5.png",
     "static/media/bootstrap-double-menu.png": "/portfolio/static/media/bootstrap-double-menu.10516ac93c04052cbcc5.png",
@@ -149,11 +153,11 @@
     "static/media/roboto-greek-ext-300-normal.woff": "/portfolio/static/media/roboto-greek-ext-300-normal.b590dbe5c639944366d1.woff",
     "static/media/roboto-greek-ext-400-normal.woff": "/portfolio/static/media/roboto-greek-ext-400-normal.16eb83b4a3b1ea994243.woff",
     "index.html": "/portfolio/index.html",
-    "main.30925298.css.map": "/portfolio/static/css/main.30925298.css.map",
-    "main.426f9333.js.map": "/portfolio/static/js/main.426f9333.js.map"
+    "main.c62f97aa.css.map": "/portfolio/static/css/main.c62f97aa.css.map",
+    "main.83906d9e.js.map": "/portfolio/static/js/main.83906d9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.30925298.css",
-    "static/js/main.426f9333.js"
+    "static/css/main.c62f97aa.css",
+    "static/js/main.83906d9e.js"
   ]
 }
