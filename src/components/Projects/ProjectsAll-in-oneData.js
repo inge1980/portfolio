@@ -27,6 +27,7 @@ import e6 from "../../img/php-erp-blurry.png";
 import c1 from "../../img/ai-candidate-assistant.png";
 import c2 from "../../img/azuredesktop.png";
 import c3 from "../../img/lostnfoundapi.png";
+import c4 from "../../img/n8n-content-creator-workflow.png";
 
 const Projects = [
   {
@@ -242,8 +243,8 @@ const Projects = [
     description: "Selected self-directed projects exploring C#/.NET, React, React Native, TypeScript, PHP and Perl",
     sections: [
       {
-        title: "C#/.NET",
-        periodstart: "2026",
+        title: "C#/.NET & AI Workflow Automation",
+        periodstart: "2025",
         periodend: "now",
         projects: [
           {
@@ -274,6 +275,20 @@ const Projects = [
               "ASP.NET Core API with PostgreSQL, Entity Framework Core, automated tests and Docker.",
             links: [
               { type: "readmore", text: "Read more", url: "/projects/lostnfoundapi/" },
+            ],
+          },
+          {
+            textid: 'n8ncontentgenerator',
+            title: "Content Generator Pipeline with n8n",
+            image: c4,
+            description:
+              "Automated AI-powered social media content pipeline with n8n, Gemini, Pexels, Google Sheets and Google Drive.",
+            links: [
+              {
+                type: "readmore", 
+                text: "Read more",
+                url: "/projects/n8ncontentgenerator/",
+              },
             ],
           },
         ],
