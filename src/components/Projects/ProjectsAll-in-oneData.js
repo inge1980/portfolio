@@ -255,6 +255,7 @@ const Projects = [
               "RAG backend with ASP.NET Core, PostgreSQL, pgvector and multi-provider LLM fallback.",
             links: [
               { type: "readmore", text: "Read more", url: "/projects/airagcandidate/" },
+              { text: "Code", url: "https://github.com/inge1980/module4_backend_01_ai-candidate-assistant/", },
             ],
           },
           {
@@ -265,6 +266,7 @@ const Projects = [
               "Automated Azure deployment with ASP.NET Core, Docker, Terraform, GitHub Actions and managed identity.",
             links: [
               { type: "readmore", text: "Read more", url: "/projects/azuredevops/" },
+              { text: "Code", url: "https://github.com/inge1980/module3_backend_04_terraform_azure/", },
             ],
           },
           {
@@ -275,6 +277,7 @@ const Projects = [
               "ASP.NET Core API with PostgreSQL, Entity Framework Core, automated tests and Docker.",
             links: [
               { type: "readmore", text: "Read more", url: "/projects/lostnfoundapi/" },
+              { text: "Code", url: "https://github.com/inge1980/module3_backend_02_lostandfound/", },
             ],
           },
           {
@@ -288,6 +291,10 @@ const Projects = [
                 type: "readmore", 
                 text: "Read more",
                 url: "/projects/n8ncontentgenerator/",
+              },
+              {
+                text: "Code",
+                url: "https://github.com/inge1980/n8n-social-content-generator/",
               },
             ],
           },
