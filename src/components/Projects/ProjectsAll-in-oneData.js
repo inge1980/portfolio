@@ -240,7 +240,7 @@ const Projects = [
     category: "Case Studies",
     periodstart: "2001",
     periodend: "now",
-    description: "Selected self-directed projects exploring C#/.NET, React, React Native, TypeScript, PHP and Perl",
+    description: "Selected self-directed projects exploring software development, AI, automation and modern web technologies",
     sections: [
       {
         title: "C#/.NET & AI Workflow Automation",
