@@ -93,7 +93,7 @@ const Intro = () => {
                 <p className="card-text">{text.desc}</p>
                 <p className="card-text text-start">
                   {text.desc1}
-                  <LinkContainer to="/portfolio/projects">
+                  <LinkContainer to="/projects">
                     <Nav.Link href="#" className="link-primary">
                       {text.linkText}
                     </Nav.Link>
@@ -101,7 +101,7 @@ const Intro = () => {
                   {text.desc2}
                 </p>
                 <p className="card-text text-center">
-                  <LinkContainer to="/portfolio/contact/">
+                  <LinkContainer to="/contact/">
                     <Nav.Link href="#" className="link-primary">
                       Contact me
                     </Nav.Link>
