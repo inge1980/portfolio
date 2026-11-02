@@ -100,7 +100,7 @@ const SkillCategories = {
     {
       skillName: "PHP",
       logo: php,
-      monthsOfExperience: 139,
+      monthsOfExperience: 144,
       projects: 21,
       experienceType: "professional",
       level: "advanced",
@@ -109,8 +109,8 @@ const SkillCategories = {
     {
       skillName: "C#",
       logo: csharp,
-      monthsOfExperience: 6,
-      projects: 4,
+      monthsOfExperience: 10,
+      projects: 11,
       experienceType: "professional",
       level: "intermediate",
       featured: true,
@@ -118,8 +118,8 @@ const SkillCategories = {
     {
       skillName: ".NET",
       logo: dotnet,
-      monthsOfExperience: 6,
-      projects: 4,
+      monthsOfExperience: 10,
+      projects: 11,
       experienceType: "professional",
       level: "intermediate",
       featured: true,
@@ -127,11 +127,11 @@ const SkillCategories = {
     {
       skillName: "Node.js",
       logo: nodejs,
-      monthsOfExperience: 25,
+      monthsOfExperience: 17,
       projects: 2,
       experienceType: "professional",
-      level: "intermediate",
-      featured: true,
+      level: "familiar",
+      featured: false,
     },
     {
       skillName: "REST APIs",
@@ -163,7 +163,7 @@ const SkillCategories = {
     {
       skillName: "Bootstrap",
       logo: bootstrap,
-      monthsOfExperience: 157,
+      monthsOfExperience: 153,
       projects: 21,
       experienceType: "professional",
       level: "advanced",
@@ -220,8 +220,8 @@ const SkillCategories = {
     {
       skillName: "Docker",
       logo: docker,
-      monthsOfExperience: 3,
-      projects: 3,
+      monthsOfExperience: 6,
+      projects: 5,
       experienceType: "professional",
       level: "intermediate",
       featured: true,
@@ -233,7 +233,7 @@ const SkillCategories = {
       projects: 2,
       experienceType: "professional",
       level: "intermediate",
-      featured: true,
+      featured: false,
     },
     {
       skillName: "SQLite",
@@ -370,7 +370,7 @@ const SkillCategories = {
     {
       skillName: "Asana",
       logo: asana,
-      monthsOfExperience: 139,
+      monthsOfExperience: 153,
       projects: 21,
       experienceType: "professional",
       level: "advanced",
@@ -410,7 +410,7 @@ const SkillCategories = {
       projects: 21,
       experienceType: "professional",
       level: "advanced",
-      featured: true,
+      featured: false,
     },
     {
       skillName: "PhpMyAdmin",
@@ -445,11 +445,11 @@ const SkillCategories = {
     {
       skillName: "Figma",
       logo: figma,
-      monthsOfExperience: 6,
-      projects: 1,
+      monthsOfExperience: 10,
+      projects: 3,
       experienceType: "professional",
       level: "intermediate",
-      featured: false,
+      featured: true,
     },
     {
       skillName: "Adobe Photoshop",
@@ -556,7 +556,7 @@ const SkillCategories = {
     {
       skillName: "FontAwesome",
       logo: fa,
-      monthsOfExperience: 139,
+      monthsOfExperience: 144,
       projects: 21,
       experienceType: "professional",
       level: "advanced",
