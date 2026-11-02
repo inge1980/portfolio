@@ -28,7 +28,8 @@ import AIRagCandidate from "./components/Projects/Pages/AIRagCandidateAssistant"
 import AzureDevOps from "./components/Projects/Pages/AzureDevOpsTerraform";
 import LostAndFoundApi from "./components/Projects/Pages/LostAndFoundApi";
 import N8nContentGenerator from "./components/Projects/Pages/N8nContentGenerator";
-import AllSkills from "./components/AllSkills/AllSkills";
+// import AllSkills from "./components/AllSkills/AllSkills";
+import Skills from "./components/Skills";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.css";
@@ -73,7 +74,8 @@ const App = () => {
 
             <Route path="/projects/n8ncontentgenerator/"  element={<N8nContentGenerator />}></Route>
 
-            <Route path="/skills/" element={<AllSkills />}></Route>
+            {/* <Route path="/skills/" element={<AllSkills />}></Route> */}
+            <Route path="/skills/" element={<Skills />}></Route>
             <Route path="/contact/" element={<Contact />}></Route>
             <Route path="/" exact element={<Intro />}></Route>
             <Route
