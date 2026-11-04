@@ -80,7 +80,7 @@ const App = () => {
             <Route path="/" exact element={<Intro />}></Route>
             <Route
               path="*"
-              element={<div>Denne siden finnes ikke.</div>}
+              element={<div>This page does not exist.</div>}
             ></Route>
           </Routes>
           <Footer />
