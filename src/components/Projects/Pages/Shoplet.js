@@ -40,6 +40,9 @@ const Shoplet = () => {
                           <p className="text-start">
                             Although the storefront was intended as a temporary solution during the transition to the new API architecture and is no longer actively maintained, it demonstrates how the customer-facing application was modernized while preserving the ERP as the underlying business system. The <a href="https://flytcatering.no/" target="_blank" rel="noreferrer" title="The online store redesigned by external company.">current online store is design by an external company</a>, but still uses the same REST API we developed.
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> PHP, JavaScript, C#, .NET, Swagger, REST API, SQL Server and IIS.
+                          </p>
                         </div>
                       </div>
                     </div>

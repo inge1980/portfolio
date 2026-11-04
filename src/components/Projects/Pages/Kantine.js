@@ -83,6 +83,9 @@ const Kantine = () => {
                             process with the organization's existing inventory
                             management.
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> PHP, C#, .NET, Swagger, REST API, JavaScript, Bootstrap, SQL Server and IIS.
+                          </p>
                         </div>
                       </div>
                     </div>

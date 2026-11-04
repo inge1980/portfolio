@@ -40,6 +40,9 @@ const ERP = () => {
                           <p className="text-start">
                             The modernization created a cleaner architectural boundary between customer-facing applications and the ERP, making the platform easier to maintain and extend without requiring a full system replacement. It also established a foundation for dedicated applications such as Product Information Management and Order Office interfaces built on top of the REST API.
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> PHP, JavaScript, C#, .NET, Swagger, REST API, SQL Server and IIS.
+                          </p>
                         </div>
                       </div>
                     </div>

@@ -30,6 +30,9 @@ const OrderAdmin = () => {
                       <p className="text-start">
                         My work included frontend development, REST API integration, role-based access, and adapting the interface to fit established ERP workflows while reducing unnecessary complexity for daily users.
                       </p>
+                      <p className="text-start">
+                        <strong>Technology:</strong> PHP, JavaScript, C#, .NET, Swagger, REST API, SQL Server and IIS.
+                      </p>
                     </div>
                     <div className="col-md-4">
                       <img

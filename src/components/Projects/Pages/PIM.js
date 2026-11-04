@@ -31,6 +31,9 @@ const PIM = () => {
                       <p className="text-start">
                         My work included backend development, SQL Server queries, REST API integration, frontend functionality for managing product information, and maintaining compatibility with the existing ERP architecture.
                       </p>
+                      <p className="text-start">
+                        <strong>Technology:</strong> PHP, JavaScript, CSS, Bootstrap, C#, .NET, Swagger, REST API, SQL Server and IIS.
+                      </p>
                     </div>
                     <div className="col-md-4">
                       <img

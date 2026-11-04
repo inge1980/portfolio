@@ -27,6 +27,9 @@ const Episteme = () => {
                         including redesigning the system from the ground up. I also redesigned the webshop connected to the ERP system. All code is unfortunately owned by the company or its customers, so instead I have 
                         collected links to some websites that use the system.
                       </p>
+                      <p className="text-start">
+                        <strong>Technology:</strong> PHP, JavaScript, C#, .NET, Swagger, REST API, SQL Server and IIS.
+                      </p>
                     </div>
                     <div className="col-md-4">
                       <img

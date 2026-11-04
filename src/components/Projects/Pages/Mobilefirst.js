@@ -107,6 +107,9 @@ const Mobilfirst = () => {
                             the new frontend was introduced, all schools had
                             transitioned to the responsive version.
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> PHP, MySQL, JavaScript, jQuery and Bootstrap.
+                          </p>
                         </div>
                       </div>
                     </div>

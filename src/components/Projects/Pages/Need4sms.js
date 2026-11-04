@@ -41,6 +41,9 @@ const Need4sms = () => {
                           <p className="text-start">
                           The website eventually became one of the most popular SMS joke archives in Norway and taught me a great deal about building scalable and user-friendly solutions. The project gave me valuable experience in web development and database design. After a security breach, the website eventually had to be taken offline, which taught me the importance of security measures and regular backups, practices I have carried forward into my later projects.
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> Perl, CGI, JavaScript, HTML and CSS.
+                          </p>
                         </div>
                       </div>
                     </div>

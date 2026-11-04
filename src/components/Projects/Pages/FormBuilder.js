@@ -38,6 +38,9 @@ const FormBuilder = () => {
                             were enforced on the company's servers, and customers could view submitted results for each form, reply directly to the sender, and 
                             export all results.
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> PHP, MySQL, JavaScript, jQuery, Backbone.js, Underscore.js, Bootstrap, REST API and AWS S3.
+                          </p>
                         </div>
                       </div>
                     </div>

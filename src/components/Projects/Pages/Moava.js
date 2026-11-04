@@ -29,6 +29,9 @@ const Moava = () => {
                         designed to simplify teachers' day-to-day digital work, as the <abbr title="Software as a service&#13;A cloud-based solution that provides access to software applications without requiring users to install or maintain the software.">SaaS</abbr>
                         product is owned by Moava AS.
                       </p>
+                      <p className="text-start">
+                        <strong>Technology:</strong> PHP, MySQL, JavaScript, jQuery and Bootstrap.
+                      </p>
                     </div>
                     <div className="col-md-6">
                       <img

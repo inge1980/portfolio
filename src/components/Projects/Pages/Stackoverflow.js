@@ -40,6 +40,9 @@ const Stackoverflow = () => {
                           <p className="text-start">
                             The project also gave me practical experience with API integration in React and demonstrated how external data can be retrieved, processed, and presented in a clear visual format.
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> HTML, CSS, Chart.js and integrated API.
+                          </p>
                         </div>
                       </div>
                     </div>

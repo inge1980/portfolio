@@ -1,0 +1,12 @@
+---
+description: Never modify the workspace until the user explicitly approves suggested changes
+alwaysApply: true
+---
+
+# No changes without explicit approval
+
+- Do NOT create, edit, delete, rename, or move any file in this workspace until the user explicitly says to go ahead (e.g. "go ahead", "apply the changes").
+- Do NOT run commands that change the workspace or its state (installs, formatters, codegen, git commits/checkouts, migrations, builds that write output).
+- Read-only work is fine: reading files, searching, running read-only commands, and analyzing.
+- Instead of making changes, describe the suggested changes (what, where, why) and wait for approval.
+- Approval applies only to the changes the user approved. Once done, return to this default.

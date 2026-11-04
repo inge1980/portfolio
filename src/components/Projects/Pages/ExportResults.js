@@ -40,6 +40,9 @@ const ExportResults = () => {
                           <p className="text-start">
                             The result was an efficient and user-friendly export workflow that simplified data processing and reduced manual administration. It also made it easier for customers to consolidate and securely work with submitted data and attachments.
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> PHP, PHPSpreadsheet, ZipStream, AWS S3, CSV, XLS and ZIP.
+                          </p>
                         </div>
                       </div>
                     </div>

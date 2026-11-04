@@ -40,6 +40,9 @@ const Osedalen = () => {
                           <p className="text-start">
                             The result was an active and easily accessible source of local news for the community until 2018, with automatically updated news and alerts.
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> WordPress, PHP, RSS, JavaScript, HTML and CSS.
+                          </p>
                         </div>
                       </div>
                     </div>

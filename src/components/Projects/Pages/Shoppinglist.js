@@ -31,6 +31,9 @@ const Shoppinglist = () => {
                         The shopping list is stored locally using SQLite and synchronized through Redux with a Supabase Postgres database when the device is online. This is an offline-first app, where the Redux state acts as the <abbr title="Single Source of Truth&#13;Ensures that the application has one central, consistent, and up-to-date source of information.">SSOT</abbr>, while data is loaded from either SQLite or Supabase depending on the connection status.
                         The source code is currently private on GitHub, but selected parts can be shown upon request.
                       </p>
+                      <p className="text-start">
+                        <strong>Technology:</strong> React Native, TypeScript, Redux, SQLite, Supabase, PostgreSQL, React Native Gesture Handler and React Native Reanimated.
+                      </p>
                     </div>
                     <div className="col-md-3">
                       <video className="embed-responsive-item ratio ratio-1x1" controls autoPlay muted>
