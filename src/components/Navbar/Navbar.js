@@ -51,6 +51,11 @@ class BootstrapNavbar extends Component {
                   Contact
                 </Nav.Link>
               </LinkContainer>
+              <LinkContainer to="/about/">
+                <Nav.Link href="#about" onClick={this.handleClose}>
+                  About
+                </Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>

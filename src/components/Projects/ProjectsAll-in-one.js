@@ -5,6 +5,7 @@ import { Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import projectsData from "./ProjectsAll-in-oneData";
 import BackToTop from "../Hooks/BackToTopButton";
+import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 // Memoized ProjectItem-komponent
 const ProjectItem = React.memo(({ data, projectIndex, scrollToAnchor, projectToLoad, getDebounceValue, setScrollToAnchor }) => {
@@ -97,6 +98,7 @@ function ProjectPage() {
   let projectCounterLink=0;
   return (
     <div>
+    <ScrollToTop skipOnBack />
     <div className="experience-container">
       {projectsData.map((category, catIndex) => (
         <section key={catIndex} className="category">

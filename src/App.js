@@ -31,6 +31,7 @@ import N8nContentGenerator from "./components/Projects/Pages/N8nContentGenerator
 // import AllSkills from "./components/AllSkills/AllSkills";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact/Contact";
+import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.css";
 import { Route, Routes } from "react-router-dom";
@@ -77,6 +78,7 @@ const App = () => {
             {/* <Route path="/skills/" element={<AllSkills />}></Route> */}
             <Route path="/skills/" element={<Skills />}></Route>
             <Route path="/contact/" element={<Contact />}></Route>
+            <Route path="/about/" element={<About />}></Route>
             <Route path="/" exact element={<Intro />}></Route>
             <Route
               path="*"
