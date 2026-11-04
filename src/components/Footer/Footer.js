@@ -22,27 +22,27 @@ JSX:
 const Footer = () => {
   return (
     <div className="container footerContainer">
-      <div className="row pt-5 mb-3 text-center">
+      <div className="row pt-4 mb-3 text-center">
         <footer>
-          <span className="footer_logo">INGE</span>
-
           <div className="footer_container">
-            {FData.map((item) => {
-              return (
-                <a
-                  href={item.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  key={item.img}
-                >
-                  <img src={item.img} alt="" />
-                </a>
-              );
-            })}
+            {FData.map(({ Icon, label, link }) => (
+              <a
+                href={link}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={label}
+                title={label}
+                key={label}
+              >
+                <Icon aria-hidden="true" />
+              </a>
+            ))}
           </div>
 
           <div className="footer_copyright">
-            <p className="text">&copy; {process.env.REACT_APP_AUTHOR_NAME}</p>
+            <p className="text">
+              &copy; {new Date().getFullYear()} {process.env.REACT_APP_AUTHOR_NAME}
+            </p>
           </div>
         </footer>
       </div>
