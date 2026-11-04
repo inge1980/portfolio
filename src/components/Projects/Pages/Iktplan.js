@@ -40,6 +40,9 @@ const Iktplan = () => {
                           <p className="text-start">
                             IKTplan.no became a recognized resource for helping teachers develop students' digital competence and was later integrated into <abbr title="The Norwegian Directorate for Education and Training&#13;The executive agency for the Ministry of Education and Research in Norway, responsible for kindergartens, as well as primary and secondary education.">the Norwegian Directorate for Education and Training</abbr>'s websites as part of its support for digital skills. The project contributed to improving the quality of digital education in schools.
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> PHP, jQuery, JavaScript and Bootstrap.
+                          </p>
                         </div>
                       </div>
                     </div>

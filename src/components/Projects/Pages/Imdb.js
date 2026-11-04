@@ -61,6 +61,9 @@ const Imdb = () => {
                             </a>
                             .
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> React, React Router, Bootstrap, HTML, CSS and JavaScript.
+                          </p>
                         </div>
                       </div>
                     </div>

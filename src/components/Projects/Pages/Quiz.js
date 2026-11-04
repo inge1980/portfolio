@@ -40,6 +40,9 @@ const Quiz = () => {
                           <p className="text-start">
                             Based on the survey results, we improved the editing interface by reducing the number of clicks required from five to one, and introduced inline editing. These changes improved usability and likely contributed to a 5% reduction in customer churn over the following three years. The insights from the survey also contributed to increased upselling, making the platform more profitable and competitive.
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> PHP, CKEditor, jQuery, JavaScript and Bootstrap.
+                          </p>
                         </div>
                       </div>
                     </div>

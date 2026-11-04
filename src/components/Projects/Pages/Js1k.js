@@ -40,6 +40,9 @@ const Js1k = () => {
                             The game was designed for desktop computers, with the arrow following the mouse
                             pointer.
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> JavaScript, HTML and Canvas.
+                          </p>
                         </div>
                       </div>
                     </div>

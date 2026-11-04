@@ -29,6 +29,9 @@ const Newsfield = () => {
                       <p className="text-start">
                       As demonstrated in the video, publishing happens immediately when the modal is closed, updating the live website without requiring a full page refresh.
                       </p>
+                      <p className="text-start">
+                        <strong>Technology:</strong> PHP, CKEditor, jQuery, JavaScript and Bootstrap.
+                      </p>
                     </div>
                     <div className="col-md-9">
                       <video className="embed-responsive-item ratio ratio-1x1" controls autoPlay muted>

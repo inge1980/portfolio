@@ -41,6 +41,9 @@ const UserInsight = () => {
                           <p className="text-start">
                             Through this project, I developed skills in web analytics and data-driven marketing. I gained practical experience with Google Tag Manager and Google Analytics, and learned how to use data to optimize digital strategies. The project provided a solid foundation for future initiatives aimed at improving the website's conversion rate and contributed to a more data-driven approach within the company.
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> Google Tag Manager, Google Analytics and JavaScript.
+                          </p>
                         </div>
                       </div>
                     </div>

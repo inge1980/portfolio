@@ -57,6 +57,9 @@ const ThemePicker = () => {
                           <p className="text-start">
                             For more details, see the images or watch the videos for a demonstration.
                           </p>
+                          <p className="text-start">
+                            <strong>Technology:</strong> PHP, Bootswatch, jQuery, JavaScript and Bootstrap.
+                          </p>
                         </div>
                       </div>
                     </div>
