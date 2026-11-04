@@ -32,10 +32,10 @@ const Imdb = () => {
                         </div>
                         <div className="wordBreakText">
                           <p className="text-start">
-                            I built the Inge Movie Database as part of an in-depth React and TypeScript course. The project is a movie index that stores data in local storage and includes component-based architecture, state management, React Router, form fields with validation, and reusable React components.
+                            I built the Inge Movie Database as part of two in-depth React and TypeScript courses. The project is a movie index built with JavaScript, React and React Router, with component-based architecture, form fields validated with Joi, and reusable React components. React component state manages the UI-related data, while the movie data is held in a JavaScript array in memory. No backend API, database or persistent storage is connected, so data changes are lost when the application is reloaded.
                           </p>
                           <p className="text-start">
-                            The project gave me practical experience building a structured React application with TypeScript, functional components and hooks. It also strengthened my understanding of how TypeScript can improve code quality and maintainability through type safety and interfaces.
+                            The project gave me practical experience building a structured React application with JavaScript, functional components and hooks. I used Joi for form validation, Lodash as a utility library and Bootstrap for the interface.
                           </p>
                           <p className="text-start">
                             I completed both the React and TypeScript courses and earned certifications in each. The project provided a practical foundation for building maintainable React applications and applying modern frontend development practices.
@@ -62,7 +62,7 @@ const Imdb = () => {
                             .
                           </p>
                           <p className="text-start">
-                            <strong>Technology:</strong> React, React Router, Bootstrap, HTML, CSS and JavaScript.
+                            <strong>Technology:</strong> React, React Router, Bootstrap, Joi, Lodash, HTML, CSS and JavaScript.
                           </p>
                         </div>
                       </div>
