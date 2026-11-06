@@ -38,8 +38,25 @@ const Familytasktopia = () => {
                         Sign-in is email and password with confirmation, and there are nine themes, English and Norwegian, and a switch for notifications.
                       </p>
                       <p className="text-start">
-                        It is built and released like a real product. Development and production run against separate Supabase environments, GitHub Actions handle scheduled database backups and trash cleanup, and the app ships through Google Play with a version gate that requires an in-app update when needed.
+                        It is built and released like a real product. Development and production run against separate Supabase environments, GitHub Actions handle scheduled database backups and trash cleanup, and the app is distributed through Google Play with a version gate that requires an in-app update when needed.
                         The source code is currently private on GitHub, but selected parts can be shown upon request.
+                      </p>
+                      <p className="text-start">
+                        <strong>Try it:</strong> The app is currently in closed testing on Google Play. Google requires at least 12 testers to stay opted in for 14 days in a row before an app can be released publicly, and I am still collecting testers. If you have an Android phone and would like to take a look, it only takes a minute:
+                      </p>
+                      <ol className="text-start">
+                        <li>
+                          Join the test group: <a href="https://groups.google.com/g/familytasktopia-testers" target="_blank" rel="noopener noreferrer">groups.google.com/g/familytasktopia-testers</a>
+                        </li>
+                        <li>
+                          Open the testing link and choose to become a tester: <a href="https://play.google.com/apps/testing/com.hippotalelabs.familytasktopia" target="_blank" rel="noopener noreferrer">play.google.com/apps/testing/com.hippotalelabs.familytasktopia</a>
+                        </li>
+                        <li>
+                          Download the app from there.
+                        </li>
+                      </ol>
+                      <p className="text-start">
+                        Please stay opted in as a tester for 14 days to help me get it approved. After that you can uninstall whenever you like. Opening the app once and telling me if anything looks odd is a great help. It costs nothing, but your email address will be visible to me as the owner of the test group. Thank you!
                       </p>
                       <p className="text-start">
                         <strong>Technology:</strong> React Native, TypeScript, Redux, SQLite, Supabase, PostgreSQL, Firebase Cloud Messaging, Next.js, GitHub Actions, Jest, React Native Gesture Handler and React Native Reanimated.
