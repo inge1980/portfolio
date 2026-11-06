@@ -306,13 +306,13 @@ const Projects = [
         periodend: "now",
         projects: [
           {
-            textid: 'shoppinglist',
-            title: "Hierarchical Drag'n'Drop Lists",
+            textid: 'familytasktopia',
+            title: "Shared Hierarchical Drag'n'Drop Lists",
             image: r5,
             description:
-              "Offline-first app for hierarchical lists with Redux SSOT, SQLite local storage and Supabase cloud sync.",
+              "Offline-first app for shared nested lists: drag, swipe, scan a QR and the family is in. Redux, SQLite and Supabase keep everything in sync.",
             links: [
-              { type: "readmore", text: "Read more", url: "/projects/shoppinglist/" },
+              { type: "readmore", text: "Read more", url: "/projects/familytasktopia/" },
             ],
           },
           {

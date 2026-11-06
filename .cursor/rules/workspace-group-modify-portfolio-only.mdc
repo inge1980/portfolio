@@ -1,0 +1,24 @@
+---
+description: In the multi-root workspace group (candidate-assistant, FamilyTasktopia, family-tasktopia-web, portfolio), only modify the portfolio repo
+alwaysApply: true
+---
+
+# Modify only the portfolio repo (this workspace group only)
+
+## Scope: when this rule applies
+
+Apply this rule ONLY when the workspace paths include ALL four of these roots:
+
+- `C:\kodehode\fullstack_ai-candidate-assistant`
+- `C:\nodejs\projects\FamilyTasktopia`
+- `C:\nodejs\projects\family-tasktopia-web`
+- `C:\nodejs\projects\portfolio`
+
+If any of them is missing from the workspace paths (for example, `portfolio` opened alone or in a different group of repos), ignore this rule completely.
+
+## What to do when it applies
+
+- Only create, edit, delete, rename, or move files inside `C:\nodejs\projects\portfolio`.
+- Treat `fullstack_ai-candidate-assistant`, `FamilyTasktopia`, and `family-tasktopia-web` as read-only reference. Reading, searching, and analyzing them is fine.
+- Do not run commands that change those three repos or their state (installs, formatters, codegen, builds that write output, git commits/checkouts, migrations). Run such commands only with the working directory set to `portfolio`.
+- If a task seems to require changing one of the read-only repos, do not change it. Describe the needed change (what, where, why) and let the user decide.

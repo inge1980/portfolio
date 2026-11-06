@@ -12,7 +12,7 @@ import Shoplet from "./components/Projects/Pages/Shoplet";
 import OrdreAdmin from "./components/Projects/Pages/OrdreAdmin";
 import PIM from "./components/Projects/Pages/PIM";
 import Kantine from "./components/Projects/Pages/Kantine";
-import Shoppinglist from "./components/Projects/Pages/Shoppinglist";
+import Familytasktopia from "./components/Projects/Pages/Familytasktopia";
 import Need4sms from "./components/Projects/Pages/Need4sms";
 import Calculator from "./components/Projects/Pages/Calculator";
 import Mobilefirst from "./components/Projects/Pages/Mobilefirst";
@@ -56,7 +56,7 @@ const App = () => {
             <Route path="/projects/ordreadmin/"     element={<OrdreAdmin />}></Route>
             <Route path="/projects/PIM/"            element={<PIM />}></Route>
             <Route path="/projects/kantine/"        element={<Kantine />}></Route>
-            <Route path="/projects/shoppinglist/"   element={<Shoppinglist />}></Route>
+            <Route path="/projects/familytasktopia/" element={<Familytasktopia />}></Route>
             <Route path="/projects/need4sms/"       element={<Need4sms />}></Route>
             <Route path="/projects/calculator/"     element={<Calculator />}></Route>
             <Route path="/projects/mobilefirst/"    element={<Mobilefirst />}></Route>

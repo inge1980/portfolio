@@ -37,7 +37,7 @@ const Projects = [
             å få til en jevn drag'n'drop animasjon uten potensiell hakking.
           </React.Fragment>
         ),
-        readmore: "/portfolio/projects/shoppinglist/",
+        readmore: "/portfolio/projects/familytasktopia/",
       },
       {
         id: 3,
