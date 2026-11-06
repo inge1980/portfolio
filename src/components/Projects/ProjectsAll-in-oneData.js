@@ -4,7 +4,7 @@ import r4 from "../../img/react-nextjs-hooks.png";
 import r5 from "../../img/react-native-shoppinglist.png";
 import r6 from "../../img/react-native-portfolio.png";
 import r7 from "../../img/react-nextjs-hotel-booking.png";
-import r8 from "../../img/react-native-calculator.png";
+//import r8 from "../../img/react-native-calculator.png";
 import r9 from "../../img/react-nextjs-dnd.png";
 import a1 from "../../img/php-bootstrap-modal-ckeditor-inline-edit-news-field.png";
 import a2 from "../../img/bootstrap-double-menu.png";
@@ -30,6 +30,270 @@ import c3 from "../../img/lostnfoundapi.png";
 import c4 from "../../img/n8n-content-creator-workflow.png";
 
 const Projects = [
+  {
+    category: "My work",
+    periodstart: "2001",
+    periodend: "now",
+    description: "Projects I've built, explored and developed over the years",
+    sections: [
+      {
+        title: "C#/.NET & AI Workflow Automation",
+        periodstart: "2026",
+        periodend: "now",
+        projects: [
+          {
+            textid: 'airagcandidate',
+            title: "AI Candidate Assistant with RAG",
+            image: c1,
+            description:
+              "RAG backend with ASP.NET Core, PostgreSQL, pgvector and multi-provider LLM fallback.",
+            links: [
+              { type: "readmore", text: "Read more", url: "/projects/airagcandidate/" },
+              { text: "Code", url: "https://github.com/inge1980/module4_backend_01_ai-candidate-assistant/", },
+            ],
+          },
+          {
+            textid: 'azuredevops',
+            title: "Azure .NET DevOps Platform",
+            image: c2,
+            description:
+              "Automated Azure deployment with ASP.NET Core, Docker, Terraform, GitHub Actions and managed identity.",
+            links: [
+              { type: "readmore", text: "Read more", url: "/projects/azuredevops/" },
+              { text: "Code", url: "https://github.com/inge1980/module3_backend_04_terraform_azure/", },
+            ],
+          },
+          {
+            textid: 'lostnfoundapi',
+            title: "Lost & Found API",
+            image: c3,
+            description:
+              "ASP.NET Core API with PostgreSQL, Entity Framework Core, automated tests and Docker.",
+            links: [
+              { type: "readmore", text: "Read more", url: "/projects/lostnfoundapi/" },
+              { text: "Code", url: "https://github.com/inge1980/module3_backend_02_lostandfound/", },
+            ],
+          },
+          {
+            textid: 'n8ncontentgenerator',
+            title: "Content Generator Pipeline with n8n",
+            image: c4,
+            description:
+              "Automated AI-powered social media content pipeline with n8n, Gemini, Pexels, Google Sheets and Google Drive.",
+            links: [
+              {
+                type: "readmore", 
+                text: "Read more",
+                url: "/projects/n8ncontentgenerator/",
+              },
+              {
+                text: "Code",
+                url: "https://github.com/inge1980/n8n-social-content-generator/",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        title: "React Native: Mobile App",
+        periodstart: "2025",
+        periodend: "now",
+        projects: [
+          {
+            textid: 'familytasktopia',
+            title: "Shared Hierarchical Drag'n'Drop Lists",
+            image: r5,
+            description:
+              "Offline-first app for shared nested lists: drag, swipe, scan a QR and the family is in. Redux, SQLite and Supabase keep everything in sync.",
+            links: [
+              { type: "readmore", text: "Read more", url: "/projects/familytasktopia/" },
+            ],
+          },
+        ],
+      },
+      {
+        title: "React & Next.js",
+        periodstart: "2022",
+        periodend: "now",
+        projects: [
+          {
+            textid: 'desktop-dnd',
+            title: "Next.js Drag'n'Drop with Pre-Drop Indicator",
+            image: r9,
+            description: "Dynamic columns with animated drop.",
+            links: [
+              {
+                text: "Demo",
+                url: "https://drag-n-drop-desktop.vercel.app/",
+              },
+              {
+                text: "Code",
+                url: "https://github.com/inge1980/drag-n-drop-desktop",
+              },
+            ],
+          },
+          {
+            textid: 'booking',
+            title: "Simulated Hotel Booking System",
+            image: r7,
+            description:
+              "Validation, instant feedback, UX-focused.",
+            links: [
+              {
+                text: "Demo",
+                url: "https://hotel-booking-case-2024-improved.vercel.app/",
+              },
+              {
+                text: "Code",
+                url: "https://github.com/inge1980/hotel_booking_case_2024_improved",
+              },
+            ],
+          },
+          {
+            textid: 'showcase',
+            title: "Next.js, React Hooks & Tailwind",
+            image: r4,
+            description: "Experimenting with a modern stack, server-side rendering and performance optimization",
+            links: [
+              {
+                text: "Demo",
+                url: "https://showcase-ivory.vercel.app/",
+              },
+              {
+                text: "Code",
+                url: "https://github.com/inge1980/showcase/",
+              },
+            ],
+          },
+          {
+            textid: 'portfolio',
+            title: "Portfolio Site with Project Overview",
+            image: r6,
+            description:
+              "Dynamic navigation, custom design and unit tests. The page you're on now.",
+            links: [
+              {
+                text: "Code",
+                url: "https://github.com/inge1980/portfolio/",
+              },
+            ],
+          },
+          {
+            textid: 'stackoverflow',
+            title: "ChartJS Data Visualization with Stack Overflow API",
+            image: r2,
+            description:
+              "Interactive pie charts of user data.",
+            links: [
+              {
+                type: "readmore", 
+                text: "Read more",
+                url: "/projects/stackoverflow/",
+              },
+              {
+                text: "Demo",
+                url: "https://inge1980.github.io/stackoverflow-tags/",
+              },
+              {
+                text: "Code",
+                url: "https://github.com/inge1980/stackoverflow-tags/",
+              },
+            ],
+          },
+          {
+            textid: 'imdb',
+            title: "Inge Movie Database (IMDB)",
+            image: r1,
+            description: "Custom movie index with search.",
+            links: [
+              { type: "readmore", text: "Read more", url: "/projects/imdb/" },
+              {
+                text: "Demo",
+                url: "https://inge1980.github.io/movies/",
+              },
+              {
+                text: "Code",
+                url: "https://github.com/inge1980/movies/",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        title: "PHP/WordPress & JavaScript",
+        periodstart: "2012",
+        periodend: "2018",
+/*         description:
+        "Automated news and alerts for the local community through WordPress and RSS.", */
+        projects: [
+          {
+            textid: 'osedalen',
+            title: "Automated News Feed",
+            image: a8,
+            description: "WordPress + RSS for Osedalen.org.",
+            links: [
+              {
+                type: "readmore", 
+                text: "Read more",
+                url: "/projects/osedalen/",
+              },
+              {
+                text: "Demo",
+                url: "https://www.osedalen.org/",
+              },
+            ],
+          },
+          {
+            textid: 'js1k',
+            title: "Mini Game <1024 Bytes",
+            image: a9,
+            description:
+              "Cupid shoots hearts, a code challenge with a space limit.",
+            links: [
+              {
+                type: "readmore", 
+                text: "Read more",
+                url: "/projects/js1k/",
+              },
+              {
+                text: "Demo",
+                url: "https://js1k.com/2012-love/demo/1269/",
+              },
+              {
+                text: "Code",
+                url: "https://js1k.com/2012-love/details/1269/",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        title: "Perl: Web Development",
+        periodstart: "2001",
+        periodend: "2003",
+        projects: [
+          {
+            textid: 'need4sms',
+            title: "Searchable SMS Joke Archive in Perl",
+            image: a10,
+            description:
+              "Searchable CMS and archive with 1,100+ categorized jokes and 10k+ monthly users.",
+            links: [
+              {
+                type: "readmore", 
+                text: "Read more",
+                url: "/projects/need4sms/",
+              },
+              {
+                text: "Demo",
+                url: "https://web.archive.org/web/20040526200014/http://need4sms.com:80/",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
   {
     category: "Professional Experience",
     periodstart: "2013",
@@ -230,284 +494,6 @@ const Projects = [
               "Improved CMS analytics, tracking and visibility into website usage.",
             links: [
               { type: "readmore", text: "Read more", url: "/projects/userinsight/" },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    category: "Case Studies",
-    periodstart: "2001",
-    periodend: "now",
-    description: "Selected self-directed projects exploring software development, AI, automation and modern web technologies",
-    sections: [
-      {
-        title: "C#/.NET & AI Workflow Automation",
-        periodstart: "2025",
-        periodend: "now",
-        projects: [
-          {
-            textid: 'airagcandidate',
-            title: "AI Candidate Assistant with RAG",
-            image: c1,
-            description:
-              "RAG backend with ASP.NET Core, PostgreSQL, pgvector and multi-provider LLM fallback.",
-            links: [
-              { type: "readmore", text: "Read more", url: "/projects/airagcandidate/" },
-              { text: "Code", url: "https://github.com/inge1980/module4_backend_01_ai-candidate-assistant/", },
-            ],
-          },
-          {
-            textid: 'azuredevops',
-            title: "Azure .NET DevOps Platform",
-            image: c2,
-            description:
-              "Automated Azure deployment with ASP.NET Core, Docker, Terraform, GitHub Actions and managed identity.",
-            links: [
-              { type: "readmore", text: "Read more", url: "/projects/azuredevops/" },
-              { text: "Code", url: "https://github.com/inge1980/module3_backend_04_terraform_azure/", },
-            ],
-          },
-          {
-            textid: 'lostnfoundapi',
-            title: "Lost & Found API",
-            image: c3,
-            description:
-              "ASP.NET Core API with PostgreSQL, Entity Framework Core, automated tests and Docker.",
-            links: [
-              { type: "readmore", text: "Read more", url: "/projects/lostnfoundapi/" },
-              { text: "Code", url: "https://github.com/inge1980/module3_backend_02_lostandfound/", },
-            ],
-          },
-          {
-            textid: 'n8ncontentgenerator',
-            title: "Content Generator Pipeline with n8n",
-            image: c4,
-            description:
-              "Automated AI-powered social media content pipeline with n8n, Gemini, Pexels, Google Sheets and Google Drive.",
-            links: [
-              {
-                type: "readmore", 
-                text: "Read more",
-                url: "/projects/n8ncontentgenerator/",
-              },
-              {
-                text: "Code",
-                url: "https://github.com/inge1980/n8n-social-content-generator/",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        title: "React Native: Mobile Apps",
-        periodstart: "2024",
-        periodend: "now",
-        projects: [
-          {
-            textid: 'familytasktopia',
-            title: "Shared Hierarchical Drag'n'Drop Lists",
-            image: r5,
-            description:
-              "Offline-first app for shared nested lists: drag, swipe, scan a QR and the family is in. Redux, SQLite and Supabase keep everything in sync.",
-            links: [
-              { type: "readmore", text: "Read more", url: "/projects/familytasktopia/" },
-            ],
-          },
-          {
-            textid: 'calculator',
-            title: "PEMDAS Calculator",
-            image: r8,
-            description:
-              "React Native calculator supporting complex mathematical expressions with intuitive input and Google Mobile Ads integration.",
-            links: [
-              {
-                type: "readmore", 
-                text: "Read more",
-                url: "/projects/calculator/",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        title: "React & Next.js",
-        periodstart: "2022",
-        periodend: "now",
-        projects: [
-          {
-            textid: 'desktop-dnd',
-            title: "Next.js Drag'n'Drop with Pre-Drop Indicator",
-            image: r9,
-            description: "Dynamic columns with animated drop.",
-            links: [
-              {
-                text: "Demo",
-                url: "https://drag-n-drop-desktop.vercel.app/",
-              },
-              {
-                text: "Code",
-                url: "https://github.com/inge1980/drag-n-drop-desktop",
-              },
-            ],
-          },
-          {
-            textid: 'booking',
-            title: "Simulated Hotel Booking System",
-            image: r7,
-            description:
-              "Validation, instant feedback, UX-focused.",
-            links: [
-              {
-                text: "Demo",
-                url: "https://hotel-booking-case-2024-improved.vercel.app/",
-              },
-              {
-                text: "Code",
-                url: "https://github.com/inge1980/hotel_booking_case_2024_improved",
-              },
-            ],
-          },
-          {
-            textid: 'showcase',
-            title: "Next.js, React Hooks & Tailwind",
-            image: r4,
-            description: "Experimenting with a modern stack, server-side rendering and performance optimization",
-            links: [
-              {
-                text: "Demo",
-                url: "https://showcase-ivory.vercel.app/",
-              },
-              {
-                text: "Code",
-                url: "https://github.com/inge1980/showcase/",
-              },
-            ],
-          },
-          {
-            textid: 'portfolio',
-            title: "Portfolio Site with Project Overview",
-            image: r6,
-            description:
-              "Dynamic navigation, custom design and unit tests. The page you're on now.",
-            links: [
-              {
-                text: "Code",
-                url: "https://github.com/inge1980/portfolio/",
-              },
-            ],
-          },
-          {
-            textid: 'stackoverflow',
-            title: "ChartJS Data Visualization with Stack Overflow API",
-            image: r2,
-            description:
-              "Interactive pie charts of user data.",
-            links: [
-              {
-                type: "readmore", 
-                text: "Read more",
-                url: "/projects/stackoverflow/",
-              },
-              {
-                text: "Demo",
-                url: "https://inge1980.github.io/stackoverflow-tags/",
-              },
-              {
-                text: "Code",
-                url: "https://github.com/inge1980/stackoverflow-tags/",
-              },
-            ],
-          },
-          {
-            textid: 'imdb',
-            title: "Inge Movie Database (IMDB)",
-            image: r1,
-            description: "Custom movie index with search.",
-            links: [
-              { type: "readmore", text: "Read more", url: "/projects/imdb/" },
-              {
-                text: "Demo",
-                url: "https://inge1980.github.io/movies/",
-              },
-              {
-                text: "Code",
-                url: "https://github.com/inge1980/movies/",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        title: "PHP/WordPress & JavaScript",
-        periodstart: "2012",
-        periodend: "2018",
-/*         description:
-        "Automated news and alerts for the local community through WordPress and RSS.", */
-        projects: [
-          {
-            textid: 'osedalen',
-            title: "Automated News Feed",
-            image: a8,
-            description: "WordPress + RSS for Osedalen.org.",
-            links: [
-              {
-                type: "readmore", 
-                text: "Read more",
-                url: "/projects/osedalen/",
-              },
-              {
-                text: "Demo",
-                url: "https://www.osedalen.org/",
-              },
-            ],
-          },
-          {
-            textid: 'js1k',
-            title: "Mini Game <1024 Bytes",
-            image: a9,
-            description:
-              "Cupid shoots hearts, a code challenge with a space limit.",
-            links: [
-              {
-                type: "readmore", 
-                text: "Read more",
-                url: "/projects/js1k/",
-              },
-              {
-                text: "Demo",
-                url: "https://js1k.com/2012-love/demo/1269/",
-              },
-              {
-                text: "Code",
-                url: "https://js1k.com/2012-love/details/1269/",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        title: "Perl: Web Development",
-        periodstart: "2001",
-        periodend: "2003",
-        projects: [
-          {
-            textid: 'need4sms',
-            title: "Searchable SMS Joke Archive in Perl",
-            image: a10,
-            description:
-              "Searchable CMS and archive with 1,100+ categorized jokes and 10k+ monthly users.",
-            links: [
-              {
-                type: "readmore", 
-                text: "Read more",
-                url: "/projects/need4sms/",
-              },
-              {
-                text: "Demo",
-                url: "https://web.archive.org/web/20040526200014/http://need4sms.com:80/",
-              },
             ],
           },
         ],
