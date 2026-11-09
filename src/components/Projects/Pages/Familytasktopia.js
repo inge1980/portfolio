@@ -3,7 +3,7 @@ import { Nav } from "react-bootstrap";
 // eslint-disable-next-line no-unused-vars
 import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
-import videoShoppinglist from "../../../vid/react-native-shoppinglist.mp4";
+import videoShoppinglist from "../../../vid/react-native-sharedlists.mp4";
 import ScrollToTop from './../../ScrollToTop/ScrollToTop';
 
 
