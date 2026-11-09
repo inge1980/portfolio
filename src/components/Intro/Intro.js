@@ -6,7 +6,7 @@ import projectsData from "../Projects/ProjectsAll-in-oneData";
 import ScrollToTop from "./../ScrollToTop/ScrollToTop";
 import "./Intro.css";
 
-const FEATURED_TEXTIDS = ["mobile-first", "webshop", "airagcandidate"];
+const FEATURED_TEXTIDS = ["mobile-first", "familytasktopia", "airagcandidate"];
 
 const proofStats = [
   { value: "12+ years", label: "professional development experience" },
